@@ -19,7 +19,7 @@ services:
           name: ollama
           property: hostport
       - key: OVERTURN_MODEL
-        value: qwen2.5:3b-instruct
+        value: qwen2.5:7b-instruct
       - key: DATABASE_URL             # optional: Tiger Cloud connection string -> BM25 + DiskANN hybrid search
         sync: false
       - key: SENTRY_DSN               # optional
@@ -34,14 +34,14 @@ services:
     runtime: docker
     dockerfilePath: ./deploy/ollama/Dockerfile
     dockerContext: ./deploy/ollama
-    plan: pro                          # model weights + context need several GB of RAM; check Render's current plans
+    plan: pro                          # 7B model needs roughly 8 GB RAM; check Render's current plans and sizes before applying
     disk:
       name: ollama-models
       mountPath: /root/.ollama
       sizeGB: 20
     envVars:
       - key: OVERTURN_MODEL
-        value: qwen2.5:3b-instruct
+        value: qwen2.5:7b-instruct
 
   # Optional: run the Temporal worker as a Render background worker against Temporal Cloud.
   # - type: worker
