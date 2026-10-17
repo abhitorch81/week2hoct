@@ -7,7 +7,7 @@ CKPT = pathlib.Path(os.environ.get("OVERTURN_CKPT", ROOT / ".checkpoints"))
 # --- open-weight model serving (any of these works; all are local) -----------
 OLLAMA_URL = os.environ.get("OLLAMA_URL") or (f"http://{os.environ['OLLAMA_HOSTPORT']}" if os.environ.get("OLLAMA_HOSTPORT") else "http://127.0.0.1:11434")   # OLLAMA_HOSTPORT is set by Render private services
 OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL", "")   # llama.cpp server / vLLM / LM Studio, e.g. http://127.0.0.1:8080/v1
-MODEL = os.environ.get("OVERTURN_MODEL", "qwen2.5:7b-instruct")
+MODEL = os.environ.get("OVERTURN_MODEL", "qwen2.5:3b-instruct")
 LLM_TIMEOUT = float(os.environ.get("OVERTURN_LLM_TIMEOUT", "180"))
 LLM_MODE = os.environ.get("OVERTURN_LLM", "auto")          # auto | ollama | openai | offline
 
