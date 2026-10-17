@@ -3,6 +3,7 @@
 #   overturn : the web UI + API (Docker). Runs the pipeline, serves the front end.
 #   ollama   : a PRIVATE service running the open-weight model. Only the web service can reach it,
 #              so patient data never crosses the public internet. Needs a plan with enough RAM for the model.
+#   overturn-worker : a background worker that runs the appeal workflow on Temporal Cloud.
 #
 # Free-tier note: free web services sleep when idle and cannot have disks; the model service needs a paid plan.
 services:
@@ -28,6 +29,14 @@ services:
         sync: false
       - key: BACKBOARD_API_KEY        # optional: model arena (sends SYNTHETIC notices to Backboard)
         sync: false
+      - key: TEMPORAL_ADDRESS         # Temporal Cloud: <namespace>.<account>.tmprl.cloud:7233
+        sync: false
+      - key: TEMPORAL_NAMESPACE
+        sync: false
+      - key: TEMPORAL_API_KEY
+        sync: false
+      - key: TEMPORAL_UI              # Temporal Cloud UI URL for your namespace
+        sync: false
 
   - type: pserv
     name: ollama
@@ -43,15 +52,25 @@ services:
       - key: OVERTURN_MODEL
         value: qwen2.5:7b-instruct
 
-  # Optional: run the Temporal worker as a Render background worker against Temporal Cloud.
-  # - type: worker
-  #   name: overturn-worker
-  #   runtime: docker
-  #   dockerfilePath: ./Dockerfile
-  #   dockerCommand: python -m overturn.temporal_workflow worker
-  #   plan: starter
-  #   envVars:
-  #     - {key: TEMPORAL_ADDRESS, sync: false}       # <namespace>.<account>.tmprl.cloud:7233
-  #     - {key: TEMPORAL_NAMESPACE, sync: false}
-  #     - {key: TEMPORAL_API_KEY, sync: false}
-  #     - {key: OLLAMA_HOSTPORT, fromService: {type: pserv, name: ollama, property: hostport}}
+  - type: worker
+    name: overturn-worker
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerCommand: python -m overturn.temporal_workflow worker
+    plan: starter                      # check Render's current plans; the worker only needs to reach Temporal Cloud, Postgres and Ollama
+    envVars:
+      - key: TEMPORAL_ADDRESS
+        sync: false
+      - key: TEMPORAL_NAMESPACE
+        sync: false
+      - key: TEMPORAL_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: OLLAMA_HOSTPORT
+        fromService:
+          type: pserv
+          name: ollama
+          property: hostport
+      - key: OVERTURN_MODEL
+        value: qwen2.5:7b-instruct
