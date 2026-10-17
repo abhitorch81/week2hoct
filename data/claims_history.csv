@@ -1,0 +1,3001 @@
+payer,carc,cpt,specialty,billed,days_since_denial,has_clinical_notes,prior_auth_on_file,in_network,appeal_level,overturned
+UnitedHealthcare,29,64483,Pain Management,3287.16,3,1,0,1,1,1
+Humana,16,64483,Pain Management,2553.3,33,0,0,1,1,1
+UnitedHealthcare,50,72148,Radiology,1482.87,5,1,0,1,1,1
+Cigna,11,99214,Primary Care,249.68,2,1,1,1,1,1
+BCBS,151,45378,Gastroenterology,2529.74,63,0,1,1,1,1
+Aetna,16,27447,Orthopedics,30758.52,56,1,0,1,1,0
+Medicaid,151,45378,Gastroenterology,2574.13,17,1,0,1,1,1
+Medicare,109,93306,Cardiology,1037.67,180,0,1,1,1,1
+Cigna,18,29881,Orthopedics,6475.08,27,1,1,1,1,1
+Humana,197,93306,Cardiology,1130.29,68,0,1,1,1,0
+UnitedHealthcare,11,99214,Primary Care,213.27,10,1,0,1,1,1
+Cigna,151,29881,Orthopedics,6672.42,28,0,0,1,2,0
+Medicaid,252,27447,Orthopedics,30431.06,20,1,0,1,1,1
+Aetna,50,72148,Radiology,1488.73,30,0,0,1,1,1
+Cigna,252,45378,Gastroenterology,2862.51,25,1,0,0,1,0
+Cigna,109,90837,Behavioral Health,237.62,7,1,0,1,1,0
+Medicaid,50,27447,Orthopedics,29231.7,41,1,0,1,2,0
+Cigna,96,97110,Physical Therapy,123.34,62,0,1,1,1,0
+Humana,11,90837,Behavioral Health,197.87,1,1,1,1,1,0
+Cigna,29,99214,Primary Care,217.61,10,1,1,1,2,0
+Medicare,18,45378,Gastroenterology,3079.61,3,0,0,1,2,0
+Aetna,29,64483,Pain Management,3054.32,54,1,1,0,1,0
+Medicaid,18,29881,Orthopedics,6476.7,36,1,0,1,1,0
+Humana,16,29881,Orthopedics,6035.85,82,0,1,1,1,1
+Cigna,151,93306,Cardiology,997.39,71,1,0,0,1,0
+UnitedHealthcare,96,27447,Orthopedics,27371.36,28,0,0,1,2,0
+BCBS,4,70553,Radiology,3161.22,32,1,0,1,2,1
+Aetna,97,99214,Primary Care,245.76,32,0,0,1,1,1
+UnitedHealthcare,96,93306,Cardiology,961.32,30,1,0,1,2,0
+Medicaid,11,90837,Behavioral Health,179.52,5,1,1,1,1,1
+Medicaid,16,29881,Orthopedics,7289.97,41,1,1,1,1,0
+Medicare,4,97110,Physical Therapy,102.02,22,1,1,1,1,1
+Cigna,50,27447,Orthopedics,31274.29,48,1,0,1,2,1
+Aetna,16,93306,Cardiology,890.59,94,1,0,1,2,1
+BCBS,97,29881,Orthopedics,6290.77,28,1,1,1,2,1
+Medicare,50,99214,Primary Care,274.56,3,0,1,0,1,1
+BCBS,96,93306,Cardiology,1027.71,1,0,0,0,1,0
+Medicaid,96,97110,Physical Therapy,108.09,27,1,1,1,1,1
+Humana,109,27447,Orthopedics,37880.82,28,1,0,1,1,0
+Cigna,96,97110,Physical Therapy,140.77,16,0,0,1,1,0
+Medicaid,50,29881,Orthopedics,4995.35,39,0,0,1,1,0
+UnitedHealthcare,151,93306,Cardiology,801.73,8,1,1,1,1,0
+UnitedHealthcare,29,72148,Radiology,1720.09,14,1,1,1,1,0
+Aetna,50,93306,Cardiology,1104.28,6,0,0,1,1,1
+Medicaid,96,29881,Orthopedics,6590.71,50,0,0,1,2,0
+Medicaid,50,27447,Orthopedics,33419.66,52,0,1,1,1,0
+Medicaid,50,70553,Radiology,3245.64,49,0,0,1,1,0
+Humana,18,72148,Radiology,1524.1,39,0,0,1,2,0
+Humana,96,99214,Primary Care,260.61,2,0,1,1,1,0
+BCBS,18,64483,Pain Management,2575.16,96,1,1,1,1,0
+Cigna,29,93306,Cardiology,1027.49,5,1,0,0,1,0
+BCBS,97,90837,Behavioral Health,207.17,5,0,1,0,2,1
+Aetna,18,27447,Orthopedics,37754.34,23,1,1,0,1,0
+UnitedHealthcare,29,70553,Radiology,3271.45,28,0,0,1,2,0
+UnitedHealthcare,50,72148,Radiology,1710.98,45,1,0,1,1,1
+Medicaid,29,64483,Pain Management,2628.85,104,0,0,1,1,0
+Aetna,151,45378,Gastroenterology,3217.96,56,0,1,1,1,0
+Humana,197,45378,Gastroenterology,2408.83,18,0,0,1,1,0
+Humana,96,97110,Physical Therapy,128.36,2,0,0,1,1,0
+UnitedHealthcare,4,90837,Behavioral Health,202.85,13,1,0,1,1,1
+Humana,18,64483,Pain Management,2628.48,41,1,0,1,1,0
+UnitedHealthcare,197,27447,Orthopedics,27887.42,3,1,1,1,1,0
+Medicare,50,64483,Pain Management,2954.72,54,1,1,1,1,1
+Medicare,96,97110,Physical Therapy,98.77,90,1,0,1,1,0
+UnitedHealthcare,50,72148,Radiology,1406.62,57,0,0,1,1,1
+BCBS,18,97110,Physical Therapy,131.36,10,1,0,1,2,0
+Aetna,18,27447,Orthopedics,35321.68,1,1,0,1,1,0
+Medicare,197,99214,Primary Care,205.75,14,0,1,1,2,1
+Cigna,96,90837,Behavioral Health,191.4,15,0,1,1,1,0
+Aetna,50,97110,Physical Therapy,117.92,44,1,1,1,2,1
+Medicare,50,45378,Gastroenterology,2990.17,17,1,1,1,2,1
+UnitedHealthcare,11,90837,Behavioral Health,186.6,57,1,0,1,1,1
+Medicare,197,72148,Radiology,1710.28,6,1,1,0,1,1
+Cigna,109,99214,Primary Care,293.76,107,1,1,0,1,1
+Medicare,252,64483,Pain Management,3520.52,167,1,1,1,1,0
+BCBS,11,45378,Gastroenterology,3045.61,14,0,1,1,1,1
+UnitedHealthcare,18,45378,Gastroenterology,2600.67,90,1,0,1,2,1
+Cigna,50,97110,Physical Therapy,129.67,91,1,1,0,1,1
+Medicare,109,45378,Gastroenterology,3216.65,14,0,0,1,2,1
+BCBS,109,64483,Pain Management,3459.35,97,0,1,1,1,0
+Medicaid,97,29881,Orthopedics,6465.99,15,1,0,1,1,1
+Medicare,16,72148,Radiology,1439.38,31,1,0,1,1,1
+Aetna,11,64483,Pain Management,3098.11,49,1,1,1,1,0
+Medicaid,252,99214,Primary Care,272.42,13,1,1,1,1,1
+UnitedHealthcare,4,97110,Physical Therapy,101.64,86,0,1,1,2,0
+BCBS,252,72148,Radiology,1219.35,25,0,0,0,1,1
+Aetna,16,97110,Physical Therapy,122.74,70,1,1,1,1,1
+Aetna,50,70553,Radiology,3143.26,17,1,1,1,2,1
+Medicare,109,97110,Physical Therapy,132.86,68,1,0,1,1,1
+Aetna,197,64483,Pain Management,3303.39,6,1,0,1,1,0
+Cigna,252,64483,Pain Management,3661.95,14,0,0,1,2,1
+BCBS,109,97110,Physical Therapy,138.86,22,1,1,1,1,1
+UnitedHealthcare,4,72148,Radiology,1189.98,6,0,0,1,2,1
+Humana,4,29881,Orthopedics,7255.24,4,1,0,0,1,1
+BCBS,50,45378,Gastroenterology,2258.71,104,1,0,1,2,1
+Humana,197,97110,Physical Therapy,133.54,8,1,0,1,1,1
+Medicare,11,97110,Physical Therapy,96.34,33,0,1,1,1,1
+Medicare,97,64483,Pain Management,2862.18,11,1,0,1,1,1
+BCBS,18,97110,Physical Therapy,115.49,38,0,0,1,1,0
+Humana,18,27447,Orthopedics,33798.26,1,1,0,1,1,0
+BCBS,96,29881,Orthopedics,5024.12,2,0,0,1,1,0
+Medicare,4,97110,Physical Therapy,97.49,17,0,1,0,1,1
+Cigna,4,27447,Orthopedics,37706.25,26,0,0,1,1,0
+Medicare,97,45378,Gastroenterology,3184.95,7,0,1,1,1,1
+Humana,18,27447,Orthopedics,32818.16,85,1,0,1,1,0
+UnitedHealthcare,151,45378,Gastroenterology,2563.91,3,1,0,0,1,0
+Medicare,97,70553,Radiology,3397.01,90,0,0,1,1,0
+UnitedHealthcare,50,90837,Behavioral Health,187.09,42,1,1,1,1,1
+BCBS,11,70553,Radiology,2669.34,5,1,0,1,1,1
+Medicare,16,29881,Orthopedics,7120.79,60,1,1,1,1,1
+Humana,29,70553,Radiology,2834.75,110,0,1,0,1,0
+Medicaid,50,99214,Primary Care,197.21,32,0,1,1,1,1
+BCBS,252,70553,Radiology,2522.58,14,1,1,0,2,0
+BCBS,109,99214,Primary Care,268.69,24,1,1,1,1,1
+Medicare,109,93306,Cardiology,1062.98,12,0,0,1,1,0
+Aetna,11,27447,Orthopedics,25633.7,12,1,0,0,1,1
+Cigna,197,70553,Radiology,2597.43,95,0,0,1,2,0
+BCBS,50,97110,Physical Therapy,121.32,14,1,0,1,2,1
+Aetna,50,99214,Primary Care,256.95,7,0,0,1,1,1
+Aetna,50,70553,Radiology,3203.65,8,0,0,1,2,0
+BCBS,109,99214,Primary Care,220.16,9,1,0,0,2,0
+Aetna,18,29881,Orthopedics,5202.7,56,1,1,1,1,0
+Aetna,97,45378,Gastroenterology,3201.37,58,0,0,1,1,0
+Cigna,16,90837,Behavioral Health,227.19,30,1,0,1,2,1
+Humana,50,97110,Physical Therapy,108.01,55,1,1,1,1,1
+Cigna,96,70553,Radiology,3414.89,13,1,0,1,1,0
+BCBS,16,27447,Orthopedics,35449.79,39,1,0,1,2,1
+Cigna,11,93306,Cardiology,951.8,31,1,0,1,2,1
+Medicaid,151,70553,Radiology,3069.71,17,1,1,1,1,1
+Humana,97,97110,Physical Therapy,100.35,24,0,1,1,1,0
+UnitedHealthcare,151,29881,Orthopedics,7377.42,51,0,1,1,2,0
+Medicare,4,99214,Primary Care,215.15,6,1,1,1,1,1
+Cigna,16,97110,Physical Therapy,136.18,24,1,0,1,1,1
+Humana,97,64483,Pain Management,2486.84,11,0,0,1,1,0
+Medicare,252,70553,Radiology,3308.84,45,0,0,1,1,1
+Medicare,109,29881,Orthopedics,5580.15,22,1,0,1,1,0
+Medicare,4,45378,Gastroenterology,3056.0,19,1,0,1,1,0
+Cigna,96,99214,Primary Care,279.02,24,1,0,1,2,1
+BCBS,29,90837,Behavioral Health,185.65,46,1,0,1,2,0
+Aetna,197,72148,Radiology,1203.61,98,0,0,1,1,0
+Humana,197,97110,Physical Therapy,141.33,129,1,1,0,1,0
+UnitedHealthcare,109,29881,Orthopedics,5835.77,40,0,0,1,1,0
+Medicaid,4,90837,Behavioral Health,197.8,76,1,0,1,1,1
+Cigna,97,97110,Physical Therapy,125.29,15,1,0,1,2,1
+Medicaid,97,64483,Pain Management,2550.76,70,0,0,1,2,1
+Medicare,16,93306,Cardiology,882.01,4,1,1,1,1,1
+Medicaid,197,27447,Orthopedics,27575.85,88,0,0,1,2,0
+UnitedHealthcare,109,27447,Orthopedics,26439.98,73,0,1,1,1,0
+BCBS,18,27447,Orthopedics,26183.54,25,1,0,1,1,0
+Medicare,18,70553,Radiology,2897.22,14,1,0,0,1,0
+Medicare,29,72148,Radiology,1171.92,1,0,0,1,1,0
+Medicare,11,64483,Pain Management,3255.34,16,0,0,1,1,1
+Cigna,11,64483,Pain Management,2904.02,11,1,1,1,1,0
+UnitedHealthcare,29,90837,Behavioral Health,234.52,16,1,1,1,1,0
+BCBS,50,27447,Orthopedics,36704.85,31,1,1,1,1,0
+Humana,96,70553,Radiology,2756.21,6,0,0,0,1,1
+BCBS,252,29881,Orthopedics,5211.38,8,1,0,0,1,0
+Medicare,96,93306,Cardiology,1122.08,8,1,1,1,1,0
+Humana,18,27447,Orthopedics,25940.91,5,0,0,0,1,0
+UnitedHealthcare,252,90837,Behavioral Health,232.67,31,1,0,0,1,1
+Medicare,50,99214,Primary Care,292.69,78,1,1,1,1,0
+Cigna,50,29881,Orthopedics,6769.71,3,0,0,1,2,1
+Medicare,50,72148,Radiology,1166.61,1,0,0,1,1,0
+Humana,18,72148,Radiology,1343.44,118,0,0,1,2,0
+UnitedHealthcare,252,64483,Pain Management,3071.43,60,1,1,1,1,1
+Cigna,151,70553,Radiology,3161.82,1,1,0,1,2,1
+Medicare,197,64483,Pain Management,3226.21,90,0,1,1,1,0
+Cigna,50,29881,Orthopedics,6973.15,80,0,1,0,2,0
+Cigna,18,27447,Orthopedics,26522.01,32,0,1,1,2,0
+Medicare,18,97110,Physical Therapy,138.11,35,1,0,1,1,1
+UnitedHealthcare,16,64483,Pain Management,3198.69,90,0,0,1,1,1
+Cigna,109,45378,Gastroenterology,2835.65,17,0,0,1,2,0
+Cigna,16,90837,Behavioral Health,234.14,6,0,1,1,1,1
+Humana,18,70553,Radiology,2567.76,103,1,1,1,1,0
+Cigna,4,72148,Radiology,1356.53,180,1,1,1,1,0
+Medicaid,16,70553,Radiology,3062.22,102,0,1,1,1,1
+Humana,252,64483,Pain Management,2706.51,75,1,1,1,1,1
+Aetna,96,72148,Radiology,1309.58,28,0,0,1,1,0
+UnitedHealthcare,50,93306,Cardiology,1015.2,23,0,0,1,1,0
+Medicare,4,72148,Radiology,1431.38,97,0,1,1,1,1
+Medicare,29,29881,Orthopedics,6890.22,126,0,0,1,1,0
+Medicare,16,45378,Gastroenterology,2357.04,10,1,0,1,1,0
+BCBS,97,64483,Pain Management,2785.98,1,0,1,1,1,1
+Humana,4,72148,Radiology,1525.98,61,0,0,1,1,1
+BCBS,29,93306,Cardiology,1175.25,103,1,1,0,1,0
+BCBS,50,27447,Orthopedics,29776.32,6,1,0,1,1,0
+UnitedHealthcare,197,93306,Cardiology,1007.97,5,1,0,1,1,0
+Medicaid,18,93306,Cardiology,852.72,5,0,0,1,1,1
+Medicare,109,27447,Orthopedics,30631.32,51,1,0,1,2,1
+UnitedHealthcare,18,93306,Cardiology,881.35,33,0,1,1,1,0
+Humana,29,90837,Behavioral Health,249.37,2,1,1,1,2,0
+Cigna,50,99214,Primary Care,289.5,27,1,0,1,1,0
+Humana,11,29881,Orthopedics,5376.34,14,0,0,1,2,0
+Humana,252,90837,Behavioral Health,211.92,48,1,0,1,1,1
+Humana,18,27447,Orthopedics,35126.42,4,1,0,1,1,0
+UnitedHealthcare,197,72148,Radiology,1703.8,19,1,0,1,1,0
+Cigna,29,64483,Pain Management,2778.07,16,1,0,1,2,1
+UnitedHealthcare,96,45378,Gastroenterology,2474.21,21,0,0,1,1,0
+Medicare,96,72148,Radiology,1290.78,21,1,0,1,1,1
+Humana,252,93306,Cardiology,1143.83,39,0,0,1,1,1
+BCBS,50,97110,Physical Therapy,139.28,13,1,0,1,1,1
+Humana,18,27447,Orthopedics,37294.1,23,1,0,0,1,0
+Aetna,109,27447,Orthopedics,29092.77,24,0,1,1,1,0
+BCBS,18,93306,Cardiology,796.14,16,1,0,0,1,0
+Medicaid,4,97110,Physical Therapy,109.69,15,1,0,1,1,1
+BCBS,29,72148,Radiology,1459.86,71,1,0,1,2,0
+BCBS,4,45378,Gastroenterology,2935.07,6,1,0,1,2,1
+Cigna,18,29881,Orthopedics,5984.32,4,1,0,1,1,0
+BCBS,4,93306,Cardiology,1126.12,37,1,0,1,1,1
+Medicare,197,45378,Gastroenterology,2207.44,54,0,0,1,1,0
+Humana,197,64483,Pain Management,3201.16,3,0,1,1,2,1
+Aetna,50,72148,Radiology,1308.8,90,1,0,1,1,1
+Medicare,96,64483,Pain Management,2963.0,17,0,0,0,1,0
+Medicare,197,27447,Orthopedics,37249.41,6,1,0,1,2,0
+Cigna,151,27447,Orthopedics,34935.07,3,1,0,1,1,0
+Medicaid,29,27447,Orthopedics,36737.19,21,1,1,1,1,0
+Aetna,4,70553,Radiology,3019.63,17,0,0,1,1,1
+Cigna,50,64483,Pain Management,3524.28,35,0,1,1,1,1
+Humana,252,27447,Orthopedics,38123.24,34,1,1,1,2,1
+BCBS,96,90837,Behavioral Health,219.49,65,1,1,1,1,0
+Cigna,29,29881,Orthopedics,5041.57,39,0,0,1,1,0
+Humana,197,72148,Radiology,1414.99,38,1,1,0,2,1
+Cigna,18,64483,Pain Management,3227.17,128,1,0,1,1,0
+BCBS,109,72148,Radiology,1619.8,11,1,0,1,2,1
+Cigna,96,99214,Primary Care,228.83,82,1,0,0,1,0
+Cigna,18,45378,Gastroenterology,2460.89,1,0,1,1,1,1
+Humana,97,29881,Orthopedics,6336.34,25,0,1,1,1,0
+BCBS,97,27447,Orthopedics,28040.55,78,0,0,0,1,0
+Humana,29,97110,Physical Therapy,113.48,28,1,0,1,1,0
+Medicare,50,70553,Radiology,2488.28,1,0,0,1,1,1
+Aetna,16,27447,Orthopedics,37064.17,65,0,1,1,1,0
+BCBS,29,90837,Behavioral Health,233.1,85,0,1,1,1,0
+Medicare,252,45378,Gastroenterology,3186.64,1,0,0,0,1,1
+Humana,97,97110,Physical Therapy,128.03,1,1,1,1,1,1
+Humana,50,93306,Cardiology,1030.75,113,0,1,1,1,0
+Aetna,50,93306,Cardiology,1137.22,83,0,0,0,1,1
+UnitedHealthcare,29,45378,Gastroenterology,3024.48,3,0,0,1,2,0
+BCBS,197,45378,Gastroenterology,2960.78,53,0,0,1,1,0
+Medicare,197,27447,Orthopedics,36208.3,60,1,1,0,2,0
+UnitedHealthcare,252,27447,Orthopedics,28750.72,132,1,1,1,1,1
+Medicare,252,90837,Behavioral Health,224.31,10,1,0,1,2,0
+Humana,4,70553,Radiology,2599.29,39,1,0,0,1,1
+Medicaid,18,64483,Pain Management,3510.65,4,1,0,1,1,0
+Aetna,18,29881,Orthopedics,5764.69,25,1,1,1,1,0
+Aetna,18,45378,Gastroenterology,3278.24,33,1,0,1,1,0
+Cigna,252,70553,Radiology,3404.89,42,1,1,1,1,1
+Cigna,4,45378,Gastroenterology,2404.31,40,0,0,1,2,1
+Medicare,4,45378,Gastroenterology,2552.17,18,0,0,1,1,1
+Medicaid,151,64483,Pain Management,3602.44,115,1,0,1,1,0
+UnitedHealthcare,4,90837,Behavioral Health,221.49,20,0,0,1,1,1
+Medicaid,50,70553,Radiology,3312.18,61,1,1,1,1,1
+Medicaid,252,29881,Orthopedics,7201.92,7,1,0,1,1,1
+Humana,16,45378,Gastroenterology,2768.46,22,1,0,1,1,1
+Medicare,109,45378,Gastroenterology,2870.06,14,0,0,1,1,1
+Humana,29,72148,Radiology,1651.9,10,0,0,1,1,0
+Humana,11,90837,Behavioral Health,201.29,4,1,0,1,1,0
+Medicare,97,99214,Primary Care,214.38,44,0,1,1,1,0
+Aetna,151,64483,Pain Management,3322.57,64,1,0,1,2,0
+Medicare,252,27447,Orthopedics,26738.63,70,1,1,0,1,0
+BCBS,50,97110,Physical Therapy,96.63,1,0,0,1,1,1
+Humana,16,97110,Physical Therapy,120.97,99,0,1,1,1,0
+UnitedHealthcare,16,45378,Gastroenterology,2764.5,29,1,0,1,1,1
+Medicaid,29,70553,Radiology,2451.04,103,0,1,1,1,1
+BCBS,50,99214,Primary Care,203.23,11,1,0,0,1,0
+Cigna,151,27447,Orthopedics,38125.25,57,1,0,1,2,1
+Aetna,50,29881,Orthopedics,6498.64,41,0,0,0,1,0
+Medicaid,11,70553,Radiology,2919.72,17,1,1,1,1,1
+Humana,29,90837,Behavioral Health,200.58,17,1,0,1,1,1
+Aetna,151,29881,Orthopedics,6762.87,6,1,1,0,1,1
+Aetna,109,27447,Orthopedics,36921.58,4,1,0,1,1,0
+Medicaid,11,29881,Orthopedics,6649.71,14,0,0,1,1,1
+Medicare,50,45378,Gastroenterology,2938.93,86,0,0,0,2,0
+UnitedHealthcare,4,97110,Physical Therapy,94.74,81,1,0,1,1,1
+Cigna,97,70553,Radiology,2959.47,110,1,0,1,1,1
+Cigna,151,90837,Behavioral Health,197.99,59,1,0,1,1,1
+Medicaid,50,29881,Orthopedics,6513.59,10,1,1,1,2,1
+Medicare,96,99214,Primary Care,215.28,52,0,0,1,2,1
+Cigna,11,27447,Orthopedics,33612.42,1,1,1,1,2,1
+BCBS,18,70553,Radiology,3107.6,16,1,0,1,1,0
+BCBS,97,72148,Radiology,1174.93,15,0,1,1,1,0
+Aetna,4,72148,Radiology,1250.59,6,0,1,1,1,1
+Humana,252,70553,Radiology,2703.77,54,1,0,1,2,1
+Medicare,96,90837,Behavioral Health,214.98,17,1,1,1,1,0
+Medicare,4,97110,Physical Therapy,113.32,154,0,0,1,1,1
+Cigna,4,70553,Radiology,2744.11,6,1,0,0,1,1
+UnitedHealthcare,18,45378,Gastroenterology,3191.13,19,1,0,1,1,1
+BCBS,252,45378,Gastroenterology,2265.98,33,1,0,0,1,1
+UnitedHealthcare,197,97110,Physical Therapy,111.12,15,1,1,0,1,0
+BCBS,4,93306,Cardiology,1158.07,5,1,1,1,2,1
+UnitedHealthcare,18,70553,Radiology,2380.47,60,0,0,1,2,0
+Medicaid,197,29881,Orthopedics,7427.16,14,1,1,0,1,0
+Medicaid,16,29881,Orthopedics,6111.91,20,1,0,1,1,1
+Humana,50,97110,Physical Therapy,103.91,39,1,1,1,1,1
+Aetna,29,99214,Primary Care,207.81,26,1,0,1,1,1
+Humana,109,27447,Orthopedics,38075.91,30,0,0,1,2,0
+Cigna,16,29881,Orthopedics,4997.71,12,0,1,1,2,0
+Aetna,97,45378,Gastroenterology,2956.96,42,1,0,1,2,1
+Humana,29,64483,Pain Management,2954.89,6,0,0,1,2,0
+Humana,11,27447,Orthopedics,37222.33,11,0,0,1,1,0
+Aetna,109,64483,Pain Management,3340.79,15,0,0,1,2,1
+Medicare,109,90837,Behavioral Health,210.85,35,0,1,1,1,0
+Cigna,96,70553,Radiology,3085.14,69,1,0,1,2,0
+Medicaid,97,90837,Behavioral Health,240.05,17,0,0,0,1,1
+Medicaid,4,45378,Gastroenterology,2462.51,7,0,0,1,2,0
+Cigna,50,64483,Pain Management,2928.59,79,1,0,1,1,0
+BCBS,97,99214,Primary Care,222.95,13,1,1,1,1,1
+UnitedHealthcare,96,72148,Radiology,1554.5,18,1,1,1,1,1
+Cigna,151,72148,Radiology,1502.54,14,1,0,1,1,1
+Medicare,96,90837,Behavioral Health,240.15,9,1,0,1,1,1
+Medicaid,109,93306,Cardiology,1164.16,22,0,1,1,2,1
+UnitedHealthcare,151,70553,Radiology,2751.93,43,1,1,1,1,0
+Aetna,50,70553,Radiology,2973.65,109,0,0,0,1,1
+BCBS,197,29881,Orthopedics,6229.25,69,0,0,1,1,0
+Aetna,18,99214,Primary Care,217.63,3,0,1,1,2,0
+Medicaid,50,97110,Physical Therapy,127.96,26,1,0,1,1,1
+Cigna,4,45378,Gastroenterology,2409.28,161,1,0,1,1,1
+Medicaid,252,93306,Cardiology,1001.83,28,1,1,1,2,1
+UnitedHealthcare,11,72148,Radiology,1280.35,42,0,0,1,1,0
+UnitedHealthcare,29,90837,Behavioral Health,245.23,32,1,1,1,1,0
+Cigna,18,97110,Physical Therapy,127.94,64,0,0,0,1,0
+UnitedHealthcare,50,64483,Pain Management,3544.07,5,1,0,1,1,1
+BCBS,4,97110,Physical Therapy,126.21,44,1,1,1,1,0
+Humana,11,99214,Primary Care,241.63,9,1,1,1,2,1
+Medicare,50,29881,Orthopedics,5063.56,72,1,1,1,1,1
+Cigna,4,93306,Cardiology,911.16,73,1,0,0,1,1
+Medicare,11,27447,Orthopedics,34270.13,8,1,1,1,1,1
+Aetna,29,97110,Physical Therapy,141.42,112,1,1,1,2,0
+Cigna,18,93306,Cardiology,1018.33,31,1,1,1,2,0
+Humana,11,93306,Cardiology,796.7,36,0,1,0,1,1
+Cigna,11,45378,Gastroenterology,2396.74,61,1,1,1,1,1
+Humana,4,64483,Pain Management,3052.13,1,1,1,1,1,1
+Medicare,252,29881,Orthopedics,5851.4,43,1,1,1,2,1
+Aetna,97,99214,Primary Care,282.15,4,1,0,1,1,1
+UnitedHealthcare,29,93306,Cardiology,942.26,9,1,1,0,1,0
+Aetna,50,72148,Radiology,1443.27,62,0,0,1,2,1
+Humana,197,27447,Orthopedics,26834.27,33,1,0,1,1,0
+Medicare,96,72148,Radiology,1636.39,3,1,1,1,2,1
+Humana,18,29881,Orthopedics,4986.7,112,1,0,1,1,0
+UnitedHealthcare,252,29881,Orthopedics,6938.19,58,1,0,1,1,0
+BCBS,50,27447,Orthopedics,35352.19,95,0,0,1,1,0
+Aetna,197,45378,Gastroenterology,2841.06,65,1,0,1,1,1
+Medicaid,18,70553,Radiology,2511.08,19,0,0,1,1,0
+Medicare,252,99214,Primary Care,202.67,61,0,0,1,1,0
+Medicare,151,72148,Radiology,1387.37,61,0,0,0,2,0
+UnitedHealthcare,16,45378,Gastroenterology,2929.61,93,1,1,1,1,1
+Humana,197,93306,Cardiology,963.33,16,1,0,1,1,1
+Cigna,16,29881,Orthopedics,6698.92,23,0,0,1,1,1
+Cigna,97,29881,Orthopedics,5858.69,10,0,0,0,1,0
+Medicaid,96,70553,Radiology,2539.76,71,1,0,1,1,0
+Medicare,97,45378,Gastroenterology,2943.87,166,0,0,1,1,0
+Medicare,97,64483,Pain Management,2574.12,39,1,0,1,1,1
+Aetna,252,90837,Behavioral Health,209.44,47,1,0,0,1,1
+Medicaid,97,27447,Orthopedics,36774.91,52,0,1,1,1,1
+Humana,151,27447,Orthopedics,26033.67,19,0,0,1,2,0
+Aetna,96,64483,Pain Management,3159.78,20,1,0,1,1,0
+UnitedHealthcare,29,70553,Radiology,2895.08,1,1,0,1,2,1
+Medicare,97,27447,Orthopedics,27611.02,14,1,1,1,2,1
+UnitedHealthcare,18,70553,Radiology,2692.24,23,1,1,1,1,0
+Aetna,97,97110,Physical Therapy,138.1,38,1,0,1,2,1
+Humana,252,64483,Pain Management,3413.26,12,1,0,1,1,1
+BCBS,97,72148,Radiology,1183.97,70,0,0,0,1,0
+Medicare,151,64483,Pain Management,3514.66,49,0,1,1,1,0
+Medicaid,16,64483,Pain Management,2969.18,112,0,1,1,2,0
+Medicare,96,27447,Orthopedics,30701.5,104,1,1,1,2,1
+Medicaid,50,70553,Radiology,3094.66,34,1,0,1,2,1
+Medicaid,252,97110,Physical Therapy,118.03,91,0,0,1,1,0
+Medicare,4,64483,Pain Management,3239.32,12,1,0,1,1,1
+Humana,252,99214,Primary Care,231.25,48,1,0,1,1,1
+BCBS,4,93306,Cardiology,981.32,151,0,0,1,1,1
+Cigna,29,27447,Orthopedics,32670.71,9,0,1,1,2,0
+UnitedHealthcare,50,29881,Orthopedics,5030.36,28,1,1,1,1,1
+BCBS,151,97110,Physical Therapy,125.87,85,1,0,1,1,1
+BCBS,252,70553,Radiology,2475.14,24,0,0,1,1,1
+Aetna,11,27447,Orthopedics,25650.26,60,0,0,1,1,0
+Medicare,97,72148,Radiology,1693.57,51,0,1,1,1,0
+Humana,97,45378,Gastroenterology,2890.33,33,1,0,1,1,0
+Aetna,197,90837,Behavioral Health,232.91,16,0,0,0,1,1
+Medicaid,4,99214,Primary Care,247.77,11,1,0,1,2,1
+Medicaid,97,27447,Orthopedics,30995.43,52,1,0,1,1,0
+Aetna,197,72148,Radiology,1631.66,144,1,0,1,1,0
+Cigna,29,70553,Radiology,2969.12,24,0,0,1,1,1
+UnitedHealthcare,4,90837,Behavioral Health,206.34,35,0,0,1,1,1
+Medicaid,50,90837,Behavioral Health,182.19,42,0,0,1,1,1
+Humana,18,64483,Pain Management,2557.8,10,0,1,1,2,0
+Medicare,252,72148,Radiology,1300.72,95,1,1,1,1,1
+Humana,50,70553,Radiology,3386.36,12,1,1,1,1,0
+Aetna,109,29881,Orthopedics,5315.27,30,0,1,1,2,1
+Humana,50,99214,Primary Care,245.24,38,0,0,1,1,1
+BCBS,97,64483,Pain Management,3311.67,32,1,1,1,2,1
+BCBS,252,99214,Primary Care,256.04,3,1,0,1,1,1
+Aetna,16,45378,Gastroenterology,2501.4,14,1,0,1,1,1
+Medicare,252,70553,Radiology,2568.1,19,0,0,1,1,1
+Aetna,16,72148,Radiology,1575.67,1,0,0,1,2,1
+UnitedHealthcare,109,93306,Cardiology,1092.77,74,1,0,1,1,0
+BCBS,252,70553,Radiology,3290.72,180,0,1,1,1,0
+Aetna,29,97110,Physical Therapy,136.4,63,1,1,1,1,0
+Aetna,29,27447,Orthopedics,26990.03,24,1,1,1,1,0
+Aetna,252,97110,Physical Therapy,104.69,56,0,0,1,1,0
+BCBS,151,70553,Radiology,3116.78,46,0,0,1,1,1
+Humana,97,70553,Radiology,2484.74,2,1,0,1,1,1
+Cigna,16,99214,Primary Care,209.94,4,1,0,1,1,1
+BCBS,97,64483,Pain Management,3344.0,7,0,0,0,1,0
+Aetna,11,64483,Pain Management,3507.67,10,0,0,1,1,0
+Medicaid,4,70553,Radiology,2681.89,12,1,0,1,1,1
+Humana,16,70553,Radiology,2578.98,2,1,0,1,2,1
+Cigna,109,45378,Gastroenterology,2602.85,29,1,1,1,1,1
+UnitedHealthcare,50,97110,Physical Therapy,136.25,57,0,1,0,1,1
+UnitedHealthcare,29,93306,Cardiology,795.52,23,1,0,1,1,1
+UnitedHealthcare,18,97110,Physical Therapy,114.5,2,1,1,1,1,0
+Medicare,18,97110,Physical Therapy,120.97,81,0,0,1,2,0
+Humana,11,29881,Orthopedics,6226.0,15,1,0,1,2,0
+Cigna,252,99214,Primary Care,216.12,43,1,1,0,1,1
+Medicare,50,27447,Orthopedics,36921.92,41,0,1,1,2,0
+Medicaid,197,45378,Gastroenterology,3014.41,77,1,0,1,1,0
+Aetna,109,90837,Behavioral Health,186.23,1,1,1,1,1,0
+UnitedHealthcare,252,72148,Radiology,1368.75,26,1,0,0,1,0
+Humana,11,97110,Physical Therapy,103.48,25,1,0,1,2,1
+Medicare,197,72148,Radiology,1489.78,58,1,0,1,2,0
+Humana,18,27447,Orthopedics,34493.25,5,1,1,0,1,0
+UnitedHealthcare,50,97110,Physical Therapy,114.36,3,0,0,1,1,1
+Medicare,4,93306,Cardiology,1163.36,49,1,0,1,2,1
+Medicaid,4,29881,Orthopedics,6001.82,30,0,0,1,1,1
+BCBS,11,27447,Orthopedics,32897.64,64,0,0,1,1,1
+Cigna,109,97110,Physical Therapy,113.85,125,1,0,1,1,0
+Medicare,11,45378,Gastroenterology,3079.56,1,1,0,1,1,1
+BCBS,11,99214,Primary Care,289.87,9,1,0,0,1,1
+BCBS,29,90837,Behavioral Health,232.42,5,1,1,1,1,1
+BCBS,16,70553,Radiology,2846.78,16,1,1,1,1,1
+Aetna,109,29881,Orthopedics,5937.19,4,0,1,1,1,0
+Medicaid,29,93306,Cardiology,1038.3,7,1,0,1,2,1
+Humana,50,27447,Orthopedics,30683.91,32,1,0,1,1,1
+Medicaid,109,97110,Physical Therapy,95.31,4,0,0,1,1,0
+Cigna,29,64483,Pain Management,3406.93,83,1,0,1,1,0
+Medicaid,4,45378,Gastroenterology,2575.87,27,1,0,1,1,1
+BCBS,109,64483,Pain Management,2845.98,1,1,1,1,1,1
+Medicaid,18,97110,Physical Therapy,123.78,69,1,0,1,2,1
+BCBS,252,97110,Physical Therapy,129.84,27,1,1,1,1,1
+Medicare,109,90837,Behavioral Health,219.64,92,1,1,1,1,1
+BCBS,11,45378,Gastroenterology,3109.69,50,0,0,1,1,1
+Cigna,16,72148,Radiology,1348.52,10,1,0,1,1,1
+Medicare,96,27447,Orthopedics,36505.23,46,1,1,1,1,1
+Humana,252,97110,Physical Therapy,115.62,76,0,0,1,1,0
+Cigna,109,70553,Radiology,2379.22,58,1,0,1,2,1
+Humana,252,72148,Radiology,1333.99,2,0,0,1,1,1
+Medicare,16,72148,Radiology,1178.49,96,0,0,1,1,1
+UnitedHealthcare,11,64483,Pain Management,3428.55,22,1,1,1,2,1
+Medicare,97,64483,Pain Management,3066.23,125,0,1,1,1,1
+Aetna,18,27447,Orthopedics,29750.18,11,1,0,0,1,0
+Cigna,29,29881,Orthopedics,6768.87,75,0,0,1,1,0
+Humana,97,72148,Radiology,1681.65,121,1,0,1,1,1
+Humana,29,45378,Gastroenterology,2633.85,13,0,1,1,2,0
+Medicaid,252,72148,Radiology,1734.57,52,0,0,1,1,1
+UnitedHealthcare,97,97110,Physical Therapy,119.85,16,0,1,1,2,0
+Medicaid,109,27447,Orthopedics,33739.27,1,0,0,1,1,0
+Medicaid,109,97110,Physical Therapy,128.83,17,1,1,0,2,0
+Medicare,18,72148,Radiology,1275.1,24,1,0,0,1,0
+BCBS,151,45378,Gastroenterology,3189.63,52,1,0,1,1,0
+BCBS,18,64483,Pain Management,2494.64,124,1,1,1,2,0
+Medicare,16,70553,Radiology,2360.47,35,1,0,1,1,0
+Aetna,29,97110,Physical Therapy,131.87,37,1,0,0,1,1
+Medicare,252,99214,Primary Care,287.12,9,1,1,1,1,1
+Humana,4,64483,Pain Management,3719.95,32,0,1,0,1,0
+Cigna,151,72148,Radiology,1695.91,9,1,0,0,2,0
+UnitedHealthcare,96,29881,Orthopedics,5339.95,23,1,1,1,1,1
+Humana,11,90837,Behavioral Health,172.55,59,0,0,1,2,0
+Humana,11,29881,Orthopedics,7202.27,9,0,0,1,1,0
+Medicaid,97,64483,Pain Management,3627.12,2,0,0,1,1,1
+UnitedHealthcare,18,97110,Physical Therapy,141.49,16,0,1,1,1,0
+BCBS,151,93306,Cardiology,905.54,40,1,1,1,1,0
+BCBS,151,90837,Behavioral Health,247.36,25,1,0,1,1,1
+BCBS,109,99214,Primary Care,235.53,17,1,0,1,1,1
+Aetna,50,90837,Behavioral Health,197.78,39,0,0,1,1,1
+Medicare,252,72148,Radiology,1710.6,6,1,0,1,1,0
+Humana,96,64483,Pain Management,3287.11,13,1,0,0,1,0
+BCBS,18,93306,Cardiology,926.47,90,1,0,0,1,0
+Humana,151,93306,Cardiology,790.57,64,1,0,1,1,0
+Medicaid,97,90837,Behavioral Health,181.46,46,1,1,1,2,1
+Aetna,97,99214,Primary Care,288.8,32,0,1,0,1,1
+BCBS,109,64483,Pain Management,3003.56,39,0,1,1,1,1
+Medicare,29,29881,Orthopedics,5238.59,7,1,0,1,2,0
+Cigna,197,64483,Pain Management,2987.18,23,1,1,1,2,0
+Medicare,252,72148,Radiology,1418.41,38,0,0,1,2,1
+Aetna,18,70553,Radiology,3054.66,43,1,1,1,2,0
+Medicare,4,72148,Radiology,1450.18,102,0,0,1,1,1
+Humana,11,64483,Pain Management,3383.19,21,0,0,0,1,1
+Medicaid,11,70553,Radiology,3272.64,180,0,1,1,1,0
+Humana,4,27447,Orthopedics,31656.8,12,0,1,0,2,0
+Humana,97,27447,Orthopedics,30875.02,108,1,0,1,1,1
+BCBS,197,93306,Cardiology,815.89,23,1,1,1,1,1
+Humana,11,27447,Orthopedics,38133.32,22,0,0,1,1,0
+Medicare,197,90837,Behavioral Health,248.5,1,0,0,1,1,0
+Medicare,29,64483,Pain Management,3543.8,12,1,0,1,1,0
+UnitedHealthcare,50,90837,Behavioral Health,218.46,83,1,1,1,1,1
+UnitedHealthcare,252,27447,Orthopedics,28750.72,7,0,1,0,1,1
+UnitedHealthcare,50,29881,Orthopedics,7207.96,37,0,0,1,1,1
+Medicaid,18,45378,Gastroenterology,2950.19,54,1,0,1,2,0
+Humana,4,99214,Primary Care,250.3,20,1,1,1,1,1
+Cigna,151,29881,Orthopedics,5810.16,4,1,1,0,1,1
+BCBS,29,70553,Radiology,2955.08,15,1,1,1,1,0
+Medicare,252,45378,Gastroenterology,2728.78,106,1,0,1,1,1
+Cigna,11,93306,Cardiology,1163.94,11,0,1,1,1,1
+Medicare,11,99214,Primary Care,263.06,104,0,0,1,1,1
+Aetna,197,93306,Cardiology,906.7,33,1,0,0,1,1
+Medicaid,4,97110,Physical Therapy,99.2,107,1,0,1,1,0
+Medicare,197,72148,Radiology,1199.02,70,0,1,1,1,0
+Aetna,50,64483,Pain Management,3252.88,42,1,0,1,1,0
+Humana,97,29881,Orthopedics,5363.18,6,1,0,1,1,1
+Humana,18,72148,Radiology,1581.92,10,1,0,1,2,0
+Medicaid,16,90837,Behavioral Health,217.47,22,1,1,0,2,1
+Humana,50,29881,Orthopedics,5451.57,12,0,0,1,1,0
+Humana,16,90837,Behavioral Health,188.53,6,1,1,0,1,1
+Medicaid,16,29881,Orthopedics,6990.48,62,1,1,1,1,1
+Humana,11,64483,Pain Management,2688.44,44,1,0,1,2,1
+BCBS,11,99214,Primary Care,248.54,13,1,1,1,1,1
+Medicare,197,64483,Pain Management,2565.69,3,1,1,1,1,1
+Medicare,16,90837,Behavioral Health,215.27,23,1,0,0,1,1
+UnitedHealthcare,197,72148,Radiology,1564.53,34,0,1,1,2,1
+Medicare,151,93306,Cardiology,920.41,47,1,0,1,2,1
+UnitedHealthcare,50,99214,Primary Care,249.3,22,1,0,1,1,1
+Aetna,11,29881,Orthopedics,5064.95,17,0,0,1,2,1
+BCBS,151,70553,Radiology,2938.49,14,1,0,1,1,0
+Humana,252,29881,Orthopedics,6209.65,21,0,1,1,1,0
+BCBS,109,45378,Gastroenterology,2769.13,11,0,0,1,1,0
+Cigna,18,97110,Physical Therapy,128.82,79,0,0,1,1,0
+Medicaid,11,64483,Pain Management,3291.69,45,0,0,1,1,0
+Medicare,96,93306,Cardiology,1099.33,10,1,1,1,1,1
+UnitedHealthcare,29,93306,Cardiology,1135.37,1,1,1,1,2,1
+UnitedHealthcare,252,29881,Orthopedics,5833.51,2,0,1,1,1,1
+UnitedHealthcare,197,29881,Orthopedics,6876.38,18,1,0,1,1,1
+UnitedHealthcare,197,64483,Pain Management,3449.78,53,1,1,1,1,0
+Aetna,11,70553,Radiology,3102.24,37,1,1,0,2,1
+Aetna,29,72148,Radiology,1491.54,29,0,1,1,1,0
+Cigna,197,72148,Radiology,1683.34,4,0,1,0,1,1
+Medicaid,96,93306,Cardiology,889.52,59,1,0,1,1,1
+UnitedHealthcare,151,70553,Radiology,3296.91,31,1,0,1,1,0
+Cigna,16,90837,Behavioral Health,241.18,47,1,0,1,1,1
+Cigna,18,45378,Gastroenterology,2767.72,160,1,0,1,1,0
+Medicaid,29,45378,Gastroenterology,2862.16,32,1,0,1,1,0
+Medicare,29,27447,Orthopedics,33602.46,5,0,1,1,1,1
+UnitedHealthcare,252,27447,Orthopedics,31117.35,20,1,0,1,2,0
+Aetna,109,72148,Radiology,1378.45,87,1,0,1,1,1
+Medicare,4,29881,Orthopedics,5601.61,41,1,0,1,1,1
+Humana,96,29881,Orthopedics,6737.0,52,1,1,1,1,0
+Medicare,11,90837,Behavioral Health,230.41,15,1,0,1,1,1
+Medicare,50,99214,Primary Care,203.92,39,0,0,1,1,0
+Aetna,96,72148,Radiology,1518.78,10,1,0,1,1,1
+Medicare,29,45378,Gastroenterology,2863.6,5,1,0,1,1,0
+Medicare,97,99214,Primary Care,281.27,180,1,0,1,2,0
+Cigna,109,97110,Physical Therapy,108.93,119,0,0,1,2,0
+Medicaid,18,97110,Physical Therapy,138.74,9,1,0,1,1,0
+UnitedHealthcare,50,99214,Primary Care,217.29,123,1,0,1,1,0
+BCBS,29,97110,Physical Therapy,101.95,27,0,0,1,2,0
+BCBS,4,27447,Orthopedics,28106.33,117,0,1,1,2,1
+BCBS,97,70553,Radiology,2991.23,9,1,1,1,1,1
+Humana,96,70553,Radiology,2973.44,91,0,1,1,1,0
+Medicare,252,64483,Pain Management,2714.48,4,1,0,1,1,0
+Cigna,197,29881,Orthopedics,5207.4,51,0,1,1,1,1
+BCBS,11,72148,Radiology,1675.93,41,1,0,0,2,0
+UnitedHealthcare,151,70553,Radiology,2519.47,17,1,0,0,1,0
+Aetna,16,70553,Radiology,3329.67,2,1,1,1,1,1
+Aetna,97,93306,Cardiology,1143.83,10,1,0,1,2,0
+Medicare,18,90837,Behavioral Health,233.55,180,1,1,1,1,0
+UnitedHealthcare,197,93306,Cardiology,947.82,38,0,0,1,1,0
+Medicaid,197,64483,Pain Management,2741.76,2,1,0,0,2,0
+Aetna,16,45378,Gastroenterology,3189.11,22,1,1,1,1,1
+Medicare,197,97110,Physical Therapy,101.14,19,1,1,1,1,1
+Cigna,11,99214,Primary Care,208.56,44,1,0,1,1,1
+Cigna,16,72148,Radiology,1611.97,99,0,0,1,1,0
+Humana,16,90837,Behavioral Health,193.21,136,1,0,1,2,0
+Humana,197,27447,Orthopedics,28986.09,4,1,0,0,1,0
+Cigna,151,45378,Gastroenterology,2367.91,29,1,0,0,1,1
+Medicare,18,93306,Cardiology,1141.08,23,0,1,1,1,0
+Medicaid,50,64483,Pain Management,2931.48,64,1,1,1,1,1
+UnitedHealthcare,16,93306,Cardiology,1105.88,21,1,1,1,1,1
+Humana,16,64483,Pain Management,2858.59,2,1,0,1,1,1
+UnitedHealthcare,97,70553,Radiology,2827.03,13,0,1,1,1,1
+BCBS,96,45378,Gastroenterology,2451.76,4,1,0,1,1,0
+UnitedHealthcare,151,64483,Pain Management,3649.66,11,0,0,1,2,0
+Aetna,96,99214,Primary Care,221.22,48,1,0,0,1,1
+UnitedHealthcare,16,90837,Behavioral Health,221.93,30,1,0,0,1,1
+Cigna,11,27447,Orthopedics,34858.32,42,1,0,1,1,0
+BCBS,96,72148,Radiology,1646.68,11,0,0,0,2,0
+Medicaid,97,90837,Behavioral Health,207.93,14,1,0,1,2,1
+Humana,151,97110,Physical Therapy,116.98,80,1,1,1,2,0
+Cigna,97,99214,Primary Care,222.21,20,1,0,1,1,1
+BCBS,11,93306,Cardiology,878.27,36,1,0,1,1,1
+Aetna,11,45378,Gastroenterology,2831.29,1,0,0,1,1,1
+Medicaid,4,64483,Pain Management,2671.43,31,1,0,1,1,1
+Medicare,252,45378,Gastroenterology,2859.11,101,0,0,1,2,1
+Medicare,109,93306,Cardiology,1043.7,110,0,0,1,2,0
+Medicare,16,70553,Radiology,2523.3,4,0,0,1,1,1
+Medicare,29,90837,Behavioral Health,208.49,1,0,0,1,1,1
+Aetna,50,90837,Behavioral Health,230.43,28,1,1,1,1,1
+BCBS,197,72148,Radiology,1534.45,28,1,0,0,1,1
+Aetna,50,99214,Primary Care,278.54,76,0,0,1,1,1
+Medicare,197,93306,Cardiology,944.47,127,1,0,1,1,0
+Medicare,18,64483,Pain Management,3472.44,36,1,0,0,2,0
+Humana,252,93306,Cardiology,1046.01,1,1,0,1,1,1
+Medicaid,252,70553,Radiology,3035.16,16,1,0,1,2,1
+Humana,18,70553,Radiology,3443.72,39,1,0,1,1,0
+UnitedHealthcare,50,45378,Gastroenterology,2980.67,48,0,1,0,1,0
+Medicare,109,27447,Orthopedics,37899.09,58,0,1,1,2,1
+Humana,18,64483,Pain Management,3660.17,6,1,0,0,1,0
+Aetna,50,29881,Orthopedics,7039.05,1,0,0,1,1,1
+UnitedHealthcare,197,93306,Cardiology,996.38,1,0,0,1,2,1
+Medicaid,4,93306,Cardiology,873.81,1,0,0,1,2,1
+Humana,252,45378,Gastroenterology,3275.65,5,1,0,1,1,0
+Humana,151,29881,Orthopedics,5295.65,78,0,1,1,1,1
+Medicaid,97,72148,Radiology,1337.67,4,1,0,1,2,1
+UnitedHealthcare,4,97110,Physical Therapy,97.87,55,1,0,1,1,1
+Medicare,197,90837,Behavioral Health,177.8,20,1,0,1,1,0
+Aetna,197,93306,Cardiology,948.09,13,1,0,1,1,0
+Cigna,18,64483,Pain Management,3251.91,3,1,1,1,1,0
+Medicaid,109,29881,Orthopedics,6227.66,8,1,0,1,2,0
+Aetna,252,27447,Orthopedics,33536.97,53,0,0,1,1,0
+BCBS,151,70553,Radiology,3438.68,5,0,0,0,1,0
+Cigna,50,27447,Orthopedics,35863.83,18,0,1,1,1,0
+Aetna,109,99214,Primary Care,258.42,180,1,1,1,1,0
+Medicare,18,64483,Pain Management,2933.31,4,1,0,1,1,0
+Medicare,197,29881,Orthopedics,5554.85,39,1,0,1,1,0
+BCBS,109,72148,Radiology,1727.99,33,1,1,1,1,1
+BCBS,97,27447,Orthopedics,30646.77,3,0,1,1,1,0
+Medicaid,96,93306,Cardiology,925.7,6,1,0,1,1,0
+Cigna,109,45378,Gastroenterology,2690.25,10,1,1,1,1,0
+Medicaid,29,29881,Orthopedics,6437.68,42,1,0,1,2,0
+Humana,16,45378,Gastroenterology,2622.25,38,1,1,1,1,1
+Cigna,29,90837,Behavioral Health,187.51,48,1,0,1,2,0
+Aetna,197,72148,Radiology,1493.68,55,0,0,1,1,0
+Medicaid,197,27447,Orthopedics,33047.27,9,0,0,0,1,0
+Medicaid,109,29881,Orthopedics,6538.38,23,0,0,1,1,0
+UnitedHealthcare,109,93306,Cardiology,940.08,1,1,0,1,1,0
+UnitedHealthcare,151,99214,Primary Care,225.73,57,1,0,1,2,0
+Medicare,252,27447,Orthopedics,29810.68,42,0,0,1,1,1
+Aetna,29,93306,Cardiology,894.51,28,0,1,1,1,0
+UnitedHealthcare,96,64483,Pain Management,2790.1,34,1,1,1,2,0
+Humana,97,29881,Orthopedics,6139.38,15,1,0,1,1,0
+Aetna,11,97110,Physical Therapy,127.47,10,1,0,1,1,1
+Humana,197,90837,Behavioral Health,183.76,49,1,1,1,1,1
+Medicaid,4,99214,Primary Care,246.66,6,1,1,1,1,1
+Medicaid,11,45378,Gastroenterology,2221.97,27,1,1,1,2,1
+Medicaid,18,97110,Physical Therapy,122.76,4,0,1,1,1,0
+Aetna,96,93306,Cardiology,1149.91,19,0,0,1,1,0
+UnitedHealthcare,50,90837,Behavioral Health,182.92,9,1,0,1,1,1
+Aetna,109,70553,Radiology,2466.64,29,1,0,1,1,0
+Humana,197,93306,Cardiology,991.06,12,1,1,0,1,1
+UnitedHealthcare,97,90837,Behavioral Health,202.72,117,1,0,1,2,1
+Medicaid,151,72148,Radiology,1395.02,5,0,1,1,1,0
+Cigna,97,99214,Primary Care,219.44,24,0,0,0,1,0
+UnitedHealthcare,96,29881,Orthopedics,5001.14,15,1,1,1,1,0
+Medicare,109,97110,Physical Therapy,130.2,14,0,1,1,1,0
+Aetna,4,45378,Gastroenterology,2811.14,9,1,0,1,1,1
+Medicaid,96,27447,Orthopedics,32801.13,6,0,1,1,1,0
+Humana,197,72148,Radiology,1234.81,22,1,0,1,1,0
+Aetna,151,90837,Behavioral Health,169.42,51,1,0,1,1,1
+UnitedHealthcare,50,72148,Radiology,1704.62,13,1,1,1,2,1
+Medicaid,109,90837,Behavioral Health,205.32,4,1,0,1,1,1
+Medicare,109,90837,Behavioral Health,244.86,137,1,1,1,1,0
+UnitedHealthcare,151,99214,Primary Care,264.2,1,1,0,1,2,0
+Cigna,18,97110,Physical Therapy,121.44,15,1,0,1,1,0
+Medicaid,29,70553,Radiology,2341.95,11,0,1,1,2,1
+Humana,29,97110,Physical Therapy,102.48,14,0,0,1,1,0
+Cigna,4,93306,Cardiology,1058.87,9,0,0,1,2,1
+BCBS,4,93306,Cardiology,942.29,25,1,0,0,1,0
+Cigna,96,97110,Physical Therapy,112.4,12,1,0,1,1,0
+Humana,96,97110,Physical Therapy,100.88,41,0,0,1,1,0
+UnitedHealthcare,16,99214,Primary Care,276.64,31,1,1,1,1,1
+Medicaid,109,72148,Radiology,1564.9,86,0,1,1,1,0
+Medicaid,151,64483,Pain Management,2718.95,26,1,0,1,2,1
+BCBS,16,45378,Gastroenterology,3060.6,32,0,0,0,2,1
+Cigna,97,70553,Radiology,2420.62,167,1,0,1,1,0
+UnitedHealthcare,97,29881,Orthopedics,7106.63,129,1,1,1,2,0
+BCBS,96,29881,Orthopedics,6332.96,51,0,0,1,2,1
+Medicaid,29,29881,Orthopedics,5023.66,2,1,1,1,2,1
+Medicare,197,29881,Orthopedics,6305.46,13,1,0,1,1,1
+Humana,4,45378,Gastroenterology,2807.32,20,0,1,1,2,1
+Humana,96,70553,Radiology,3326.59,33,0,1,1,2,1
+Aetna,16,29881,Orthopedics,6710.39,63,0,0,1,1,1
+Medicare,29,29881,Orthopedics,7251.43,24,0,1,1,1,1
+Aetna,29,45378,Gastroenterology,2982.35,30,0,0,1,1,1
+Medicare,97,99214,Primary Care,263.99,42,1,1,0,1,0
+BCBS,4,27447,Orthopedics,32289.28,5,1,0,0,1,1
+Aetna,11,97110,Physical Therapy,94.9,10,0,1,1,2,1
+Medicaid,96,70553,Radiology,2781.65,26,1,0,1,1,0
+Cigna,50,64483,Pain Management,3573.14,46,1,0,1,1,0
+Medicare,50,90837,Behavioral Health,214.36,31,1,0,1,1,1
+BCBS,16,99214,Primary Care,204.67,20,1,0,1,1,1
+BCBS,96,70553,Radiology,2677.75,36,1,0,0,1,1
+Medicare,29,29881,Orthopedics,6304.8,100,0,1,1,1,0
+Cigna,197,93306,Cardiology,806.15,30,1,0,1,1,0
+UnitedHealthcare,109,90837,Behavioral Health,206.16,77,1,1,0,1,0
+Aetna,96,90837,Behavioral Health,240.9,10,1,0,1,1,0
+Medicaid,16,45378,Gastroenterology,2563.29,50,0,1,1,1,0
+BCBS,16,27447,Orthopedics,37944.01,15,1,0,1,1,1
+Aetna,96,99214,Primary Care,288.73,12,0,0,1,2,0
+Cigna,151,72148,Radiology,1360.85,1,1,1,1,1,1
+Cigna,151,99214,Primary Care,248.17,11,1,0,1,2,0
+Medicaid,18,97110,Physical Therapy,140.17,104,1,1,1,2,0
+Humana,197,27447,Orthopedics,32741.39,68,1,0,1,2,0
+Cigna,18,29881,Orthopedics,5972.55,75,1,1,1,2,0
+Medicaid,151,29881,Orthopedics,6732.12,166,1,0,1,1,0
+Humana,11,99214,Primary Care,292.1,9,1,0,1,1,1
+BCBS,29,29881,Orthopedics,6932.15,25,1,0,1,1,0
+BCBS,16,27447,Orthopedics,37118.72,4,0,0,1,1,0
+BCBS,18,29881,Orthopedics,6471.27,22,1,0,1,2,0
+UnitedHealthcare,96,45378,Gastroenterology,2609.71,36,0,1,1,2,0
+Medicare,96,29881,Orthopedics,5464.32,16,0,1,1,1,0
+Medicare,252,90837,Behavioral Health,168.13,2,1,0,1,1,0
+Cigna,197,97110,Physical Therapy,111.29,38,1,1,1,1,1
+Medicare,29,27447,Orthopedics,26176.74,43,1,0,0,1,0
+BCBS,109,45378,Gastroenterology,3289.57,100,0,0,1,1,1
+Medicare,252,90837,Behavioral Health,194.27,12,0,0,1,1,0
+Medicaid,18,72148,Radiology,1464.07,77,0,0,1,1,0
+Aetna,97,64483,Pain Management,2595.14,73,0,0,1,2,1
+BCBS,96,70553,Radiology,2993.96,173,0,0,0,1,0
+UnitedHealthcare,11,45378,Gastroenterology,3297.6,19,0,1,1,1,1
+Medicaid,50,97110,Physical Therapy,110.29,21,0,0,0,1,0
+BCBS,109,70553,Radiology,2586.38,107,1,1,1,1,1
+Humana,109,72148,Radiology,1279.43,51,0,0,1,1,0
+Cigna,97,29881,Orthopedics,6552.17,16,1,0,1,2,1
+BCBS,11,93306,Cardiology,1140.57,34,0,0,1,1,1
+Medicaid,96,29881,Orthopedics,5142.32,180,0,0,1,1,0
+BCBS,11,72148,Radiology,1632.37,46,0,1,1,1,1
+Medicaid,96,93306,Cardiology,1073.4,27,1,1,0,1,0
+Humana,16,90837,Behavioral Health,215.15,4,1,0,1,1,1
+Humana,197,99214,Primary Care,260.47,8,0,0,1,2,1
+Medicaid,151,64483,Pain Management,2825.05,8,1,1,1,1,1
+Medicaid,197,27447,Orthopedics,27784.42,5,1,0,1,1,1
+UnitedHealthcare,96,97110,Physical Therapy,105.81,6,1,0,0,1,1
+Aetna,11,70553,Radiology,3397.89,1,0,0,0,2,0
+Humana,197,45378,Gastroenterology,2611.58,52,0,0,0,1,1
+Humana,252,72148,Radiology,1722.96,57,1,0,1,1,1
+Medicaid,18,64483,Pain Management,2992.06,12,1,0,1,1,0
+Medicare,18,72148,Radiology,1419.29,17,1,0,1,1,1
+BCBS,4,90837,Behavioral Health,249.51,26,1,1,1,1,1
+Cigna,16,93306,Cardiology,842.91,60,1,0,1,2,0
+BCBS,11,45378,Gastroenterology,2623.9,134,1,0,0,1,1
+Cigna,11,72148,Radiology,1577.8,6,0,0,0,1,1
+Cigna,96,97110,Physical Therapy,107.41,89,1,1,1,2,1
+BCBS,11,99214,Primary Care,293.08,28,0,1,1,2,1
+BCBS,16,45378,Gastroenterology,2483.59,6,1,1,1,2,1
+UnitedHealthcare,151,97110,Physical Therapy,117.07,25,1,1,0,1,0
+Humana,97,72148,Radiology,1305.1,40,0,0,1,2,0
+BCBS,4,72148,Radiology,1241.72,50,1,1,1,2,1
+Cigna,197,90837,Behavioral Health,181.12,60,0,1,1,2,1
+UnitedHealthcare,18,99214,Primary Care,226.77,15,1,1,1,2,0
+Medicaid,16,99214,Primary Care,237.51,103,1,0,1,1,1
+Medicaid,16,64483,Pain Management,3676.42,29,1,0,1,1,1
+Aetna,29,45378,Gastroenterology,2960.49,5,1,1,1,1,0
+Medicaid,29,45378,Gastroenterology,2336.83,62,0,0,0,1,1
+UnitedHealthcare,151,70553,Radiology,3211.18,46,0,1,1,1,1
+Aetna,16,45378,Gastroenterology,3186.4,33,0,1,1,1,1
+UnitedHealthcare,11,72148,Radiology,1206.11,4,1,0,1,1,0
+UnitedHealthcare,151,99214,Primary Care,251.42,77,1,0,1,2,0
+Humana,29,90837,Behavioral Health,169.05,6,0,1,1,1,0
+Aetna,252,93306,Cardiology,828.86,5,1,0,1,2,1
+Medicare,97,45378,Gastroenterology,2472.8,2,0,1,0,1,1
+Cigna,18,93306,Cardiology,846.8,18,0,0,1,1,1
+Medicare,252,70553,Radiology,2887.22,26,0,0,1,1,1
+BCBS,50,64483,Pain Management,2482.67,17,1,0,1,1,1
+Cigna,50,64483,Pain Management,3219.99,42,1,1,1,2,1
+Cigna,50,99214,Primary Care,262.5,3,0,1,1,2,0
+BCBS,97,64483,Pain Management,2903.36,6,0,0,1,1,0
+BCBS,151,99214,Primary Care,255.61,15,0,0,0,1,1
+Medicaid,4,99214,Primary Care,203.4,81,1,0,1,1,1
+Medicaid,4,27447,Orthopedics,34730.72,6,1,1,1,1,0
+UnitedHealthcare,96,29881,Orthopedics,5351.47,26,0,1,1,2,0
+Cigna,252,99214,Primary Care,204.41,26,0,0,1,1,1
+Humana,96,29881,Orthopedics,5142.09,25,0,1,1,2,0
+BCBS,18,29881,Orthopedics,5912.38,32,1,0,1,2,1
+Cigna,11,90837,Behavioral Health,235.6,42,0,0,1,2,1
+Cigna,11,72148,Radiology,1398.2,17,1,0,1,1,1
+Aetna,29,29881,Orthopedics,6285.99,27,1,1,1,1,0
+Cigna,109,93306,Cardiology,1020.68,9,1,1,1,1,0
+Medicare,50,70553,Radiology,3312.92,2,0,0,1,1,0
+Medicaid,96,45378,Gastroenterology,3184.73,15,1,0,1,1,0
+Humana,29,90837,Behavioral Health,251.75,1,0,1,1,1,0
+Medicaid,4,45378,Gastroenterology,3108.66,62,0,0,1,2,1
+Medicaid,4,45378,Gastroenterology,2275.93,26,0,1,1,1,1
+Cigna,18,99214,Primary Care,252.69,7,0,0,1,1,0
+Cigna,96,27447,Orthopedics,34222.61,180,1,0,1,1,0
+UnitedHealthcare,197,72148,Radiology,1726.81,31,0,0,1,1,0
+Aetna,97,27447,Orthopedics,27861.77,5,1,0,1,1,0
+UnitedHealthcare,29,93306,Cardiology,1144.07,9,1,1,0,1,0
+Humana,151,45378,Gastroenterology,2990.36,42,1,1,1,1,1
+Medicare,4,45378,Gastroenterology,2457.21,73,0,0,1,1,1
+Medicare,16,90837,Behavioral Health,204.01,37,0,0,1,1,0
+Aetna,29,99214,Primary Care,204.66,59,0,0,1,1,1
+Humana,252,97110,Physical Therapy,139.53,131,0,0,1,1,1
+Medicaid,29,93306,Cardiology,1025.39,38,1,0,1,1,0
+Humana,151,93306,Cardiology,1108.32,42,1,1,1,1,0
+Aetna,50,29881,Orthopedics,6167.04,29,0,1,1,1,0
+Humana,50,99214,Primary Care,292.09,31,1,0,1,2,0
+BCBS,50,27447,Orthopedics,32451.51,19,0,0,1,2,0
+Aetna,151,27447,Orthopedics,33927.3,31,1,0,0,1,0
+UnitedHealthcare,4,70553,Radiology,2450.64,32,1,1,1,2,1
+Aetna,18,97110,Physical Therapy,100.16,63,0,0,1,1,0
+Humana,18,99214,Primary Care,265.75,120,1,0,1,2,0
+BCBS,97,72148,Radiology,1721.91,119,1,0,1,2,0
+BCBS,18,93306,Cardiology,1095.87,42,1,0,1,1,0
+Aetna,16,70553,Radiology,2581.03,5,0,0,1,1,1
+Humana,109,99214,Primary Care,248.88,24,1,0,1,1,1
+Cigna,29,99214,Primary Care,255.81,29,0,0,1,1,0
+BCBS,11,29881,Orthopedics,7088.56,8,1,0,1,1,1
+BCBS,197,97110,Physical Therapy,135.8,22,1,0,1,2,1
+Cigna,29,27447,Orthopedics,29115.07,7,0,1,1,2,0
+Cigna,96,29881,Orthopedics,6607.0,8,0,0,1,1,0
+Medicare,50,70553,Radiology,2422.92,31,1,0,1,2,1
+Medicare,109,29881,Orthopedics,5115.12,21,1,0,0,1,0
+Cigna,96,99214,Primary Care,256.63,18,1,0,1,1,1
+Medicare,109,45378,Gastroenterology,3204.09,32,0,1,1,1,1
+Medicaid,11,93306,Cardiology,786.75,5,1,1,1,1,0
+UnitedHealthcare,16,90837,Behavioral Health,245.06,90,0,0,1,1,1
+Cigna,11,70553,Radiology,2348.11,2,1,0,1,1,0
+BCBS,109,70553,Radiology,3156.94,35,1,1,1,1,0
+Cigna,96,99214,Primary Care,228.24,25,1,0,1,1,1
+UnitedHealthcare,11,97110,Physical Therapy,116.41,38,0,1,0,1,1
+Medicare,109,99214,Primary Care,264.91,129,1,0,1,1,0
+Cigna,4,93306,Cardiology,1062.87,78,0,1,1,1,0
+UnitedHealthcare,252,90837,Behavioral Health,201.14,116,0,0,1,1,0
+Humana,96,27447,Orthopedics,28184.38,12,0,0,1,1,0
+UnitedHealthcare,151,27447,Orthopedics,25533.25,23,0,1,1,1,1
+Medicaid,151,64483,Pain Management,3556.46,11,0,0,1,2,0
+Aetna,252,99214,Primary Care,204.57,51,1,1,1,1,0
+Cigna,109,27447,Orthopedics,36915.99,51,1,1,1,2,0
+Medicaid,29,90837,Behavioral Health,215.3,5,1,0,1,1,0
+Cigna,4,45378,Gastroenterology,3027.23,34,1,0,1,1,1
+Medicare,97,64483,Pain Management,3537.96,142,0,0,1,1,0
+Cigna,16,70553,Radiology,2748.12,51,1,0,1,2,1
+Cigna,197,90837,Behavioral Health,179.03,66,0,0,1,2,1
+UnitedHealthcare,11,45378,Gastroenterology,2218.08,75,1,1,1,1,0
+Humana,11,72148,Radiology,1508.38,73,0,0,1,1,0
+Aetna,151,70553,Radiology,3253.14,74,0,1,1,1,1
+UnitedHealthcare,29,29881,Orthopedics,7229.88,56,1,1,1,1,0
+UnitedHealthcare,18,64483,Pain Management,3560.4,39,0,0,1,2,0
+UnitedHealthcare,96,70553,Radiology,3011.48,54,0,1,1,2,0
+UnitedHealthcare,109,97110,Physical Therapy,119.34,48,0,1,0,2,0
+Humana,50,72148,Radiology,1614.79,45,1,1,1,1,0
+Cigna,109,45378,Gastroenterology,2788.7,27,1,0,1,2,0
+Medicaid,16,45378,Gastroenterology,2963.87,25,0,0,1,2,1
+UnitedHealthcare,29,45378,Gastroenterology,2354.0,2,1,0,1,1,0
+BCBS,252,97110,Physical Therapy,106.06,46,1,1,1,2,1
+BCBS,109,29881,Orthopedics,4964.12,87,1,1,1,2,0
+UnitedHealthcare,109,70553,Radiology,3006.45,3,0,0,1,1,1
+Medicare,96,99214,Primary Care,216.8,76,1,0,1,1,1
+UnitedHealthcare,252,99214,Primary Care,233.36,65,1,0,1,2,1
+UnitedHealthcare,109,27447,Orthopedics,34807.69,140,1,0,1,1,0
+Medicare,4,72148,Radiology,1503.08,52,1,0,0,1,1
+Aetna,18,29881,Orthopedics,7039.32,91,1,0,1,2,0
+BCBS,96,90837,Behavioral Health,248.95,8,1,1,1,1,1
+BCBS,252,97110,Physical Therapy,134.31,5,1,0,1,1,1
+Humana,109,90837,Behavioral Health,222.86,16,1,0,1,2,0
+UnitedHealthcare,151,29881,Orthopedics,6400.26,36,1,1,1,1,0
+BCBS,97,93306,Cardiology,1035.12,96,1,0,1,1,1
+Aetna,252,99214,Primary Care,284.04,35,0,0,1,1,1
+UnitedHealthcare,4,97110,Physical Therapy,135.62,6,1,0,1,1,1
+Aetna,50,99214,Primary Care,208.95,66,1,1,1,1,1
+UnitedHealthcare,16,97110,Physical Therapy,113.51,3,1,0,0,1,1
+Medicaid,50,64483,Pain Management,2618.94,31,1,0,1,1,1
+Cigna,197,27447,Orthopedics,32466.31,2,1,0,1,1,0
+Medicare,197,72148,Radiology,1381.12,49,1,0,1,1,1
+Medicare,29,99214,Primary Care,198.04,83,1,0,0,1,0
+Aetna,50,97110,Physical Therapy,131.26,41,0,1,1,1,0
+BCBS,252,29881,Orthopedics,7399.01,17,1,1,1,2,0
+Aetna,151,97110,Physical Therapy,97.92,13,1,0,1,2,0
+Medicaid,109,90837,Behavioral Health,209.38,1,0,1,0,1,0
+Medicaid,4,27447,Orthopedics,29983.82,126,0,0,1,1,0
+Cigna,18,64483,Pain Management,3253.19,47,1,1,1,1,0
+Medicaid,4,64483,Pain Management,2928.86,68,1,0,1,1,1
+Medicare,96,70553,Radiology,2441.62,56,1,0,1,1,0
+Medicaid,4,97110,Physical Therapy,131.9,27,1,0,1,1,1
+Aetna,18,90837,Behavioral Health,221.47,36,0,0,1,1,0
+BCBS,50,97110,Physical Therapy,107.29,18,1,0,1,1,1
+Aetna,29,97110,Physical Therapy,98.55,45,1,1,1,2,0
+UnitedHealthcare,197,29881,Orthopedics,5262.38,11,0,0,1,1,1
+Aetna,18,29881,Orthopedics,7385.54,9,1,1,1,1,0
+Medicare,29,72148,Radiology,1188.93,26,1,0,1,2,0
+Humana,11,70553,Radiology,2892.55,180,0,1,1,1,1
+Humana,109,70553,Radiology,2596.11,2,1,1,1,1,0
+Humana,50,99214,Primary Care,221.97,12,0,0,1,2,0
+Cigna,29,72148,Radiology,1672.95,14,0,1,1,1,0
+BCBS,29,99214,Primary Care,266.47,15,0,0,1,2,0
+UnitedHealthcare,96,27447,Orthopedics,32053.92,4,0,0,0,1,0
+Aetna,18,29881,Orthopedics,5280.57,1,0,0,1,1,0
+BCBS,16,27447,Orthopedics,31904.05,30,0,0,0,1,0
+UnitedHealthcare,16,99214,Primary Care,227.32,101,0,0,1,1,1
+Medicare,96,70553,Radiology,2358.29,78,0,0,1,1,0
+Cigna,50,29881,Orthopedics,6264.87,26,0,1,1,1,0
+Aetna,96,29881,Orthopedics,5982.69,1,1,0,1,2,0
+Cigna,18,72148,Radiology,1200.14,46,0,1,1,1,0
+Medicaid,4,93306,Cardiology,1028.12,3,0,0,1,2,1
+UnitedHealthcare,50,90837,Behavioral Health,222.61,1,0,0,1,1,0
+Cigna,252,72148,Radiology,1330.23,19,0,0,1,1,1
+BCBS,4,29881,Orthopedics,5866.51,19,1,0,1,1,1
+Cigna,197,90837,Behavioral Health,179.24,22,1,0,0,2,0
+UnitedHealthcare,252,90837,Behavioral Health,219.28,86,0,1,1,2,1
+Cigna,151,72148,Radiology,1222.38,14,0,1,1,1,0
+Cigna,97,70553,Radiology,2701.61,66,0,0,1,2,0
+UnitedHealthcare,109,90837,Behavioral Health,186.54,3,1,0,1,1,1
+Medicare,4,27447,Orthopedics,37635.88,7,1,1,1,1,1
+Cigna,109,72148,Radiology,1550.4,44,1,1,1,2,0
+UnitedHealthcare,96,64483,Pain Management,3093.04,25,1,0,1,1,0
+Aetna,197,99214,Primary Care,233.36,17,1,0,1,1,0
+Medicaid,16,70553,Radiology,2568.37,17,1,1,1,1,1
+Humana,11,90837,Behavioral Health,206.84,147,0,0,1,1,1
+Medicaid,109,29881,Orthopedics,5550.95,1,0,0,1,1,0
+Humana,18,99214,Primary Care,223.47,1,0,0,1,2,0
+BCBS,197,64483,Pain Management,2964.17,51,0,0,1,1,0
+UnitedHealthcare,50,99214,Primary Care,273.48,32,0,1,1,2,1
+Medicaid,18,97110,Physical Therapy,130.46,5,1,0,1,1,0
+UnitedHealthcare,97,72148,Radiology,1474.24,15,1,0,1,1,0
+UnitedHealthcare,197,72148,Radiology,1499.65,3,0,0,1,1,0
+BCBS,151,45378,Gastroenterology,3198.01,90,0,1,1,1,0
+BCBS,4,97110,Physical Therapy,109.06,11,1,1,1,1,1
+Aetna,29,45378,Gastroenterology,2589.18,44,1,1,1,1,1
+Cigna,50,45378,Gastroenterology,2272.08,103,0,1,1,1,0
+BCBS,252,70553,Radiology,2686.11,28,0,0,0,2,0
+Medicare,151,27447,Orthopedics,37701.73,16,1,0,1,1,0
+Aetna,97,70553,Radiology,3011.52,11,0,0,1,1,0
+UnitedHealthcare,18,27447,Orthopedics,29295.27,15,0,0,1,1,0
+Aetna,18,64483,Pain Management,3134.37,57,0,0,1,1,0
+Medicaid,197,90837,Behavioral Health,230.51,12,1,0,1,2,1
+Humana,16,99214,Primary Care,207.52,4,0,0,1,1,0
+Cigna,151,97110,Physical Therapy,119.72,35,1,0,1,2,1
+Medicaid,151,72148,Radiology,1293.45,8,0,1,1,1,1
+Humana,11,70553,Radiology,2384.84,16,1,0,1,1,1
+Cigna,18,90837,Behavioral Health,210.53,78,0,0,1,1,0
+BCBS,4,29881,Orthopedics,5245.99,28,0,0,0,2,1
+Humana,4,27447,Orthopedics,36978.02,90,0,0,1,2,0
+Aetna,97,72148,Radiology,1308.1,28,0,1,1,1,1
+Cigna,109,93306,Cardiology,898.05,118,1,0,1,1,0
+Medicare,16,29881,Orthopedics,6436.52,13,0,0,0,1,1
+Aetna,109,90837,Behavioral Health,223.03,1,0,0,1,1,1
+Medicaid,96,99214,Primary Care,226.84,19,1,0,0,1,1
+Humana,29,45378,Gastroenterology,2250.61,141,1,1,1,2,0
+UnitedHealthcare,97,27447,Orthopedics,37473.75,43,1,1,1,1,0
+BCBS,96,72148,Radiology,1336.25,89,0,0,0,2,0
+Medicaid,96,72148,Radiology,1694.85,1,1,1,0,1,0
+BCBS,16,27447,Orthopedics,32258.87,169,0,0,1,2,1
+Medicare,16,45378,Gastroenterology,2416.02,56,0,1,0,2,0
+Medicare,18,27447,Orthopedics,37375.86,47,1,0,1,1,0
+UnitedHealthcare,18,27447,Orthopedics,31474.69,4,0,1,0,1,0
+Humana,252,27447,Orthopedics,30409.31,57,0,0,0,1,0
+Medicaid,197,72148,Radiology,1501.85,29,0,0,0,1,0
+Aetna,18,64483,Pain Management,2580.77,70,0,1,1,1,0
+Medicaid,96,27447,Orthopedics,31874.99,75,0,0,1,1,0
+Humana,50,72148,Radiology,1600.19,12,1,0,1,1,1
+Medicare,197,45378,Gastroenterology,3060.5,47,1,0,0,1,0
+Cigna,50,70553,Radiology,2855.13,30,0,1,1,1,0
+BCBS,109,64483,Pain Management,3551.67,57,0,0,1,1,1
+Medicare,97,45378,Gastroenterology,2941.49,78,1,0,1,1,1
+Humana,29,93306,Cardiology,1099.59,21,0,1,1,1,1
+Medicaid,151,70553,Radiology,2883.48,41,0,0,0,1,0
+Humana,4,45378,Gastroenterology,2349.06,36,1,0,0,2,1
+Medicaid,18,64483,Pain Management,2824.66,15,1,0,1,2,0
+Aetna,151,64483,Pain Management,3315.64,38,0,0,1,2,0
+UnitedHealthcare,97,29881,Orthopedics,6979.04,20,1,1,1,1,1
+Humana,50,93306,Cardiology,867.92,91,0,0,1,1,0
+UnitedHealthcare,109,64483,Pain Management,2806.23,49,1,1,0,1,0
+Humana,18,72148,Radiology,1371.35,8,0,1,0,1,0
+UnitedHealthcare,252,45378,Gastroenterology,3085.13,15,1,0,1,1,1
+Medicare,151,70553,Radiology,2596.41,14,1,0,1,1,0
+Cigna,109,90837,Behavioral Health,226.25,14,1,1,1,1,0
+Medicare,197,99214,Primary Care,229.62,7,0,0,1,2,1
+Medicaid,97,27447,Orthopedics,31865.72,32,1,0,1,1,1
+Humana,16,93306,Cardiology,987.09,54,0,0,1,2,1
+Aetna,11,93306,Cardiology,785.52,54,0,1,1,1,0
+Cigna,96,99214,Primary Care,239.6,87,0,0,1,1,0
+Aetna,252,72148,Radiology,1639.98,5,0,1,1,1,1
+Cigna,29,27447,Orthopedics,30653.86,18,1,0,0,1,0
+Cigna,109,29881,Orthopedics,6024.47,23,0,0,1,1,1
+Humana,11,99214,Primary Care,287.23,47,0,0,1,1,1
+BCBS,97,97110,Physical Therapy,119.28,15,0,0,1,2,0
+Cigna,197,72148,Radiology,1685.36,44,1,0,1,2,0
+Aetna,4,90837,Behavioral Health,201.62,11,0,0,1,2,1
+UnitedHealthcare,16,72148,Radiology,1418.17,25,0,1,0,1,1
+BCBS,109,72148,Radiology,1492.52,10,0,0,0,1,1
+BCBS,16,93306,Cardiology,875.23,71,0,1,0,1,1
+Medicaid,50,90837,Behavioral Health,221.11,37,1,0,1,1,1
+Humana,18,29881,Orthopedics,7203.92,3,1,1,1,1,0
+BCBS,96,45378,Gastroenterology,2363.94,75,1,0,1,1,0
+Aetna,96,45378,Gastroenterology,3159.91,8,0,0,1,1,0
+Aetna,18,29881,Orthopedics,6775.09,17,0,1,1,2,0
+BCBS,11,99214,Primary Care,215.62,51,0,0,1,1,1
+BCBS,96,72148,Radiology,1634.53,42,0,0,1,1,0
+Medicaid,252,27447,Orthopedics,26834.32,16,0,1,1,2,0
+UnitedHealthcare,96,90837,Behavioral Health,182.6,63,0,1,1,2,0
+Medicaid,197,97110,Physical Therapy,108.96,105,1,0,0,1,0
+Aetna,18,90837,Behavioral Health,211.99,113,0,0,1,2,0
+Aetna,11,64483,Pain Management,2991.2,17,0,0,1,2,1
+Medicaid,4,27447,Orthopedics,30760.89,23,0,1,1,2,1
+Aetna,96,45378,Gastroenterology,2346.81,17,1,0,1,1,1
+Cigna,29,90837,Behavioral Health,195.34,1,0,0,1,1,1
+Humana,4,27447,Orthopedics,25957.99,81,1,0,0,1,0
+Medicare,18,27447,Orthopedics,38047.7,55,1,0,1,1,0
+Medicare,151,27447,Orthopedics,32090.36,51,0,0,1,1,0
+Medicaid,96,72148,Radiology,1173.04,11,0,1,1,1,0
+Aetna,197,29881,Orthopedics,5533.56,40,1,0,1,1,0
+Cigna,252,97110,Physical Therapy,130.7,10,1,0,1,1,1
+Medicare,11,97110,Physical Therapy,123.41,19,0,0,1,1,1
+Humana,11,45378,Gastroenterology,2740.93,30,1,0,1,1,1
+Humana,197,97110,Physical Therapy,113.65,49,1,0,1,1,1
+Cigna,197,64483,Pain Management,3150.93,6,1,0,1,2,0
+UnitedHealthcare,11,72148,Radiology,1290.99,20,0,0,1,1,1
+Medicaid,252,29881,Orthopedics,5417.16,64,0,0,1,1,1
+BCBS,109,45378,Gastroenterology,2232.34,1,0,0,1,1,0
+UnitedHealthcare,29,97110,Physical Therapy,101.82,32,0,1,0,1,0
+Medicare,197,64483,Pain Management,2892.39,7,0,1,1,1,0
+Medicaid,4,93306,Cardiology,888.8,27,1,0,1,1,1
+UnitedHealthcare,97,72148,Radiology,1615.89,82,1,1,1,1,1
+BCBS,97,97110,Physical Therapy,124.99,21,1,0,1,2,0
+Cigna,50,70553,Radiology,2429.23,50,0,0,1,1,0
+Humana,29,64483,Pain Management,2623.14,82,0,0,1,1,0
+Humana,4,90837,Behavioral Health,177.21,104,1,0,0,1,0
+Medicaid,197,97110,Physical Therapy,118.2,22,0,0,1,1,0
+Medicaid,96,97110,Physical Therapy,136.09,21,1,1,1,1,0
+Humana,29,45378,Gastroenterology,2909.95,35,0,0,1,1,0
+Cigna,18,90837,Behavioral Health,193.25,8,0,0,1,1,0
+Medicare,252,72148,Radiology,1225.53,16,1,0,1,1,1
+Cigna,16,90837,Behavioral Health,175.63,94,1,0,0,1,0
+Cigna,16,29881,Orthopedics,6873.57,99,1,0,1,1,0
+Cigna,197,90837,Behavioral Health,190.69,18,0,1,1,2,1
+Aetna,96,70553,Radiology,3280.64,127,0,1,0,1,0
+Medicaid,97,93306,Cardiology,896.13,4,1,1,1,1,0
+Humana,29,72148,Radiology,1626.63,38,0,1,1,1,0
+Humana,50,90837,Behavioral Health,186.16,72,0,0,0,2,0
+UnitedHealthcare,16,97110,Physical Therapy,109.42,103,1,0,1,2,0
+Aetna,109,27447,Orthopedics,28140.02,107,1,0,1,1,0
+Medicare,29,45378,Gastroenterology,2948.26,44,1,0,1,1,1
+Aetna,96,29881,Orthopedics,5776.26,13,1,0,1,1,1
+Medicaid,18,27447,Orthopedics,33728.91,37,1,0,1,1,0
+BCBS,96,99214,Primary Care,252.15,4,0,0,1,1,1
+Medicaid,96,93306,Cardiology,838.44,19,0,0,1,1,0
+BCBS,252,72148,Radiology,1653.11,14,1,0,1,1,1
+Cigna,96,70553,Radiology,3039.53,89,1,1,0,1,0
+UnitedHealthcare,16,72148,Radiology,1579.5,66,0,0,1,1,1
+Medicare,29,90837,Behavioral Health,204.47,16,0,0,0,1,0
+Cigna,252,90837,Behavioral Health,251.72,76,0,1,0,1,1
+Cigna,97,29881,Orthopedics,6560.19,104,1,1,1,1,1
+Medicaid,252,97110,Physical Therapy,130.51,2,1,1,1,1,1
+Humana,96,45378,Gastroenterology,2976.68,23,1,1,1,2,1
+Cigna,16,93306,Cardiology,871.82,21,1,1,1,1,1
+Aetna,11,64483,Pain Management,2835.09,20,1,1,0,1,1
+UnitedHealthcare,50,70553,Radiology,3074.08,74,0,0,1,1,0
+UnitedHealthcare,151,45378,Gastroenterology,2274.4,80,0,1,1,2,1
+Aetna,252,97110,Physical Therapy,128.41,59,1,1,0,1,1
+Humana,96,90837,Behavioral Health,210.54,27,0,1,1,2,0
+UnitedHealthcare,109,97110,Physical Therapy,106.48,8,1,0,0,2,0
+BCBS,18,27447,Orthopedics,31956.74,18,0,1,0,1,0
+Medicaid,197,70553,Radiology,3227.11,107,0,1,1,2,0
+Aetna,151,27447,Orthopedics,28538.42,54,0,0,1,1,0
+Aetna,16,64483,Pain Management,3437.98,22,0,0,1,2,0
+Medicaid,18,70553,Radiology,3174.98,4,0,1,1,1,0
+Medicare,97,45378,Gastroenterology,2528.39,54,1,0,1,2,0
+BCBS,18,70553,Radiology,3464.55,79,1,0,1,1,0
+Humana,96,64483,Pain Management,2969.75,48,0,0,1,1,0
+Aetna,197,64483,Pain Management,2671.09,30,0,1,1,1,0
+Humana,197,29881,Orthopedics,5578.49,44,0,0,1,1,1
+BCBS,252,29881,Orthopedics,5213.01,72,0,0,0,1,0
+Humana,197,64483,Pain Management,3288.82,34,1,1,1,1,1
+BCBS,197,70553,Radiology,2787.79,143,0,0,1,1,0
+UnitedHealthcare,18,27447,Orthopedics,26786.76,25,1,0,1,1,0
+BCBS,16,97110,Physical Therapy,138.16,16,0,0,1,1,1
+Medicare,252,27447,Orthopedics,29627.51,18,0,0,1,1,1
+Aetna,4,27447,Orthopedics,33945.56,28,0,0,1,2,0
+Aetna,11,70553,Radiology,3437.73,30,1,0,1,1,1
+BCBS,197,72148,Radiology,1236.29,52,1,0,0,2,1
+Cigna,16,99214,Primary Care,206.61,46,1,0,1,1,1
+UnitedHealthcare,151,29881,Orthopedics,6710.82,19,1,1,1,1,1
+Cigna,11,93306,Cardiology,932.56,32,0,0,1,2,1
+Medicare,4,72148,Radiology,1163.79,40,1,0,1,1,1
+Cigna,29,45378,Gastroenterology,3198.65,1,0,1,1,1,0
+Aetna,11,97110,Physical Therapy,121.62,135,1,0,1,2,1
+BCBS,97,70553,Radiology,3348.28,66,1,0,1,1,1
+Humana,50,29881,Orthopedics,5667.07,7,1,0,1,1,1
+Cigna,96,45378,Gastroenterology,2428.06,22,0,0,1,2,0
+Cigna,50,97110,Physical Therapy,131.18,74,0,0,1,1,1
+BCBS,96,72148,Radiology,1459.52,19,1,0,1,1,0
+Aetna,16,97110,Physical Therapy,98.29,20,0,1,0,1,0
+Humana,197,70553,Radiology,2814.23,7,0,0,1,1,1
+Humana,11,72148,Radiology,1192.58,3,0,1,1,1,1
+Medicare,109,70553,Radiology,3151.02,12,1,0,1,1,0
+Cigna,252,29881,Orthopedics,7234.9,51,1,0,1,1,0
+Cigna,11,45378,Gastroenterology,2281.28,98,0,1,1,2,0
+UnitedHealthcare,151,97110,Physical Therapy,105.24,108,1,0,1,1,1
+Medicare,4,45378,Gastroenterology,2608.36,11,1,0,1,1,0
+Aetna,50,72148,Radiology,1240.14,9,1,0,0,2,1
+Medicare,109,99214,Primary Care,289.74,3,0,0,0,2,0
+Medicaid,96,27447,Orthopedics,36869.41,26,1,0,1,1,0
+Cigna,16,90837,Behavioral Health,206.56,39,0,0,1,1,1
+UnitedHealthcare,18,64483,Pain Management,2958.63,5,0,0,0,1,0
+Cigna,197,72148,Radiology,1738.95,38,1,0,1,1,0
+Aetna,96,27447,Orthopedics,27571.13,25,1,1,1,1,1
+Medicaid,197,64483,Pain Management,3211.45,5,0,1,1,1,1
+UnitedHealthcare,16,29881,Orthopedics,5499.39,7,0,1,1,1,1
+Aetna,109,99214,Primary Care,264.97,6,1,1,1,1,1
+Cigna,18,27447,Orthopedics,37544.89,19,1,0,1,1,0
+UnitedHealthcare,109,97110,Physical Therapy,106.89,49,0,0,1,1,1
+Humana,18,93306,Cardiology,1082.35,58,0,1,1,1,1
+Cigna,50,70553,Radiology,3417.7,117,1,0,1,2,0
+UnitedHealthcare,50,90837,Behavioral Health,187.46,18,1,1,1,1,1
+BCBS,16,45378,Gastroenterology,2412.38,21,1,0,1,1,1
+Medicaid,109,93306,Cardiology,948.92,82,0,0,1,1,0
+Aetna,109,70553,Radiology,3342.78,36,0,1,0,1,0
+UnitedHealthcare,29,29881,Orthopedics,7061.59,42,0,1,1,2,0
+Aetna,109,27447,Orthopedics,35484.38,57,1,1,1,1,0
+Medicaid,18,64483,Pain Management,2723.3,16,0,1,1,1,0
+UnitedHealthcare,16,93306,Cardiology,1150.75,105,0,0,1,1,0
+Medicare,96,90837,Behavioral Health,199.99,8,0,0,1,1,0
+Medicaid,50,97110,Physical Therapy,107.79,133,1,0,1,1,1
+Humana,18,45378,Gastroenterology,2353.88,70,0,0,1,1,0
+Cigna,50,27447,Orthopedics,29007.18,29,1,0,1,1,0
+UnitedHealthcare,197,90837,Behavioral Health,248.15,40,1,0,1,1,0
+Medicare,151,72148,Radiology,1176.16,9,0,1,1,1,0
+Aetna,18,27447,Orthopedics,37800.4,8,1,0,1,2,0
+UnitedHealthcare,252,93306,Cardiology,792.33,5,0,0,1,2,1
+Medicare,151,70553,Radiology,3151.84,65,1,0,1,1,0
+Medicare,97,45378,Gastroenterology,2433.58,23,0,1,1,1,0
+Medicare,16,99214,Primary Care,261.24,60,0,0,1,1,1
+Humana,16,99214,Primary Care,251.01,33,0,0,1,2,0
+UnitedHealthcare,50,90837,Behavioral Health,173.44,9,1,1,1,2,0
+Aetna,252,72148,Radiology,1173.64,77,1,1,1,1,1
+UnitedHealthcare,109,72148,Radiology,1263.52,38,1,1,1,1,0
+BCBS,109,29881,Orthopedics,6971.44,5,1,0,1,1,0
+BCBS,97,27447,Orthopedics,31168.19,73,0,0,1,2,0
+BCBS,4,29881,Orthopedics,7288.34,50,0,0,1,1,1
+BCBS,16,27447,Orthopedics,30602.24,54,0,0,1,1,0
+Medicaid,197,97110,Physical Therapy,108.62,2,0,1,1,1,0
+Medicaid,4,99214,Primary Care,265.08,37,1,0,1,2,1
+UnitedHealthcare,252,90837,Behavioral Health,172.64,74,1,1,1,1,0
+Cigna,97,97110,Physical Therapy,123.61,20,1,1,1,1,1
+Cigna,29,97110,Physical Therapy,104.17,108,0,1,1,1,0
+UnitedHealthcare,18,29881,Orthopedics,6238.07,20,1,0,1,1,0
+Medicaid,252,27447,Orthopedics,31968.89,8,0,0,1,1,0
+Aetna,50,70553,Radiology,2324.41,1,1,1,1,1,1
+Aetna,4,64483,Pain Management,3599.72,30,0,1,1,1,1
+Medicare,11,72148,Radiology,1362.67,14,0,0,0,1,1
+UnitedHealthcare,11,29881,Orthopedics,5579.23,11,1,0,1,2,1
+BCBS,18,90837,Behavioral Health,222.87,116,0,0,1,1,0
+Cigna,29,29881,Orthopedics,6081.72,45,1,0,1,1,0
+Medicaid,18,45378,Gastroenterology,3132.06,63,0,1,1,2,1
+Aetna,4,27447,Orthopedics,26086.88,19,1,1,1,2,0
+Medicare,29,64483,Pain Management,3464.14,4,0,0,1,1,0
+Medicaid,29,97110,Physical Therapy,106.17,87,1,0,1,1,0
+UnitedHealthcare,252,97110,Physical Therapy,105.05,21,1,0,1,1,1
+Cigna,4,72148,Radiology,1346.74,25,1,1,1,1,1
+BCBS,96,70553,Radiology,2692.32,2,1,1,1,1,1
+UnitedHealthcare,151,97110,Physical Therapy,98.73,26,0,0,1,1,1
+Cigna,29,93306,Cardiology,885.86,8,0,1,1,1,0
+UnitedHealthcare,4,29881,Orthopedics,7159.04,10,0,0,1,1,0
+Cigna,109,97110,Physical Therapy,126.98,19,1,0,1,1,0
+BCBS,252,93306,Cardiology,1096.34,36,1,0,0,2,1
+Cigna,96,97110,Physical Therapy,129.5,31,1,0,1,1,1
+Humana,11,45378,Gastroenterology,3073.16,65,1,0,1,1,0
+Cigna,97,27447,Orthopedics,36939.4,46,1,0,1,1,0
+Aetna,97,29881,Orthopedics,6990.28,12,0,1,1,1,0
+UnitedHealthcare,97,64483,Pain Management,2975.93,32,0,1,0,1,0
+UnitedHealthcare,151,93306,Cardiology,898.73,6,1,0,0,1,0
+Aetna,97,70553,Radiology,3232.57,178,0,0,1,2,0
+Aetna,97,45378,Gastroenterology,2216.54,42,0,0,1,1,1
+Medicaid,252,93306,Cardiology,896.85,45,0,0,1,1,0
+Medicaid,252,29881,Orthopedics,6898.28,125,1,0,1,1,1
+Medicare,97,29881,Orthopedics,7395.08,56,1,0,1,1,1
+Cigna,29,97110,Physical Therapy,138.85,99,0,0,1,1,1
+Humana,151,99214,Primary Care,287.42,8,0,1,1,2,0
+Medicare,11,27447,Orthopedics,38012.81,2,0,0,1,1,1
+Humana,4,90837,Behavioral Health,182.36,22,1,1,1,1,1
+Cigna,50,45378,Gastroenterology,3162.98,24,1,0,1,2,1
+Cigna,252,99214,Primary Care,268.26,4,0,1,1,1,1
+Humana,16,97110,Physical Therapy,109.45,1,0,0,1,1,0
+Humana,29,97110,Physical Therapy,127.41,78,0,1,1,2,0
+Humana,4,99214,Primary Care,207.59,5,1,0,1,1,1
+Medicaid,197,64483,Pain Management,3487.31,11,1,0,1,1,1
+BCBS,50,97110,Physical Therapy,127.82,32,0,0,1,1,1
+BCBS,151,93306,Cardiology,1115.41,18,0,0,1,1,0
+BCBS,252,72148,Radiology,1282.58,7,0,0,1,2,1
+UnitedHealthcare,4,97110,Physical Therapy,119.5,49,1,0,1,2,1
+Medicare,11,97110,Physical Therapy,123.62,25,1,0,1,2,0
+UnitedHealthcare,96,90837,Behavioral Health,171.98,40,1,0,1,1,0
+Medicaid,96,93306,Cardiology,890.68,24,1,0,1,1,0
+Humana,50,29881,Orthopedics,5502.12,24,1,0,1,1,0
+Medicare,11,45378,Gastroenterology,2879.25,84,0,1,0,1,0
+Medicaid,97,64483,Pain Management,3110.34,36,1,0,1,1,1
+Medicaid,50,99214,Primary Care,237.68,5,0,0,1,1,1
+Aetna,29,99214,Primary Care,215.72,27,1,0,1,1,0
+Medicaid,252,45378,Gastroenterology,2479.15,16,1,0,1,1,1
+Aetna,18,64483,Pain Management,3613.98,15,1,0,1,2,0
+Medicare,109,64483,Pain Management,2760.95,9,0,0,1,1,0
+Cigna,109,99214,Primary Care,221.6,87,1,0,1,2,1
+Humana,96,64483,Pain Management,3111.52,93,1,0,1,1,0
+UnitedHealthcare,11,45378,Gastroenterology,3001.17,8,1,0,0,2,1
+Aetna,16,97110,Physical Therapy,116.78,38,1,0,1,1,1
+BCBS,96,97110,Physical Therapy,119.18,7,0,0,1,1,0
+Aetna,97,72148,Radiology,1625.78,173,0,0,1,1,0
+Humana,16,70553,Radiology,2496.2,17,1,1,1,1,0
+Aetna,197,93306,Cardiology,895.74,20,1,0,1,1,0
+Humana,11,93306,Cardiology,1070.31,180,1,0,1,1,0
+UnitedHealthcare,97,70553,Radiology,2749.88,13,0,0,1,1,1
+Medicare,16,90837,Behavioral Health,173.84,92,0,1,0,1,1
+Aetna,18,27447,Orthopedics,28586.5,83,0,1,1,1,0
+BCBS,29,93306,Cardiology,965.11,36,1,0,1,1,1
+Cigna,97,72148,Radiology,1247.75,29,1,0,1,2,1
+Cigna,252,99214,Primary Care,285.37,40,1,1,1,1,0
+Medicaid,18,90837,Behavioral Health,195.39,66,1,0,1,1,0
+Humana,252,64483,Pain Management,2638.06,25,0,0,1,1,1
+Medicare,50,97110,Physical Therapy,107.0,29,0,1,0,1,1
+BCBS,109,27447,Orthopedics,36311.39,10,1,0,1,1,0
+Medicare,197,70553,Radiology,2726.66,25,0,0,0,1,1
+UnitedHealthcare,50,45378,Gastroenterology,2468.9,35,0,1,1,1,1
+Aetna,96,97110,Physical Therapy,122.15,26,1,1,1,1,0
+Medicaid,151,97110,Physical Therapy,115.65,66,1,1,0,1,0
+Medicare,16,45378,Gastroenterology,2396.52,55,0,0,0,2,1
+Cigna,197,93306,Cardiology,1158.88,9,0,1,1,1,0
+BCBS,96,72148,Radiology,1543.17,39,1,1,0,1,0
+Cigna,96,90837,Behavioral Health,168.77,27,1,0,0,2,0
+UnitedHealthcare,29,97110,Physical Therapy,105.13,180,1,1,1,1,0
+Medicaid,109,45378,Gastroenterology,2415.32,28,1,1,1,1,1
+BCBS,97,64483,Pain Management,3055.18,60,0,0,0,1,0
+Medicare,109,70553,Radiology,2500.9,15,0,0,1,1,0
+Aetna,109,97110,Physical Therapy,118.1,28,1,0,1,1,1
+UnitedHealthcare,16,29881,Orthopedics,7293.15,33,0,0,0,1,1
+Aetna,16,90837,Behavioral Health,175.36,81,1,1,1,1,1
+Medicare,18,97110,Physical Therapy,122.22,14,0,0,1,1,0
+Aetna,16,70553,Radiology,3033.32,42,1,1,1,2,1
+UnitedHealthcare,16,70553,Radiology,3086.15,11,0,0,1,1,0
+Humana,50,45378,Gastroenterology,2335.91,18,1,1,1,1,1
+Humana,96,45378,Gastroenterology,2788.63,3,0,0,1,2,0
+BCBS,97,99214,Primary Care,231.91,58,0,1,1,2,0
+Cigna,16,64483,Pain Management,3602.98,30,0,0,1,1,0
+Aetna,151,72148,Radiology,1246.32,58,0,1,1,1,0
+UnitedHealthcare,11,27447,Orthopedics,29491.22,1,1,0,1,2,0
+BCBS,97,90837,Behavioral Health,241.95,57,1,1,1,1,1
+Medicare,109,29881,Orthopedics,5470.2,24,1,1,1,1,0
+Humana,29,64483,Pain Management,3705.23,7,0,0,1,2,0
+Medicaid,97,64483,Pain Management,2560.35,72,1,0,1,2,0
+Medicaid,4,72148,Radiology,1409.44,7,1,0,1,1,1
+Medicare,11,99214,Primary Care,268.36,32,1,0,1,2,1
+UnitedHealthcare,18,72148,Radiology,1698.35,2,0,0,1,2,0
+Cigna,18,72148,Radiology,1738.39,50,1,1,0,1,0
+Medicare,4,99214,Primary Care,266.75,7,0,0,1,1,1
+Medicare,29,64483,Pain Management,2937.16,111,1,1,1,1,0
+Medicare,96,27447,Orthopedics,29554.45,34,1,0,1,1,0
+Medicaid,16,97110,Physical Therapy,135.45,19,0,0,1,1,1
+Cigna,4,90837,Behavioral Health,199.99,60,1,0,1,1,1
+Medicare,18,99214,Primary Care,293.48,1,1,1,1,1,0
+BCBS,252,72148,Radiology,1712.06,10,1,0,1,2,1
+Humana,11,70553,Radiology,2526.9,6,1,0,1,1,1
+BCBS,151,97110,Physical Therapy,137.92,38,1,0,1,1,1
+BCBS,4,70553,Radiology,3330.83,26,1,0,1,1,1
+Medicare,97,29881,Orthopedics,5047.95,14,1,1,1,1,1
+BCBS,252,93306,Cardiology,924.16,58,0,1,1,1,0
+Medicaid,252,99214,Primary Care,276.64,35,1,1,0,1,1
+Aetna,16,97110,Physical Therapy,105.37,38,0,0,1,1,1
+Humana,252,90837,Behavioral Health,241.25,53,1,0,1,1,1
+Cigna,96,27447,Orthopedics,29488.97,2,1,0,1,2,0
+Cigna,197,27447,Orthopedics,35027.15,7,1,0,1,1,1
+Medicaid,252,99214,Primary Care,201.2,29,0,0,1,1,1
+Aetna,252,70553,Radiology,2343.39,52,0,1,1,1,1
+Aetna,151,72148,Radiology,1526.75,6,0,1,1,2,1
+UnitedHealthcare,18,72148,Radiology,1739.41,31,1,0,1,1,1
+Medicaid,96,27447,Orthopedics,29701.67,53,0,1,1,1,0
+BCBS,109,90837,Behavioral Health,207.83,163,0,0,1,1,0
+Cigna,109,99214,Primary Care,262.03,65,1,1,1,1,0
+Cigna,151,97110,Physical Therapy,101.49,4,1,0,1,1,1
+Medicare,151,64483,Pain Management,3561.44,34,1,0,1,1,0
+UnitedHealthcare,11,90837,Behavioral Health,183.84,19,1,0,1,1,1
+Aetna,96,90837,Behavioral Health,219.85,41,1,0,1,1,1
+Aetna,252,93306,Cardiology,854.72,39,0,0,1,1,1
+Humana,197,64483,Pain Management,2902.61,39,0,0,1,2,0
+Medicaid,11,29881,Orthopedics,5700.97,17,0,0,0,1,1
+BCBS,50,90837,Behavioral Health,208.82,25,0,0,1,1,0
+Humana,197,45378,Gastroenterology,3002.42,72,0,1,1,2,0
+Humana,11,97110,Physical Therapy,140.85,28,1,0,1,1,1
+Cigna,18,90837,Behavioral Health,179.15,18,0,0,0,2,0
+UnitedHealthcare,96,70553,Radiology,2713.82,14,0,0,1,1,0
+Cigna,97,70553,Radiology,3155.86,51,0,0,1,2,1
+Humana,151,70553,Radiology,3441.09,1,1,1,1,1,1
+UnitedHealthcare,50,90837,Behavioral Health,176.62,25,1,0,1,2,0
+Medicaid,16,64483,Pain Management,2675.03,31,1,0,1,1,0
+Medicaid,50,97110,Physical Therapy,98.96,15,1,0,1,2,1
+Aetna,29,72148,Radiology,1558.34,15,1,1,1,1,0
+Medicare,16,64483,Pain Management,3511.53,19,0,1,1,1,1
+Aetna,109,70553,Radiology,3198.76,56,0,0,1,1,0
+Medicare,50,29881,Orthopedics,4993.39,2,1,0,1,1,1
+Humana,151,99214,Primary Care,215.05,62,1,0,1,1,1
+Medicare,197,45378,Gastroenterology,2616.14,68,0,0,1,1,0
+BCBS,151,72148,Radiology,1491.43,9,0,0,1,1,1
+Humana,109,99214,Primary Care,286.9,9,0,1,0,1,1
+Cigna,197,97110,Physical Therapy,118.05,66,0,1,1,1,1
+Medicare,50,29881,Orthopedics,7182.55,25,1,1,1,2,0
+UnitedHealthcare,197,29881,Orthopedics,5086.72,24,1,0,1,2,1
+Humana,252,72148,Radiology,1653.52,1,0,0,1,2,0
+BCBS,151,97110,Physical Therapy,108.18,15,0,0,1,1,0
+Cigna,50,97110,Physical Therapy,135.37,33,1,0,1,1,1
+Cigna,50,93306,Cardiology,807.34,119,0,0,0,1,0
+Humana,11,72148,Radiology,1174.03,15,0,0,1,1,1
+Cigna,197,27447,Orthopedics,32232.13,9,1,1,1,1,0
+UnitedHealthcare,252,93306,Cardiology,944.39,15,0,1,1,2,0
+Medicare,151,70553,Radiology,2719.95,180,1,0,1,1,0
+Medicaid,29,64483,Pain Management,3134.27,27,0,0,0,1,0
+Medicaid,96,45378,Gastroenterology,2588.15,29,1,1,1,1,0
+Humana,11,93306,Cardiology,1152.36,27,1,1,1,1,1
+UnitedHealthcare,252,70553,Radiology,2892.43,6,1,1,1,1,1
+Humana,16,72148,Radiology,1271.0,46,1,0,1,1,1
+Medicare,50,99214,Primary Care,239.65,9,0,0,1,2,1
+Medicare,18,72148,Radiology,1206.43,30,0,0,1,2,1
+UnitedHealthcare,109,90837,Behavioral Health,211.29,35,0,0,1,1,1
+Cigna,151,93306,Cardiology,1098.68,6,0,1,1,1,1
+BCBS,29,99214,Primary Care,276.46,7,0,1,1,1,0
+Medicaid,252,93306,Cardiology,1105.58,16,0,0,0,1,0
+BCBS,109,29881,Orthopedics,6049.25,99,0,0,1,1,0
+Cigna,151,27447,Orthopedics,26447.02,78,0,0,1,1,0
+Cigna,29,97110,Physical Therapy,135.47,1,1,0,1,1,0
+BCBS,97,45378,Gastroenterology,3161.64,116,0,0,1,2,1
+BCBS,4,99214,Primary Care,226.25,48,1,0,1,1,1
+UnitedHealthcare,97,70553,Radiology,2857.47,27,0,0,1,1,1
+UnitedHealthcare,151,90837,Behavioral Health,218.49,9,0,0,1,1,1
+UnitedHealthcare,11,93306,Cardiology,1107.98,50,0,0,1,1,1
+UnitedHealthcare,109,45378,Gastroenterology,2680.57,31,1,1,1,1,1
+Humana,11,72148,Radiology,1224.59,34,1,1,1,1,1
+Medicare,29,29881,Orthopedics,6500.41,62,1,0,1,1,0
+UnitedHealthcare,50,45378,Gastroenterology,2556.5,30,1,0,1,1,1
+Aetna,50,99214,Primary Care,210.27,69,0,0,1,1,1
+Cigna,252,97110,Physical Therapy,132.66,61,1,1,1,1,1
+Medicare,29,45378,Gastroenterology,2354.8,24,1,1,1,1,0
+Cigna,151,90837,Behavioral Health,213.31,26,1,0,1,2,0
+UnitedHealthcare,151,93306,Cardiology,845.05,3,1,0,1,1,1
+Aetna,109,72148,Radiology,1234.68,25,1,1,1,1,0
+BCBS,18,29881,Orthopedics,5128.01,67,0,0,1,2,0
+BCBS,109,99214,Primary Care,261.15,4,1,0,0,1,0
+Cigna,151,72148,Radiology,1670.35,23,0,0,0,1,0
+UnitedHealthcare,4,72148,Radiology,1184.91,2,1,0,0,1,1
+Medicaid,151,72148,Radiology,1349.61,22,0,1,1,1,0
+Cigna,96,97110,Physical Therapy,133.22,22,1,0,1,1,0
+Aetna,29,93306,Cardiology,886.56,118,1,1,1,2,0
+BCBS,109,45378,Gastroenterology,2301.17,127,1,0,1,1,1
+Aetna,29,97110,Physical Therapy,127.39,41,1,0,1,1,1
+Medicare,197,93306,Cardiology,943.16,34,1,0,1,2,0
+Medicaid,97,45378,Gastroenterology,2666.56,4,0,1,1,2,0
+Medicaid,18,64483,Pain Management,3310.63,14,1,0,1,2,0
+Cigna,18,72148,Radiology,1420.86,1,1,0,0,1,0
+BCBS,4,70553,Radiology,2336.56,2,0,1,1,1,1
+Cigna,109,99214,Primary Care,209.59,105,0,0,1,1,0
+Cigna,16,70553,Radiology,2731.22,16,1,1,1,2,1
+Cigna,96,29881,Orthopedics,5048.54,10,1,0,1,2,0
+UnitedHealthcare,151,93306,Cardiology,929.75,79,1,1,1,1,1
+Aetna,11,29881,Orthopedics,5686.93,91,0,0,1,1,1
+UnitedHealthcare,109,29881,Orthopedics,6696.56,19,0,1,1,1,1
+BCBS,109,99214,Primary Care,261.11,180,0,0,1,1,0
+Medicaid,151,27447,Orthopedics,29025.13,23,1,0,1,2,0
+BCBS,11,27447,Orthopedics,27625.67,81,1,1,1,1,0
+Humana,16,70553,Radiology,2535.04,17,1,0,1,1,0
+Humana,96,99214,Primary Care,215.87,77,0,0,0,1,0
+Aetna,197,93306,Cardiology,926.58,148,1,1,0,2,0
+Aetna,29,72148,Radiology,1376.9,47,0,0,1,1,0
+Aetna,50,97110,Physical Therapy,95.87,1,1,1,1,2,1
+Medicare,11,64483,Pain Management,3061.49,55,1,1,1,1,1
+BCBS,197,99214,Primary Care,260.13,59,0,1,1,1,1
+BCBS,97,27447,Orthopedics,30236.48,59,0,0,1,2,0
+Medicare,252,72148,Radiology,1486.89,77,1,1,1,2,1
+BCBS,29,90837,Behavioral Health,222.65,43,0,1,1,2,0
+Medicaid,16,93306,Cardiology,1173.81,27,1,1,1,1,1
+UnitedHealthcare,11,29881,Orthopedics,5104.65,180,1,0,1,1,0
+Humana,96,64483,Pain Management,2673.07,10,0,0,1,1,0
+Aetna,11,29881,Orthopedics,6529.46,20,1,0,1,2,1
+Medicaid,97,72148,Radiology,1331.08,1,1,0,0,1,0
+UnitedHealthcare,50,70553,Radiology,3266.51,28,0,0,1,1,0
+Medicare,151,93306,Cardiology,823.41,180,1,0,1,2,0
+Cigna,11,97110,Physical Therapy,108.36,5,1,0,1,1,0
+Aetna,197,29881,Orthopedics,6387.03,81,1,1,1,1,1
+Cigna,4,97110,Physical Therapy,105.37,2,1,1,1,1,1
+Medicaid,18,90837,Behavioral Health,208.8,3,1,0,0,1,0
+Cigna,197,93306,Cardiology,962.64,180,1,0,1,1,1
+UnitedHealthcare,151,27447,Orthopedics,26871.7,1,1,0,1,1,0
+Humana,18,27447,Orthopedics,31134.94,180,0,1,0,1,0
+Medicare,11,97110,Physical Therapy,107.46,86,1,0,1,1,1
+Cigna,16,64483,Pain Management,2743.51,37,0,0,1,1,1
+BCBS,50,90837,Behavioral Health,192.31,56,1,0,1,1,1
+Medicaid,18,72148,Radiology,1204.03,82,1,1,1,1,0
+UnitedHealthcare,96,90837,Behavioral Health,201.75,18,0,1,1,1,0
+UnitedHealthcare,97,45378,Gastroenterology,2342.13,52,1,0,0,1,1
+BCBS,18,27447,Orthopedics,33034.16,180,1,0,1,1,0
+Medicare,109,70553,Radiology,2934.52,46,1,0,1,1,0
+Cigna,197,72148,Radiology,1448.45,7,0,1,1,1,0
+Medicaid,50,93306,Cardiology,1077.74,10,1,1,1,1,1
+Cigna,50,99214,Primary Care,253.92,10,1,1,1,1,1
+Aetna,151,27447,Orthopedics,28536.62,6,0,0,1,1,0
+BCBS,197,64483,Pain Management,2985.54,73,0,0,0,1,0
+Aetna,18,45378,Gastroenterology,2848.55,12,1,0,1,1,0
+Medicaid,109,90837,Behavioral Health,234.01,51,1,0,1,2,0
+BCBS,29,27447,Orthopedics,28664.96,4,1,0,1,2,0
+Cigna,97,93306,Cardiology,1130.47,116,1,0,1,1,0
+Aetna,197,64483,Pain Management,2915.57,4,0,1,0,1,1
+Medicaid,109,29881,Orthopedics,6156.5,56,0,0,1,2,0
+BCBS,16,27447,Orthopedics,29860.09,71,1,0,1,1,0
+Medicaid,18,64483,Pain Management,3577.51,26,0,1,1,2,0
+BCBS,97,99214,Primary Care,224.54,30,0,0,1,1,0
+Medicaid,4,27447,Orthopedics,34028.68,15,0,0,1,1,0
+Humana,109,99214,Primary Care,198.7,77,1,1,1,1,1
+Humana,197,29881,Orthopedics,6731.94,62,0,1,0,2,0
+Cigna,29,70553,Radiology,2921.79,29,1,0,1,2,0
+Humana,29,72148,Radiology,1168.92,36,0,0,1,1,1
+Medicaid,11,93306,Cardiology,939.45,61,1,0,1,2,1
+Cigna,96,64483,Pain Management,2778.09,59,1,0,1,1,0
+Medicaid,16,97110,Physical Therapy,124.52,19,0,0,1,2,1
+UnitedHealthcare,252,97110,Physical Therapy,127.64,1,0,1,1,1,1
+Cigna,109,70553,Radiology,2417.07,24,1,0,1,1,1
+UnitedHealthcare,16,90837,Behavioral Health,173.66,30,0,0,1,1,1
+Medicare,109,70553,Radiology,2681.12,67,0,0,1,1,0
+UnitedHealthcare,197,99214,Primary Care,253.66,5,1,0,0,1,0
+Humana,4,29881,Orthopedics,6130.96,63,0,1,0,1,0
+Cigna,16,93306,Cardiology,953.62,5,0,1,0,1,0
+Humana,29,27447,Orthopedics,35654.34,16,1,0,1,1,0
+UnitedHealthcare,252,29881,Orthopedics,7372.85,41,1,0,1,1,1
+Aetna,50,90837,Behavioral Health,187.77,10,1,1,1,1,1
+Medicaid,151,27447,Orthopedics,25996.63,35,1,1,1,1,0
+Humana,151,27447,Orthopedics,34712.39,13,1,0,1,1,0
+Humana,109,70553,Radiology,3151.85,1,1,0,0,2,1
+BCBS,16,64483,Pain Management,3631.33,117,0,1,1,1,1
+BCBS,4,93306,Cardiology,1046.9,66,1,1,1,1,1
+Medicare,29,97110,Physical Therapy,130.33,26,0,1,1,1,0
+Medicaid,252,90837,Behavioral Health,176.76,79,1,0,1,1,0
+UnitedHealthcare,50,27447,Orthopedics,36285.8,29,1,0,1,1,0
+Medicaid,11,97110,Physical Therapy,117.71,1,1,0,1,1,1
+BCBS,109,97110,Physical Therapy,104.45,6,0,1,1,2,1
+Aetna,151,93306,Cardiology,947.73,52,1,1,1,2,1
+Medicaid,29,93306,Cardiology,853.91,21,1,0,1,2,1
+BCBS,151,97110,Physical Therapy,110.54,12,1,0,1,1,1
+Medicaid,151,29881,Orthopedics,6158.92,48,1,0,1,1,0
+Cigna,29,97110,Physical Therapy,124.12,32,0,0,1,2,1
+Medicaid,109,90837,Behavioral Health,225.03,1,0,0,1,2,0
+Aetna,4,93306,Cardiology,1084.1,85,1,0,0,1,1
+Cigna,151,97110,Physical Therapy,121.55,69,1,0,1,1,1
+Medicaid,18,29881,Orthopedics,5307.11,12,1,0,1,1,0
+UnitedHealthcare,50,64483,Pain Management,3150.23,12,1,1,1,2,1
+Cigna,4,29881,Orthopedics,5973.33,37,1,0,1,1,1
+Aetna,252,72148,Radiology,1337.45,33,0,1,1,1,1
+Cigna,50,45378,Gastroenterology,3004.56,110,1,0,0,1,1
+Aetna,18,70553,Radiology,2950.25,148,1,0,1,1,0
+UnitedHealthcare,109,64483,Pain Management,3109.5,34,1,0,1,1,0
+BCBS,29,27447,Orthopedics,25479.35,42,1,0,1,2,0
+UnitedHealthcare,18,93306,Cardiology,939.18,85,0,1,0,2,0
+Medicare,96,97110,Physical Therapy,133.76,19,0,0,1,1,0
+Medicaid,109,72148,Radiology,1681.21,1,1,1,1,1,1
+Humana,252,72148,Radiology,1311.59,31,0,0,1,1,1
+BCBS,4,97110,Physical Therapy,141.06,10,1,0,1,2,1
+UnitedHealthcare,97,29881,Orthopedics,6818.93,130,1,0,0,1,0
+UnitedHealthcare,252,45378,Gastroenterology,2763.6,96,1,1,1,1,1
+Medicaid,29,70553,Radiology,2984.14,40,1,1,1,2,0
+UnitedHealthcare,16,93306,Cardiology,1013.3,60,1,1,1,1,1
+Cigna,197,27447,Orthopedics,31414.28,5,1,0,1,1,0
+UnitedHealthcare,96,64483,Pain Management,2933.18,90,0,1,1,1,0
+Aetna,97,72148,Radiology,1508.81,40,1,1,0,1,0
+Medicaid,11,70553,Radiology,2953.81,6,1,0,1,1,1
+Medicaid,96,64483,Pain Management,2946.7,18,1,0,0,2,0
+Aetna,50,90837,Behavioral Health,247.49,17,1,0,1,1,1
+UnitedHealthcare,197,90837,Behavioral Health,205.08,116,1,0,1,1,1
+Cigna,97,29881,Orthopedics,5533.85,54,0,0,1,1,0
+Cigna,4,29881,Orthopedics,7315.08,72,0,0,1,1,0
+Medicaid,11,45378,Gastroenterology,3286.91,29,0,0,0,1,1
+Medicare,29,93306,Cardiology,1025.58,10,1,0,1,2,0
+Medicare,109,45378,Gastroenterology,3102.08,113,0,0,1,2,0
+Humana,96,90837,Behavioral Health,195.81,2,1,0,1,1,0
+UnitedHealthcare,50,93306,Cardiology,895.02,8,1,0,1,1,1
+BCBS,197,45378,Gastroenterology,3001.13,63,1,1,1,2,1
+UnitedHealthcare,109,90837,Behavioral Health,232.2,32,0,0,1,1,0
+Medicare,109,97110,Physical Therapy,121.24,53,0,0,1,1,1
+Humana,18,45378,Gastroenterology,3090.6,43,0,0,1,1,0
+Humana,29,70553,Radiology,3448.21,2,0,0,1,1,0
+BCBS,18,45378,Gastroenterology,2622.7,1,1,0,1,1,0
+Medicare,50,72148,Radiology,1223.98,37,1,1,1,1,1
+Medicare,29,45378,Gastroenterology,2975.35,71,0,0,1,1,0
+Cigna,197,97110,Physical Therapy,114.49,5,0,1,1,1,1
+Cigna,29,93306,Cardiology,981.36,71,0,0,1,2,0
+Aetna,109,29881,Orthopedics,5415.5,44,1,1,1,2,1
+Cigna,109,27447,Orthopedics,35859.33,12,0,1,1,1,0
+UnitedHealthcare,96,93306,Cardiology,890.46,25,1,0,1,1,0
+BCBS,50,93306,Cardiology,867.9,26,0,0,1,1,0
+UnitedHealthcare,50,97110,Physical Therapy,132.87,28,0,0,1,1,1
+Cigna,16,99214,Primary Care,275.04,23,0,0,1,1,1
+Cigna,151,64483,Pain Management,2966.68,3,1,1,1,1,1
+Aetna,16,70553,Radiology,3271.04,33,0,1,1,2,1
+UnitedHealthcare,11,93306,Cardiology,930.43,9,1,1,1,1,1
+UnitedHealthcare,16,27447,Orthopedics,36806.45,85,0,0,1,2,0
+Aetna,109,99214,Primary Care,259.06,3,1,0,1,1,0
+Humana,29,97110,Physical Therapy,128.45,1,0,0,1,1,1
+Aetna,18,93306,Cardiology,808.26,45,0,1,1,1,0
+BCBS,96,93306,Cardiology,1065.32,16,1,0,1,1,0
+UnitedHealthcare,50,27447,Orthopedics,33575.06,44,1,1,1,1,1
+UnitedHealthcare,197,72148,Radiology,1252.37,1,1,0,0,1,0
+Humana,97,90837,Behavioral Health,245.22,31,0,0,1,2,1
+Medicaid,16,70553,Radiology,3008.63,44,0,1,1,1,1
+Medicaid,252,45378,Gastroenterology,2874.86,36,1,1,1,1,1
+Humana,11,99214,Primary Care,250.34,1,0,1,1,1,1
+Medicaid,18,45378,Gastroenterology,2683.81,7,1,0,1,1,1
+Cigna,18,45378,Gastroenterology,3264.0,7,1,0,1,2,1
+Cigna,252,45378,Gastroenterology,2493.17,32,1,0,1,2,1
+BCBS,18,70553,Radiology,2754.42,38,1,1,0,1,0
+Aetna,109,93306,Cardiology,1076.97,80,1,1,1,1,1
+Cigna,4,64483,Pain Management,2750.43,11,1,0,1,1,1
+Humana,4,45378,Gastroenterology,2201.17,180,0,1,1,2,0
+Humana,96,29881,Orthopedics,5448.66,42,0,1,1,1,0
+Medicare,16,29881,Orthopedics,7160.81,14,0,0,1,2,1
+Humana,97,99214,Primary Care,238.13,1,1,0,1,1,1
+Cigna,252,45378,Gastroenterology,2603.54,7,0,0,1,1,1
+Aetna,4,99214,Primary Care,252.02,11,0,0,1,1,1
+Humana,252,90837,Behavioral Health,247.87,16,0,0,1,1,1
+Aetna,197,45378,Gastroenterology,2309.0,69,1,0,1,1,0
+Medicaid,97,64483,Pain Management,3050.6,5,0,1,1,2,0
+Cigna,96,64483,Pain Management,3490.54,37,0,0,1,1,0
+Medicaid,50,99214,Primary Care,264.19,16,1,1,1,1,1
+Medicare,4,90837,Behavioral Health,184.02,7,1,1,1,1,1
+Medicaid,18,72148,Radiology,1186.01,4,1,0,1,2,0
+Medicaid,109,29881,Orthopedics,6517.03,74,1,0,0,1,0
+Medicare,11,64483,Pain Management,3049.94,15,1,0,1,1,1
+Cigna,197,70553,Radiology,2966.3,20,1,0,1,1,0
+Cigna,16,29881,Orthopedics,6285.45,95,0,0,1,1,1
+UnitedHealthcare,4,72148,Radiology,1596.8,131,0,0,0,2,0
+Medicaid,252,29881,Orthopedics,5759.78,7,0,0,1,1,1
+UnitedHealthcare,109,99214,Primary Care,233.67,43,0,0,1,1,1
+Cigna,96,29881,Orthopedics,5100.03,3,0,0,0,2,0
+Humana,16,27447,Orthopedics,37711.43,23,0,0,1,2,0
+Humana,29,27447,Orthopedics,26812.89,17,1,0,1,1,0
+Aetna,197,99214,Primary Care,244.74,107,1,0,1,1,1
+UnitedHealthcare,4,93306,Cardiology,1083.92,18,0,0,1,2,1
+Humana,197,27447,Orthopedics,28144.1,15,0,1,1,2,0
+BCBS,151,93306,Cardiology,818.91,1,0,1,1,1,1
+Humana,18,64483,Pain Management,3112.75,17,1,0,0,1,0
+Aetna,252,64483,Pain Management,3528.61,23,0,1,1,1,1
+UnitedHealthcare,11,70553,Radiology,2701.78,28,1,1,1,1,1
+Medicare,4,97110,Physical Therapy,102.1,10,0,1,1,2,1
+Aetna,252,93306,Cardiology,989.75,46,0,0,0,2,0
+Humana,197,70553,Radiology,3120.96,92,0,0,1,1,0
+BCBS,16,29881,Orthopedics,6416.9,8,1,0,1,1,1
+Medicare,29,27447,Orthopedics,30030.54,118,1,1,1,2,0
+Medicaid,197,72148,Radiology,1281.98,12,0,0,0,1,0
+Medicare,18,93306,Cardiology,1152.3,6,1,0,0,2,0
+Medicaid,97,99214,Primary Care,220.62,68,1,0,1,1,0
+Cigna,252,27447,Orthopedics,29684.68,21,1,0,1,1,0
+Humana,97,93306,Cardiology,978.3,30,1,0,1,2,1
+Humana,252,27447,Orthopedics,27027.91,31,1,0,1,2,0
+Medicare,50,97110,Physical Therapy,128.83,81,0,0,0,2,0
+BCBS,96,64483,Pain Management,3603.0,47,1,0,1,1,1
+Humana,11,90837,Behavioral Health,209.25,88,1,0,1,1,0
+Aetna,151,90837,Behavioral Health,233.03,33,0,1,1,1,1
+Medicaid,29,93306,Cardiology,979.04,37,0,0,1,1,0
+Humana,97,29881,Orthopedics,6073.84,153,1,1,1,1,0
+UnitedHealthcare,18,64483,Pain Management,3268.94,75,0,0,1,1,0
+Aetna,151,64483,Pain Management,2860.72,13,1,1,1,1,1
+Aetna,11,72148,Radiology,1673.37,55,0,1,1,1,1
+Cigna,4,99214,Primary Care,258.28,176,0,0,1,1,0
+UnitedHealthcare,29,70553,Radiology,3445.76,31,0,1,1,1,0
+Medicaid,18,93306,Cardiology,1088.21,19,0,0,1,1,0
+Medicaid,197,64483,Pain Management,2866.54,76,0,0,1,1,0
+UnitedHealthcare,50,64483,Pain Management,3548.94,67,1,1,0,1,0
+Medicaid,252,29881,Orthopedics,7426.98,7,1,0,1,1,1
+Medicare,197,93306,Cardiology,999.58,30,0,0,1,2,1
+Cigna,29,90837,Behavioral Health,227.74,10,0,0,1,1,0
+Humana,16,64483,Pain Management,3249.77,66,1,0,1,1,1
+Cigna,197,70553,Radiology,3434.46,53,0,0,1,1,1
+Medicare,109,97110,Physical Therapy,99.42,21,1,0,1,1,0
+Aetna,11,29881,Orthopedics,7189.63,5,1,0,1,2,1
+Aetna,252,97110,Physical Therapy,108.21,3,1,0,1,1,1
+Aetna,252,97110,Physical Therapy,133.61,132,0,1,0,1,1
+Cigna,16,27447,Orthopedics,36028.07,1,1,0,1,2,1
+Cigna,16,90837,Behavioral Health,195.19,2,0,0,1,1,1
+Aetna,197,97110,Physical Therapy,114.98,21,0,1,1,1,0
+Aetna,96,72148,Radiology,1282.65,43,1,0,1,1,1
+Medicare,11,72148,Radiology,1575.38,55,1,0,1,1,1
+Aetna,96,72148,Radiology,1500.88,7,1,1,1,1,1
+Cigna,11,45378,Gastroenterology,2254.59,58,0,0,0,1,1
+Cigna,96,27447,Orthopedics,28724.05,7,1,0,1,1,0
+Medicare,252,27447,Orthopedics,29887.57,33,1,1,1,1,0
+UnitedHealthcare,4,64483,Pain Management,3303.6,97,1,0,0,1,1
+BCBS,50,29881,Orthopedics,5052.16,31,0,0,0,1,1
+Medicare,197,45378,Gastroenterology,2561.11,26,1,0,1,1,0
+Medicaid,151,90837,Behavioral Health,170.83,7,1,1,1,2,1
+Medicaid,109,64483,Pain Management,3097.11,1,1,0,1,1,0
+BCBS,29,29881,Orthopedics,5463.72,55,1,1,1,1,0
+Humana,109,29881,Orthopedics,6417.47,10,1,0,1,1,0
+Cigna,151,29881,Orthopedics,6872.09,30,0,0,1,1,0
+BCBS,252,72148,Radiology,1432.69,9,1,0,0,2,1
+UnitedHealthcare,252,72148,Radiology,1203.15,76,1,0,0,1,1
+BCBS,97,29881,Orthopedics,6643.85,3,1,0,1,1,0
+Cigna,29,72148,Radiology,1178.35,25,1,0,0,1,0
+Humana,109,70553,Radiology,3323.38,46,1,0,0,2,0
+Humana,18,97110,Physical Therapy,99.22,112,0,1,1,2,0
+Humana,252,70553,Radiology,2353.76,18,1,0,1,1,1
+UnitedHealthcare,109,70553,Radiology,3472.29,10,0,0,0,1,0
+Cigna,16,27447,Orthopedics,27159.63,55,1,0,1,2,1
+BCBS,197,72148,Radiology,1600.37,63,0,1,0,2,0
+BCBS,29,99214,Primary Care,209.59,1,1,0,1,1,0
+Medicare,96,97110,Physical Therapy,138.49,63,0,0,1,1,0
+Cigna,50,45378,Gastroenterology,3243.51,48,0,0,1,1,0
+BCBS,197,45378,Gastroenterology,2952.91,180,0,0,0,1,0
+Cigna,29,64483,Pain Management,3190.61,40,1,0,1,1,0
+Cigna,50,99214,Primary Care,279.67,6,1,0,1,1,0
+BCBS,11,90837,Behavioral Health,187.17,3,0,0,1,1,1
+Aetna,16,97110,Physical Therapy,108.47,43,0,0,1,1,1
+Humana,97,97110,Physical Therapy,105.33,39,1,0,0,2,0
+BCBS,96,97110,Physical Therapy,111.67,1,0,1,1,2,0
+Medicaid,29,70553,Radiology,3413.68,30,0,1,1,1,0
+UnitedHealthcare,96,27447,Orthopedics,29864.11,34,1,1,0,2,0
+Medicaid,16,27447,Orthopedics,31534.1,30,1,0,1,1,1
+UnitedHealthcare,29,93306,Cardiology,1130.99,100,1,1,0,1,0
+Cigna,109,64483,Pain Management,3212.88,64,1,0,1,1,0
+Medicare,29,90837,Behavioral Health,206.64,101,1,1,1,1,1
+Cigna,252,27447,Orthopedics,37916.69,133,1,1,1,1,0
+Aetna,16,93306,Cardiology,977.95,45,1,0,0,2,1
+Humana,18,70553,Radiology,2683.55,10,0,1,1,1,0
+Medicare,4,93306,Cardiology,1147.05,2,1,0,1,1,1
+Aetna,97,90837,Behavioral Health,191.63,2,0,0,1,1,0
+UnitedHealthcare,4,45378,Gastroenterology,2768.79,18,0,1,1,1,0
+Aetna,151,93306,Cardiology,975.9,48,1,0,1,2,0
+Aetna,4,97110,Physical Therapy,125.7,16,1,0,1,1,1
+Medicare,16,45378,Gastroenterology,3251.34,20,0,0,1,1,1
+Medicaid,4,72148,Radiology,1455.33,80,1,1,1,1,0
+UnitedHealthcare,50,27447,Orthopedics,28232.83,28,1,1,1,2,0
+BCBS,11,72148,Radiology,1481.55,165,1,0,0,2,1
+UnitedHealthcare,11,90837,Behavioral Health,234.2,7,0,0,1,1,1
+Cigna,4,27447,Orthopedics,38112.36,3,0,1,1,1,1
+Cigna,97,29881,Orthopedics,6283.83,100,1,0,1,1,1
+Humana,18,70553,Radiology,3342.0,1,1,0,1,1,0
+Medicare,197,64483,Pain Management,3485.14,180,1,0,1,2,0
+Aetna,252,64483,Pain Management,2763.8,13,1,0,1,1,0
+Humana,252,90837,Behavioral Health,169.39,101,1,0,1,1,1
+UnitedHealthcare,18,29881,Orthopedics,5047.86,23,0,0,1,1,0
+BCBS,97,93306,Cardiology,1026.64,8,1,1,1,1,1
+UnitedHealthcare,18,72148,Radiology,1655.67,35,0,0,0,2,0
+Aetna,97,93306,Cardiology,921.92,55,0,0,1,1,0
+Cigna,4,72148,Radiology,1423.92,34,0,1,0,1,1
+BCBS,109,45378,Gastroenterology,3030.15,62,0,0,1,1,1
+Cigna,16,90837,Behavioral Health,169.99,1,1,0,1,1,1
+Humana,96,29881,Orthopedics,5993.69,33,1,0,1,2,0
+UnitedHealthcare,16,72148,Radiology,1267.02,69,1,1,1,1,1
+BCBS,11,64483,Pain Management,3627.11,84,1,0,0,2,1
+UnitedHealthcare,97,99214,Primary Care,211.33,81,0,0,1,1,0
+UnitedHealthcare,109,97110,Physical Therapy,137.96,54,0,1,1,1,0
+Medicare,151,97110,Physical Therapy,105.74,28,1,0,0,1,0
+Aetna,252,97110,Physical Therapy,111.04,3,1,1,1,1,1
+Cigna,96,99214,Primary Care,221.97,11,0,0,1,1,0
+UnitedHealthcare,29,27447,Orthopedics,37313.7,10,0,1,0,2,0
+BCBS,96,99214,Primary Care,203.43,150,1,0,1,1,0
+Medicare,197,72148,Radiology,1294.21,2,1,1,1,1,1
+Humana,97,93306,Cardiology,894.1,89,0,0,1,1,0
+Medicaid,11,97110,Physical Therapy,130.9,9,0,1,1,1,1
+Aetna,197,45378,Gastroenterology,3102.24,13,0,0,1,1,0
+UnitedHealthcare,252,64483,Pain Management,3434.0,10,0,1,1,2,0
+BCBS,151,72148,Radiology,1286.86,20,1,0,1,2,0
+Medicare,16,27447,Orthopedics,35646.62,4,1,0,1,2,1
+UnitedHealthcare,16,99214,Primary Care,278.21,98,0,1,1,1,0
+UnitedHealthcare,4,64483,Pain Management,3480.83,83,1,0,1,1,1
+Medicare,50,93306,Cardiology,847.61,180,1,1,1,1,0
+Cigna,252,90837,Behavioral Health,236.26,24,1,0,1,2,1
+Medicaid,97,29881,Orthopedics,5419.97,65,1,1,1,1,0
+BCBS,11,90837,Behavioral Health,212.19,180,1,0,1,1,1
+Medicare,252,90837,Behavioral Health,224.35,17,1,0,1,1,1
+Medicaid,29,72148,Radiology,1619.75,2,0,0,1,1,1
+Humana,4,99214,Primary Care,222.33,46,0,0,1,1,0
+Medicare,197,93306,Cardiology,787.5,5,0,0,1,1,0
+Cigna,18,27447,Orthopedics,35652.71,11,0,1,0,1,0
+Cigna,29,64483,Pain Management,2577.41,7,1,0,1,1,0
+Cigna,16,70553,Radiology,2814.34,47,0,1,1,1,1
+UnitedHealthcare,197,99214,Primary Care,249.97,43,1,0,1,1,1
+Cigna,29,90837,Behavioral Health,205.98,15,1,0,1,1,1
+Cigna,97,97110,Physical Therapy,107.42,18,0,1,0,1,0
+Humana,97,93306,Cardiology,1132.34,4,0,0,1,1,1
+Humana,252,99214,Primary Care,281.86,16,1,0,1,1,1
+Humana,16,97110,Physical Therapy,98.76,43,0,1,1,1,1
+Cigna,11,70553,Radiology,2919.35,59,1,1,1,1,1
+UnitedHealthcare,109,64483,Pain Management,3443.39,137,1,0,1,1,0
+BCBS,96,90837,Behavioral Health,198.47,5,1,1,1,1,1
+Medicare,151,27447,Orthopedics,26176.28,8,1,0,1,1,0
+Medicaid,4,29881,Orthopedics,6024.27,115,0,1,1,1,1
+Humana,197,64483,Pain Management,2968.04,136,1,0,0,2,0
+UnitedHealthcare,18,93306,Cardiology,1111.0,14,1,0,1,1,0
+BCBS,151,93306,Cardiology,1128.65,7,1,0,1,2,1
+UnitedHealthcare,96,72148,Radiology,1439.19,10,0,1,1,1,0
+UnitedHealthcare,11,93306,Cardiology,1039.7,24,0,0,1,1,0
+Humana,50,93306,Cardiology,1062.67,29,0,0,1,1,0
+UnitedHealthcare,109,27447,Orthopedics,33784.19,62,1,1,1,1,0
+Medicare,97,97110,Physical Therapy,97.92,48,1,0,1,1,0
+Aetna,97,64483,Pain Management,3679.97,13,1,0,1,1,0
+BCBS,197,45378,Gastroenterology,2528.09,5,1,0,1,1,0
+Humana,11,29881,Orthopedics,6309.53,13,1,0,1,2,0
+UnitedHealthcare,4,97110,Physical Therapy,124.78,59,1,1,1,1,1
+BCBS,109,93306,Cardiology,827.67,34,0,0,1,1,0
+Cigna,50,70553,Radiology,3036.7,79,0,0,1,2,0
+Medicare,18,99214,Primary Care,250.27,37,0,0,1,2,0
+UnitedHealthcare,197,45378,Gastroenterology,2936.13,2,0,0,1,1,0
+Aetna,252,29881,Orthopedics,6930.76,4,0,1,1,1,1
+Medicare,11,45378,Gastroenterology,2678.78,9,1,0,1,2,1
+Medicaid,109,97110,Physical Therapy,111.22,6,0,1,1,1,0
+Humana,50,90837,Behavioral Health,232.54,15,1,0,1,1,1
+Cigna,29,93306,Cardiology,840.6,7,0,1,1,2,1
+Humana,11,64483,Pain Management,2771.14,24,1,0,1,1,1
+Cigna,97,93306,Cardiology,1060.93,21,1,1,0,2,0
+Cigna,11,99214,Primary Care,236.31,17,0,1,1,2,0
+Humana,109,93306,Cardiology,1024.16,49,1,0,0,1,0
+Medicare,4,72148,Radiology,1483.35,1,1,0,1,1,1
+Aetna,109,93306,Cardiology,1097.49,17,0,1,1,1,1
+Cigna,197,72148,Radiology,1292.92,29,1,0,1,2,0
+BCBS,96,45378,Gastroenterology,2556.5,180,1,0,1,1,0
+Cigna,50,29881,Orthopedics,7346.18,57,0,0,1,2,1
+Cigna,197,99214,Primary Care,219.52,42,1,0,0,1,1
+Medicare,252,93306,Cardiology,1046.87,72,0,0,1,1,1
+Humana,151,90837,Behavioral Health,206.73,39,0,0,1,1,1
+Humana,11,97110,Physical Therapy,115.64,7,1,0,1,1,0
+BCBS,96,29881,Orthopedics,6590.41,104,1,0,1,1,0
+Aetna,151,90837,Behavioral Health,168.09,34,0,0,1,1,1
+UnitedHealthcare,151,27447,Orthopedics,33720.59,26,0,0,1,2,0
+Medicare,11,70553,Radiology,2594.1,15,0,0,1,1,1
+Cigna,109,64483,Pain Management,3640.77,49,1,0,1,1,0
+Medicare,109,90837,Behavioral Health,200.75,1,0,0,1,1,0
+Aetna,109,29881,Orthopedics,6845.37,18,1,1,1,1,1
+Humana,96,93306,Cardiology,856.05,11,0,1,1,1,0
+BCBS,96,45378,Gastroenterology,2812.3,42,0,0,1,2,0
+BCBS,151,90837,Behavioral Health,178.2,31,0,0,1,2,0
+Aetna,50,27447,Orthopedics,31565.5,32,1,0,1,1,1
+BCBS,97,27447,Orthopedics,29119.97,79,1,0,1,1,0
+Cigna,96,27447,Orthopedics,33148.1,107,1,1,1,1,0
+UnitedHealthcare,11,64483,Pain Management,2650.41,60,1,0,1,1,0
+BCBS,97,90837,Behavioral Health,206.39,37,0,1,1,2,0
+BCBS,4,27447,Orthopedics,34138.42,15,1,0,1,1,1
+Cigna,4,99214,Primary Care,292.69,15,1,0,1,1,1
+Aetna,109,90837,Behavioral Health,220.39,1,1,0,0,1,0
+Medicaid,11,70553,Radiology,2818.9,1,1,0,1,1,1
+Medicaid,197,64483,Pain Management,3185.92,48,1,0,1,1,0
+UnitedHealthcare,252,93306,Cardiology,1170.15,19,0,1,1,1,0
+UnitedHealthcare,96,72148,Radiology,1508.49,48,1,1,1,1,1
+Aetna,197,64483,Pain Management,3427.35,99,0,0,1,1,1
+Humana,197,27447,Orthopedics,34577.02,85,1,0,0,1,0
+Medicare,29,90837,Behavioral Health,182.6,23,0,0,1,1,1
+UnitedHealthcare,151,27447,Orthopedics,28930.03,73,0,1,1,1,0
+Medicare,109,70553,Radiology,2564.19,16,0,1,1,1,0
+Humana,109,27447,Orthopedics,35791.42,155,0,0,1,1,0
+Medicaid,151,99214,Primary Care,267.41,19,0,0,0,1,0
+Medicare,252,93306,Cardiology,996.69,67,1,1,1,1,1
+Medicare,18,99214,Primary Care,246.97,40,1,1,1,1,0
+Medicaid,197,99214,Primary Care,253.63,11,0,0,1,1,1
+UnitedHealthcare,50,90837,Behavioral Health,242.68,121,1,1,1,2,1
+BCBS,151,27447,Orthopedics,38112.15,25,0,1,1,1,0
+Medicaid,109,27447,Orthopedics,34056.7,13,1,0,1,2,1
+UnitedHealthcare,151,90837,Behavioral Health,194.01,19,1,1,0,1,0
+Medicaid,18,72148,Radiology,1336.93,10,1,0,1,1,1
+UnitedHealthcare,50,29881,Orthopedics,5444.37,83,1,0,1,1,0
+Cigna,29,29881,Orthopedics,5581.0,41,1,0,1,1,0
+Cigna,96,64483,Pain Management,3624.43,70,0,1,1,2,0
+Cigna,16,99214,Primary Care,258.64,49,0,0,1,1,1
+Cigna,151,64483,Pain Management,2893.39,10,0,0,1,1,1
+Aetna,11,27447,Orthopedics,36568.17,44,1,0,1,1,0
+Humana,18,29881,Orthopedics,5033.26,14,0,1,1,1,0
+Cigna,18,27447,Orthopedics,32624.08,59,0,0,0,2,0
+Aetna,11,90837,Behavioral Health,204.23,9,1,0,1,2,1
+BCBS,16,90837,Behavioral Health,174.99,13,0,1,1,1,1
+Medicare,97,97110,Physical Therapy,115.72,7,0,0,1,1,1
+Medicaid,4,27447,Orthopedics,27719.24,55,0,0,1,2,0
+UnitedHealthcare,97,29881,Orthopedics,6930.0,3,0,1,0,1,1
+Medicare,109,29881,Orthopedics,7249.03,38,1,1,1,2,0
+Medicaid,4,72148,Radiology,1536.06,5,1,1,0,1,1
+UnitedHealthcare,197,90837,Behavioral Health,198.71,25,0,0,1,1,0
+BCBS,16,64483,Pain Management,2588.51,22,0,1,1,1,1
+UnitedHealthcare,197,64483,Pain Management,2882.76,45,0,1,1,1,1
+UnitedHealthcare,4,93306,Cardiology,1137.11,55,0,1,1,1,1
+Cigna,50,97110,Physical Therapy,118.86,83,1,1,1,1,1
+Cigna,151,97110,Physical Therapy,106.22,2,1,0,1,1,0
+Cigna,29,64483,Pain Management,2869.19,26,1,1,1,1,1
+UnitedHealthcare,252,93306,Cardiology,1046.37,112,1,0,1,1,0
+Aetna,4,72148,Radiology,1601.7,82,0,0,0,1,1
+Aetna,16,29881,Orthopedics,5246.04,4,1,1,0,2,1
+UnitedHealthcare,11,97110,Physical Therapy,112.14,122,1,0,1,2,0
+Cigna,97,99214,Primary Care,252.56,6,1,1,1,1,1
+BCBS,29,97110,Physical Therapy,96.01,94,0,1,1,2,0
+Medicaid,11,93306,Cardiology,1123.32,13,1,0,1,2,1
+Humana,18,29881,Orthopedics,6403.67,36,0,1,0,1,0
+Medicare,97,70553,Radiology,3471.73,5,0,0,1,1,1
+UnitedHealthcare,11,27447,Orthopedics,32631.58,18,1,0,0,1,0
+Cigna,197,99214,Primary Care,226.5,10,1,0,1,2,1
+BCBS,50,27447,Orthopedics,36847.55,30,1,0,1,1,0
+UnitedHealthcare,50,90837,Behavioral Health,169.39,43,0,0,1,1,1
+Medicaid,97,70553,Radiology,2917.78,2,1,1,1,1,0
+Humana,197,97110,Physical Therapy,100.12,27,0,0,0,2,0
+Humana,109,90837,Behavioral Health,226.78,11,1,1,0,1,0
+UnitedHealthcare,18,70553,Radiology,3051.89,34,1,0,1,2,0
+UnitedHealthcare,151,93306,Cardiology,1099.32,160,0,1,0,1,0
+Cigna,97,99214,Primary Care,219.76,24,0,0,1,2,1
+Medicare,109,93306,Cardiology,1164.65,4,0,0,1,1,1
+Cigna,252,27447,Orthopedics,30938.27,5,0,0,1,1,1
+UnitedHealthcare,16,97110,Physical Therapy,105.26,43,1,0,1,1,1
+Humana,11,64483,Pain Management,3037.76,23,0,1,1,2,0
+Medicare,252,27447,Orthopedics,27633.45,90,1,1,1,1,0
+BCBS,96,99214,Primary Care,210.96,96,0,0,1,1,0
+Medicare,252,29881,Orthopedics,6453.46,4,0,0,0,1,1
+Medicare,151,93306,Cardiology,850.54,84,1,0,1,2,0
+UnitedHealthcare,96,27447,Orthopedics,37931.4,41,1,1,1,1,0
+Cigna,252,97110,Physical Therapy,96.41,25,0,1,1,1,1
+BCBS,96,64483,Pain Management,3661.3,38,0,1,1,2,1
+Cigna,197,45378,Gastroenterology,2898.18,89,0,0,1,1,0
+UnitedHealthcare,11,93306,Cardiology,829.74,2,1,0,1,1,1
+Humana,252,99214,Primary Care,237.75,36,0,0,1,1,0
+Medicaid,197,93306,Cardiology,840.99,23,1,0,1,1,0
+Aetna,4,90837,Behavioral Health,228.71,30,0,0,0,1,1
+Humana,29,99214,Primary Care,275.14,15,0,1,1,1,1
+Medicaid,11,99214,Primary Care,270.0,22,0,0,1,1,1
+Medicare,197,99214,Primary Care,263.81,35,1,0,1,1,1
+Medicaid,16,29881,Orthopedics,6656.0,12,0,1,1,1,1
+Humana,29,99214,Primary Care,262.08,93,1,0,1,1,0
+Medicare,50,45378,Gastroenterology,2505.88,52,1,0,1,1,0
+Medicaid,29,93306,Cardiology,1069.41,24,1,0,1,2,0
+Aetna,50,97110,Physical Therapy,131.62,77,1,0,1,1,1
+Aetna,96,93306,Cardiology,867.16,72,0,1,0,1,0
+BCBS,4,90837,Behavioral Health,241.2,6,1,0,1,1,1
+UnitedHealthcare,109,99214,Primary Care,234.94,61,0,1,1,1,1
+BCBS,16,70553,Radiology,3284.31,65,0,0,1,2,1
+Cigna,11,29881,Orthopedics,7178.44,81,1,0,1,1,0
+Medicaid,151,27447,Orthopedics,28660.91,37,0,1,0,1,0
+BCBS,4,72148,Radiology,1664.12,27,1,1,1,2,1
+Humana,4,70553,Radiology,2419.34,27,0,1,1,2,1
+Humana,11,70553,Radiology,2804.72,1,1,0,1,1,1
+Medicare,97,99214,Primary Care,222.74,8,1,0,1,1,0
+Aetna,97,45378,Gastroenterology,3104.51,36,1,0,0,1,0
+UnitedHealthcare,11,27447,Orthopedics,37763.54,30,1,0,1,1,0
+Cigna,252,45378,Gastroenterology,2850.55,31,1,0,1,1,1
+Humana,97,45378,Gastroenterology,3037.79,98,1,1,0,2,0
+BCBS,97,45378,Gastroenterology,2219.02,145,1,0,0,1,1
+Cigna,18,93306,Cardiology,1134.78,6,0,0,1,1,0
+UnitedHealthcare,4,70553,Radiology,2428.32,47,0,1,1,1,1
+Medicare,96,45378,Gastroenterology,3158.63,34,1,1,1,2,1
+Humana,50,64483,Pain Management,3618.7,55,1,0,1,1,0
+UnitedHealthcare,109,90837,Behavioral Health,170.01,6,1,1,1,1,0
+Aetna,50,45378,Gastroenterology,2524.03,6,1,0,1,2,0
+BCBS,50,45378,Gastroenterology,2694.03,137,1,0,1,2,0
+BCBS,16,99214,Primary Care,279.58,19,1,1,1,1,1
+Medicaid,18,29881,Orthopedics,5907.96,58,0,0,0,1,0
+BCBS,18,97110,Physical Therapy,108.01,25,1,0,0,1,1
+UnitedHealthcare,197,64483,Pain Management,2524.55,13,1,1,0,1,0
+BCBS,50,29881,Orthopedics,7303.33,180,0,0,1,1,1
+Medicare,29,93306,Cardiology,971.71,64,1,0,1,1,1
+BCBS,18,97110,Physical Therapy,139.24,99,0,0,0,1,0
+BCBS,96,72148,Radiology,1713.13,51,1,0,1,2,0
+Medicare,16,90837,Behavioral Health,210.26,114,0,0,0,1,1
+Medicaid,252,97110,Physical Therapy,141.01,30,1,1,1,2,1
+Humana,151,90837,Behavioral Health,248.9,116,0,1,1,1,0
+Aetna,197,64483,Pain Management,2830.1,45,0,0,1,2,0
+Humana,151,70553,Radiology,2943.35,10,0,0,1,2,0
+Medicaid,109,27447,Orthopedics,36963.83,12,0,0,1,1,0
+Humana,11,99214,Primary Care,204.99,36,1,0,1,1,1
+Aetna,29,27447,Orthopedics,37733.38,4,0,0,1,2,0
+BCBS,151,93306,Cardiology,829.93,74,1,0,1,1,0
+Medicare,109,29881,Orthopedics,5784.73,28,0,0,1,1,0
+Cigna,97,29881,Orthopedics,5201.67,77,1,0,1,2,1
+Aetna,29,45378,Gastroenterology,2256.3,8,1,1,1,1,1
+Medicaid,4,93306,Cardiology,911.33,39,0,0,1,1,1
+BCBS,252,99214,Primary Care,204.2,16,1,1,1,1,1
+Humana,29,45378,Gastroenterology,2894.56,103,1,1,1,1,0
+Aetna,29,99214,Primary Care,227.41,78,0,0,1,1,0
+UnitedHealthcare,16,70553,Radiology,3076.29,23,1,0,0,1,1
+UnitedHealthcare,151,99214,Primary Care,274.38,19,0,0,1,1,0
+Cigna,97,64483,Pain Management,2527.28,17,1,1,1,1,1
+Cigna,96,29881,Orthopedics,7350.77,33,1,1,1,1,0
+Medicare,18,27447,Orthopedics,25472.14,84,1,0,1,2,0
+Cigna,252,64483,Pain Management,3114.54,53,1,1,1,2,1
+Aetna,197,45378,Gastroenterology,2538.61,22,1,1,1,2,1
+BCBS,197,97110,Physical Therapy,138.29,9,0,1,0,2,0
+Medicaid,96,27447,Orthopedics,27735.92,68,1,0,1,1,0
+Medicare,29,97110,Physical Therapy,119.45,83,0,0,1,1,0
+UnitedHealthcare,50,93306,Cardiology,894.93,36,1,1,1,1,1
+UnitedHealthcare,50,72148,Radiology,1728.66,169,1,1,0,1,0
+Medicare,97,93306,Cardiology,868.75,17,1,1,1,2,1
+UnitedHealthcare,50,70553,Radiology,3355.72,78,1,1,1,1,0
+BCBS,18,90837,Behavioral Health,244.33,19,1,1,1,1,0
+BCBS,16,29881,Orthopedics,5053.76,21,1,0,1,1,1
+Medicare,97,97110,Physical Therapy,139.68,33,0,0,1,1,1
+UnitedHealthcare,96,93306,Cardiology,1060.88,16,0,0,1,1,0
+Medicare,252,29881,Orthopedics,7310.99,33,1,0,0,1,0
+Cigna,16,70553,Radiology,2695.44,14,0,0,0,1,1
+Humana,96,97110,Physical Therapy,135.51,71,1,0,1,1,0
+UnitedHealthcare,18,29881,Orthopedics,5056.12,79,1,1,1,1,0
+Aetna,109,70553,Radiology,2709.42,138,1,1,0,2,0
+Medicaid,16,64483,Pain Management,3014.64,18,0,0,1,2,1
+UnitedHealthcare,96,45378,Gastroenterology,3165.98,71,0,0,1,1,0
+BCBS,50,45378,Gastroenterology,2334.4,39,1,1,1,1,1
+Humana,4,29881,Orthopedics,5177.88,35,1,1,0,1,1
+Medicare,50,97110,Physical Therapy,120.56,50,1,0,1,1,1
+Humana,109,90837,Behavioral Health,190.37,7,1,1,1,1,1
+Medicaid,11,72148,Radiology,1238.67,71,0,1,1,1,1
+UnitedHealthcare,109,29881,Orthopedics,6818.62,3,1,0,1,1,1
+Humana,109,72148,Radiology,1161.77,22,1,0,1,2,1
+Medicare,50,97110,Physical Therapy,136.04,96,1,1,1,1,1
+UnitedHealthcare,4,97110,Physical Therapy,122.17,85,0,0,1,1,1
+Humana,197,70553,Radiology,2535.38,73,1,0,1,1,0
+BCBS,109,90837,Behavioral Health,244.03,21,0,1,0,1,1
+BCBS,4,64483,Pain Management,2568.98,37,1,0,1,1,1
+Aetna,252,72148,Radiology,1488.6,21,0,1,1,1,1
+Cigna,50,27447,Orthopedics,31542.56,3,0,1,1,1,0
+Cigna,4,29881,Orthopedics,6148.23,33,0,0,1,1,1
+BCBS,197,93306,Cardiology,900.9,25,0,1,0,1,0
+Cigna,50,97110,Physical Therapy,112.29,11,0,0,1,1,0
+Medicaid,252,64483,Pain Management,2922.32,6,1,0,0,2,0
+UnitedHealthcare,97,72148,Radiology,1260.5,17,1,0,1,2,1
+Medicaid,29,99214,Primary Care,217.7,42,1,1,1,2,0
+Cigna,11,29881,Orthopedics,6814.3,170,0,0,1,1,1
+BCBS,50,97110,Physical Therapy,97.93,25,1,1,0,2,1
+Cigna,197,27447,Orthopedics,26784.92,20,1,1,1,1,0
+Humana,18,45378,Gastroenterology,3181.47,33,0,0,1,1,0
+Aetna,151,27447,Orthopedics,29711.76,63,1,0,0,2,0
+Cigna,197,72148,Radiology,1321.63,100,1,0,1,2,0
+UnitedHealthcare,16,90837,Behavioral Health,219.66,95,0,1,1,1,0
+Medicaid,151,29881,Orthopedics,6354.48,180,0,0,0,1,0
+Humana,252,97110,Physical Therapy,131.63,29,1,0,1,1,1
+Humana,252,99214,Primary Care,252.34,1,0,0,1,1,1
+Cigna,252,27447,Orthopedics,31918.48,23,1,1,1,2,0
+Aetna,18,45378,Gastroenterology,2820.46,16,1,1,1,1,0
+BCBS,11,99214,Primary Care,196.46,2,1,1,1,1,1
+Aetna,96,27447,Orthopedics,26688.83,1,1,0,0,1,0
+Medicaid,18,99214,Primary Care,229.55,51,1,0,1,1,0
+Aetna,151,90837,Behavioral Health,182.17,9,0,0,1,2,0
+BCBS,11,93306,Cardiology,926.24,52,0,0,1,2,1
+BCBS,16,90837,Behavioral Health,179.86,25,1,1,0,1,1
+Medicaid,4,29881,Orthopedics,5128.09,20,1,1,0,2,1
+Medicaid,97,29881,Orthopedics,6822.75,1,1,0,1,1,1
+BCBS,4,70553,Radiology,3423.39,4,0,0,1,1,1
+Humana,96,29881,Orthopedics,6300.53,3,0,0,1,1,0
+Humana,4,64483,Pain Management,2704.9,4,1,0,1,1,0
+Medicaid,11,27447,Orthopedics,37586.93,6,0,0,0,1,0
+Humana,252,93306,Cardiology,1022.19,8,1,0,1,1,1
+Cigna,50,97110,Physical Therapy,122.38,6,0,0,1,1,0
+BCBS,109,29881,Orthopedics,5063.47,24,1,0,1,1,1
+Humana,151,64483,Pain Management,3643.57,99,0,0,1,2,0
+Cigna,97,97110,Physical Therapy,116.37,24,1,0,1,1,0
+UnitedHealthcare,97,29881,Orthopedics,6938.81,45,1,1,1,1,1
+Medicaid,197,97110,Physical Therapy,122.52,92,0,1,1,1,1
+UnitedHealthcare,50,70553,Radiology,2355.06,1,1,0,1,1,1
+UnitedHealthcare,18,99214,Primary Care,253.54,82,1,1,1,1,0
+Medicare,97,64483,Pain Management,3440.92,1,0,0,1,1,0
+BCBS,18,93306,Cardiology,932.66,3,0,1,0,1,0
+Medicare,4,93306,Cardiology,996.55,27,1,0,1,1,1
+Humana,16,99214,Primary Care,237.74,33,1,1,1,2,1
+Medicaid,11,99214,Primary Care,234.48,9,1,1,1,1,1
+Medicaid,11,27447,Orthopedics,29434.98,8,1,0,1,2,1
+Cigna,97,64483,Pain Management,2949.83,65,1,1,1,2,0
+Medicare,18,99214,Primary Care,240.46,15,1,0,1,1,0
+BCBS,109,64483,Pain Management,3661.28,2,0,0,1,2,1
+BCBS,151,72148,Radiology,1182.43,11,1,0,1,1,0
+Medicaid,29,45378,Gastroenterology,2588.44,29,0,0,1,1,0
+UnitedHealthcare,50,64483,Pain Management,3688.86,4,1,0,1,1,1
+BCBS,97,64483,Pain Management,3506.72,16,0,0,1,2,1
+UnitedHealthcare,16,45378,Gastroenterology,2844.94,57,1,0,1,1,1
+BCBS,96,99214,Primary Care,231.82,117,1,1,1,1,0
+Medicare,18,72148,Radiology,1493.1,12,1,0,1,1,0
+BCBS,96,97110,Physical Therapy,105.07,25,0,0,0,1,0
+UnitedHealthcare,16,90837,Behavioral Health,197.07,2,0,1,1,1,1
+Aetna,109,45378,Gastroenterology,2679.56,61,1,1,1,1,0
+Medicaid,18,97110,Physical Therapy,129.77,20,1,0,1,2,0
+Aetna,96,64483,Pain Management,2844.69,34,1,0,1,2,0
+UnitedHealthcare,4,27447,Orthopedics,31336.27,6,1,0,1,1,1
+Cigna,97,64483,Pain Management,3400.09,23,1,0,1,2,0
+Medicaid,252,90837,Behavioral Health,217.14,2,0,0,1,1,0
+Medicare,18,64483,Pain Management,3270.56,56,1,1,1,1,0
+Aetna,18,93306,Cardiology,1062.86,101,1,1,0,1,0
+Aetna,97,27447,Orthopedics,28716.39,60,0,1,1,2,0
+Cigna,50,27447,Orthopedics,26599.54,25,0,0,1,2,0
+BCBS,4,27447,Orthopedics,33795.7,88,1,0,0,1,0
+Medicare,151,93306,Cardiology,869.53,10,1,0,1,1,1
+UnitedHealthcare,50,29881,Orthopedics,6328.88,38,0,0,1,1,0
+Aetna,96,72148,Radiology,1530.22,54,0,1,1,1,0
+BCBS,96,72148,Radiology,1305.88,70,1,0,1,1,0
+BCBS,151,29881,Orthopedics,6298.68,10,0,0,1,1,0
+Humana,11,45378,Gastroenterology,2939.36,50,0,0,1,1,1
+BCBS,197,64483,Pain Management,3086.15,10,1,0,1,1,0
+UnitedHealthcare,97,97110,Physical Therapy,97.86,130,0,0,1,1,0
+BCBS,50,99214,Primary Care,228.55,8,1,0,1,1,1
+Aetna,18,45378,Gastroenterology,2328.64,44,1,0,1,1,0
+BCBS,96,29881,Orthopedics,5997.22,60,0,1,1,1,0
+BCBS,197,93306,Cardiology,1026.73,21,0,1,1,2,1
+UnitedHealthcare,151,99214,Primary Care,199.94,28,0,1,1,1,0
+Medicare,97,45378,Gastroenterology,3142.36,62,1,0,1,2,0
+UnitedHealthcare,151,99214,Primary Care,241.98,29,1,0,1,2,0
+Medicaid,29,93306,Cardiology,822.2,105,1,1,1,1,0
+Aetna,50,93306,Cardiology,1090.24,51,1,0,1,1,0
+Humana,11,97110,Physical Therapy,95.28,15,0,0,1,1,0
+Humana,252,90837,Behavioral Health,249.84,15,1,0,0,1,0
+Aetna,109,45378,Gastroenterology,2568.88,48,1,1,1,1,0
+UnitedHealthcare,11,93306,Cardiology,884.63,27,1,1,1,1,0
+Aetna,11,99214,Primary Care,256.23,53,1,0,0,2,0
+Cigna,18,97110,Physical Therapy,101.26,25,1,0,1,1,0
+UnitedHealthcare,16,72148,Radiology,1621.6,7,1,0,0,1,0
+Aetna,16,64483,Pain Management,3497.25,32,0,0,1,1,1
+BCBS,151,45378,Gastroenterology,2606.07,42,0,1,1,1,0
+Humana,151,97110,Physical Therapy,97.98,40,0,0,1,1,1
+Aetna,4,70553,Radiology,2480.35,52,1,1,1,1,1
+BCBS,109,70553,Radiology,3107.38,95,0,0,1,1,1
+Cigna,97,72148,Radiology,1193.98,68,1,1,1,1,1
+Aetna,97,64483,Pain Management,3042.86,48,1,1,1,1,1
+Medicaid,4,99214,Primary Care,270.67,4,1,0,0,1,1
+Humana,252,99214,Primary Care,289.42,5,1,0,1,2,0
+Cigna,16,99214,Primary Care,270.03,1,1,1,1,1,1
+BCBS,252,29881,Orthopedics,5399.42,45,1,0,0,1,0
+Medicare,151,45378,Gastroenterology,2306.25,3,0,0,1,1,0
+BCBS,18,90837,Behavioral Health,242.99,15,1,0,1,2,0
+BCBS,16,29881,Orthopedics,5728.91,2,1,1,1,1,0
+Medicaid,151,99214,Primary Care,255.95,14,1,0,1,1,0
+Humana,109,93306,Cardiology,1077.23,56,1,1,0,1,1
+Cigna,97,27447,Orthopedics,30837.72,21,1,0,1,1,0
+BCBS,4,72148,Radiology,1380.37,165,0,0,1,1,1
+UnitedHealthcare,50,97110,Physical Therapy,136.44,61,1,0,1,1,1
+Humana,11,93306,Cardiology,992.6,89,1,1,1,1,1
+BCBS,151,93306,Cardiology,1019.22,29,1,0,0,1,0
+BCBS,11,27447,Orthopedics,28199.25,4,0,1,1,1,1
+Aetna,252,29881,Orthopedics,5732.76,35,0,0,1,1,1
+UnitedHealthcare,252,70553,Radiology,2373.83,136,1,0,1,1,0
+Medicare,109,93306,Cardiology,1107.74,52,0,1,1,2,0
+Medicaid,18,27447,Orthopedics,36899.38,2,0,0,1,1,0
+Humana,252,45378,Gastroenterology,2976.86,11,0,0,1,1,1
+UnitedHealthcare,18,45378,Gastroenterology,2282.08,43,0,0,1,1,0
+Medicaid,96,27447,Orthopedics,35892.33,54,0,0,1,1,0
+Humana,18,97110,Physical Therapy,129.98,8,0,1,1,1,0
+Medicaid,18,64483,Pain Management,2550.75,6,0,0,0,1,0
+Aetna,97,99214,Primary Care,262.75,67,0,1,1,1,0
+Aetna,50,27447,Orthopedics,32136.1,7,1,1,1,2,1
+Medicaid,96,70553,Radiology,2487.69,102,0,0,1,1,1
+BCBS,4,70553,Radiology,2858.08,180,1,0,1,1,1
+UnitedHealthcare,97,64483,Pain Management,2603.64,59,0,1,0,1,1
+Humana,29,90837,Behavioral Health,218.96,180,0,0,1,1,0
+Humana,96,70553,Radiology,3058.89,70,0,0,1,1,0
+BCBS,96,29881,Orthopedics,5700.25,13,1,1,1,1,0
+Cigna,4,90837,Behavioral Health,186.08,41,1,0,1,1,1
+Humana,29,72148,Radiology,1175.61,151,0,1,1,2,0
+BCBS,252,72148,Radiology,1211.25,68,0,0,1,1,0
+Medicaid,11,90837,Behavioral Health,187.62,7,0,0,1,1,0
+BCBS,109,70553,Radiology,2474.78,65,0,0,1,1,0
+UnitedHealthcare,252,90837,Behavioral Health,172.86,59,1,0,1,1,0
+Humana,109,70553,Radiology,3408.02,31,1,1,1,2,0
+Aetna,18,72148,Radiology,1329.67,93,1,0,1,2,0
+BCBS,4,72148,Radiology,1574.59,70,1,0,1,1,1
+Aetna,109,29881,Orthopedics,5742.13,25,1,0,1,1,0
+Cigna,18,29881,Orthopedics,6773.61,11,0,0,1,2,0
+Humana,252,90837,Behavioral Health,181.18,56,0,1,1,1,1
+Medicaid,50,45378,Gastroenterology,2905.49,6,1,0,0,1,1
+Aetna,97,99214,Primary Care,260.17,120,0,1,1,1,0
+Cigna,252,29881,Orthopedics,5069.05,49,1,0,1,2,1
+Humana,197,72148,Radiology,1509.25,13,0,1,1,2,1
+Aetna,11,97110,Physical Therapy,114.94,99,0,0,1,2,0
+Cigna,252,29881,Orthopedics,5752.66,26,0,0,1,1,1
+BCBS,11,27447,Orthopedics,36257.21,64,1,0,0,1,0
+Humana,97,72148,Radiology,1504.56,14,1,0,1,1,0
+Cigna,96,93306,Cardiology,1072.05,22,1,0,1,1,1
+UnitedHealthcare,50,90837,Behavioral Health,218.61,180,1,0,1,1,0
+UnitedHealthcare,11,27447,Orthopedics,32941.94,34,1,1,0,1,0
+BCBS,197,27447,Orthopedics,37965.58,33,0,1,1,1,1
+Aetna,109,27447,Orthopedics,31355.55,36,1,1,1,2,0
+Humana,252,45378,Gastroenterology,2663.21,60,0,0,0,1,0
+Medicaid,29,99214,Primary Care,243.91,47,0,0,1,1,0
+Medicare,50,70553,Radiology,3171.45,40,1,0,1,1,1
+UnitedHealthcare,97,99214,Primary Care,240.73,12,0,1,1,1,0
+Medicare,96,64483,Pain Management,3408.19,180,0,1,1,1,0
+Cigna,11,64483,Pain Management,2918.66,62,0,1,1,1,1
+Cigna,109,99214,Primary Care,234.12,21,0,0,1,1,0
+Cigna,29,64483,Pain Management,3526.47,80,1,0,1,1,0
+Medicare,11,97110,Physical Therapy,97.31,180,0,0,1,1,1
+Medicare,4,93306,Cardiology,1131.47,18,1,0,1,1,1
+UnitedHealthcare,97,70553,Radiology,2395.35,47,0,0,1,1,1
+Aetna,252,45378,Gastroenterology,3050.1,15,1,0,1,2,1
+Cigna,197,90837,Behavioral Health,212.09,13,0,1,1,2,1
+Aetna,96,90837,Behavioral Health,190.86,34,0,0,1,1,0
+Cigna,11,64483,Pain Management,3600.14,11,1,0,1,1,1
+Medicaid,97,72148,Radiology,1612.13,9,1,0,1,1,0
+BCBS,96,99214,Primary Care,291.84,2,1,0,0,1,1
+UnitedHealthcare,151,99214,Primary Care,270.47,159,1,0,1,1,0
+BCBS,252,70553,Radiology,2689.65,30,0,1,1,1,1
+Cigna,4,45378,Gastroenterology,2997.57,44,1,0,1,1,1
+Humana,4,90837,Behavioral Health,216.57,3,1,0,1,1,0
+Medicare,29,27447,Orthopedics,37520.92,1,0,1,1,1,0
+Cigna,18,99214,Primary Care,213.09,24,0,1,1,1,0
+Aetna,252,29881,Orthopedics,6660.58,1,1,0,1,2,1
+Medicare,4,72148,Radiology,1602.86,12,0,0,1,2,1
+Medicare,18,64483,Pain Management,2639.61,13,1,1,1,2,0
+BCBS,252,27447,Orthopedics,28056.87,67,1,0,1,1,1
+Medicare,18,99214,Primary Care,232.16,51,0,1,1,1,0
+Cigna,96,97110,Physical Therapy,108.6,6,0,0,1,1,1
+BCBS,16,97110,Physical Therapy,118.8,5,0,0,1,1,1
+Aetna,197,27447,Orthopedics,30195.93,114,0,0,1,1,0
+Aetna,197,27447,Orthopedics,27521.99,8,1,0,1,1,0
+Medicaid,11,72148,Radiology,1435.08,27,1,0,1,1,1
+Aetna,11,99214,Primary Care,226.32,119,1,1,0,1,1
+BCBS,252,72148,Radiology,1657.42,78,1,1,1,1,1
+Humana,96,27447,Orthopedics,27627.67,28,0,0,1,1,0
+Medicare,252,27447,Orthopedics,34969.57,139,1,0,1,1,0
+BCBS,96,29881,Orthopedics,6312.59,4,1,0,1,1,1
+Medicaid,50,29881,Orthopedics,5122.75,6,1,1,1,1,1
+Cigna,50,70553,Radiology,2576.37,11,1,0,1,1,1
+Medicare,97,90837,Behavioral Health,228.7,35,1,0,1,1,1
+Medicare,29,45378,Gastroenterology,2858.56,7,1,1,1,1,0
+Medicare,4,72148,Radiology,1699.33,35,1,1,1,1,1
+Medicaid,11,99214,Primary Care,255.32,93,1,0,1,2,1
+Medicare,252,90837,Behavioral Health,177.99,32,1,0,1,1,1
+Cigna,97,93306,Cardiology,897.09,26,0,0,0,1,0
+BCBS,18,97110,Physical Therapy,115.9,36,1,0,1,1,1
+Medicare,4,27447,Orthopedics,34058.91,32,1,1,1,1,0
+UnitedHealthcare,18,99214,Primary Care,272.78,10,0,1,1,1,0
+Aetna,97,90837,Behavioral Health,222.36,6,0,0,0,1,0
+Medicaid,97,64483,Pain Management,3175.61,1,1,0,0,1,0
+Medicaid,109,90837,Behavioral Health,195.94,95,1,0,1,2,1
+Aetna,109,70553,Radiology,3253.26,95,0,0,1,1,0
+Cigna,16,27447,Orthopedics,26998.63,52,1,1,1,1,0
+Aetna,11,72148,Radiology,1345.65,10,1,0,1,1,1
+Medicaid,96,90837,Behavioral Health,177.58,61,1,0,1,1,0
+Medicaid,151,70553,Radiology,2428.43,5,1,0,1,1,0
+Cigna,11,29881,Orthopedics,7426.33,22,1,0,1,1,0
+Aetna,50,27447,Orthopedics,28698.02,61,1,0,1,2,0
+Humana,252,99214,Primary Care,241.87,72,0,0,0,1,1
+Medicare,4,99214,Primary Care,268.41,21,0,0,1,1,1
+Medicaid,96,45378,Gastroenterology,3100.1,102,0,0,1,1,0
+Cigna,16,45378,Gastroenterology,2783.65,46,1,0,1,2,1
+Medicare,151,99214,Primary Care,244.52,8,1,0,1,1,1
+Cigna,11,29881,Orthopedics,5450.95,132,0,0,1,1,0
+UnitedHealthcare,197,64483,Pain Management,3707.93,1,1,0,1,2,0
+Medicaid,252,93306,Cardiology,1172.05,109,0,1,1,1,1
+Aetna,29,45378,Gastroenterology,2654.88,17,1,0,1,2,0
+BCBS,96,70553,Radiology,3008.71,11,1,0,1,1,1
+Aetna,97,93306,Cardiology,830.98,64,0,0,0,1,0
+Cigna,197,72148,Radiology,1399.05,75,0,0,0,1,1
+BCBS,197,72148,Radiology,1230.37,6,1,0,1,1,1
+Medicare,50,45378,Gastroenterology,2882.52,10,1,0,0,2,0
+Cigna,11,97110,Physical Therapy,121.75,18,0,0,0,1,1
+Humana,11,29881,Orthopedics,6229.01,82,1,0,1,2,1
+BCBS,18,72148,Radiology,1365.68,44,1,1,1,1,1
+Cigna,11,97110,Physical Therapy,125.88,12,0,0,1,1,1
+Aetna,29,99214,Primary Care,240.9,3,0,1,1,2,0
+UnitedHealthcare,29,64483,Pain Management,3427.56,121,0,1,1,1,0
+UnitedHealthcare,252,70553,Radiology,2377.19,20,1,0,1,1,1
+Cigna,96,72148,Radiology,1319.43,5,1,0,1,1,1
+UnitedHealthcare,96,27447,Orthopedics,34122.53,9,1,0,1,2,0
+Aetna,18,72148,Radiology,1381.45,2,1,0,1,2,0
+UnitedHealthcare,16,90837,Behavioral Health,212.76,8,1,1,1,1,1
+Humana,151,90837,Behavioral Health,226.91,15,0,1,1,2,0
+Aetna,18,27447,Orthopedics,27651.77,83,0,0,0,1,0
+Cigna,109,29881,Orthopedics,7310.77,20,0,0,1,2,0
+Cigna,4,70553,Radiology,3174.02,46,1,1,1,1,1
+Humana,252,64483,Pain Management,3097.52,16,1,1,1,1,1
+Medicare,4,97110,Physical Therapy,95.58,28,1,0,0,1,1
+Aetna,29,64483,Pain Management,2855.35,6,0,0,1,2,0
+BCBS,151,29881,Orthopedics,5804.4,69,0,0,1,1,1
+Cigna,4,70553,Radiology,3306.99,42,0,0,1,1,1
+Medicare,252,27447,Orthopedics,36793.75,9,1,1,1,1,0
+Medicaid,151,72148,Radiology,1702.1,13,0,0,1,1,0
+Medicare,252,97110,Physical Therapy,107.29,11,1,1,0,1,0
+UnitedHealthcare,97,99214,Primary Care,263.62,8,1,1,1,1,0
+Medicaid,4,97110,Physical Therapy,123.53,66,1,0,0,1,1
+UnitedHealthcare,151,72148,Radiology,1467.74,1,0,1,1,1,0
+Medicaid,16,90837,Behavioral Health,242.11,15,0,1,1,2,1
+BCBS,4,70553,Radiology,3089.75,66,0,0,1,1,0
+UnitedHealthcare,151,45378,Gastroenterology,3030.02,137,0,1,0,1,0
+Cigna,11,99214,Primary Care,248.18,9,1,1,0,1,1
+Aetna,151,90837,Behavioral Health,242.44,50,0,0,1,1,0
+Aetna,96,97110,Physical Therapy,138.04,54,1,0,1,1,0
+Medicare,4,45378,Gastroenterology,2679.0,21,0,0,1,1,0
+Aetna,96,93306,Cardiology,948.99,148,0,1,1,1,0
+Medicare,11,29881,Orthopedics,6658.06,2,1,1,0,1,1
+Cigna,151,64483,Pain Management,3121.1,10,0,1,1,1,0
+Medicare,29,99214,Primary Care,209.5,7,1,0,1,1,0
+Humana,96,45378,Gastroenterology,2606.98,21,0,1,1,2,0
+BCBS,11,70553,Radiology,2606.53,1,0,0,1,1,1
+Humana,4,45378,Gastroenterology,2726.25,19,1,0,0,2,0
+Humana,50,64483,Pain Management,3018.19,19,1,0,1,2,1
+BCBS,96,45378,Gastroenterology,2803.11,35,1,0,1,1,1
+Medicare,109,99214,Primary Care,266.9,15,0,0,1,1,0
+Medicare,18,93306,Cardiology,1094.92,27,1,0,1,1,0
+BCBS,4,27447,Orthopedics,29177.89,72,1,1,1,1,1
+Medicare,97,45378,Gastroenterology,2595.24,2,0,1,1,1,1
+Cigna,109,27447,Orthopedics,33938.19,2,1,0,0,1,0
+Cigna,97,45378,Gastroenterology,2344.2,37,0,0,1,2,0
+Medicaid,29,93306,Cardiology,1082.9,73,0,0,1,1,1
+UnitedHealthcare,97,64483,Pain Management,3642.34,23,1,1,0,1,1
+Humana,109,97110,Physical Therapy,121.83,180,0,0,1,1,0
+Medicaid,151,64483,Pain Management,2716.71,64,1,0,1,1,1
+Medicare,252,72148,Radiology,1201.71,5,1,0,1,1,1
+BCBS,197,97110,Physical Therapy,101.64,44,0,0,0,1,0
+Medicaid,151,45378,Gastroenterology,2737.49,17,0,1,1,1,1
+Cigna,4,27447,Orthopedics,29160.13,48,0,1,1,1,1
+Medicare,29,29881,Orthopedics,6633.26,15,0,0,1,1,0
+BCBS,151,29881,Orthopedics,5620.75,19,1,0,1,1,0
+Cigna,29,93306,Cardiology,965.13,70,1,0,1,1,0
+UnitedHealthcare,16,97110,Physical Therapy,125.49,33,1,0,1,1,1
+Medicaid,16,72148,Radiology,1558.47,127,0,1,1,1,0
+Medicaid,29,27447,Orthopedics,26488.16,47,1,1,0,2,0
+Medicaid,96,72148,Radiology,1377.75,68,1,1,1,2,0
+Medicare,252,45378,Gastroenterology,3255.3,33,1,0,1,1,1
+Aetna,4,27447,Orthopedics,37836.76,4,0,0,0,2,0
+Medicare,29,27447,Orthopedics,34067.11,16,1,1,1,1,0
+Humana,151,45378,Gastroenterology,2820.87,48,1,0,1,1,1
+Medicare,4,29881,Orthopedics,5273.14,8,1,0,1,1,1
+Medicare,11,64483,Pain Management,2893.6,6,0,0,0,2,1
+Medicaid,151,99214,Primary Care,238.28,27,1,1,1,2,0
+Aetna,109,97110,Physical Therapy,112.71,95,0,0,1,1,0
+Medicaid,4,93306,Cardiology,954.81,51,0,0,1,1,1
+Humana,50,64483,Pain Management,2991.27,10,1,1,1,1,0
+Medicare,151,93306,Cardiology,1110.74,46,1,0,1,1,0
+UnitedHealthcare,4,93306,Cardiology,1143.13,16,1,0,1,1,0
+Aetna,197,27447,Orthopedics,36627.95,64,0,0,1,1,1
+Cigna,96,97110,Physical Therapy,104.29,3,1,0,1,2,1
+BCBS,50,72148,Radiology,1544.28,70,1,0,1,1,1
+Medicare,50,64483,Pain Management,2670.46,6,1,0,0,1,1
+Aetna,11,97110,Physical Therapy,115.19,63,0,0,1,1,1
+Aetna,16,90837,Behavioral Health,247.44,10,1,0,0,1,1
+Medicaid,29,93306,Cardiology,955.54,74,1,0,1,2,0
+Humana,4,90837,Behavioral Health,199.41,21,1,0,0,1,1
+Medicaid,16,72148,Radiology,1196.69,21,0,0,1,2,1
+Medicaid,97,90837,Behavioral Health,174.75,62,0,0,1,1,0
+Aetna,29,93306,Cardiology,1172.43,22,0,0,1,2,0
+Humana,4,90837,Behavioral Health,230.93,84,1,1,1,2,1
+Humana,18,97110,Physical Therapy,111.66,180,1,0,1,1,0
+Medicare,11,97110,Physical Therapy,140.36,51,0,1,0,2,1
+BCBS,16,90837,Behavioral Health,193.55,41,0,0,0,2,1
+Cigna,97,64483,Pain Management,3697.23,35,1,1,1,2,1
+Medicare,50,70553,Radiology,3185.54,1,1,0,1,1,1
+Medicaid,97,64483,Pain Management,3164.38,127,1,0,1,1,0
+Medicare,252,64483,Pain Management,2905.77,62,0,1,1,1,1
+Humana,16,29881,Orthopedics,7106.3,66,1,0,1,1,1
+Medicare,197,97110,Physical Therapy,131.24,16,1,0,1,1,0
+UnitedHealthcare,16,97110,Physical Therapy,122.94,33,1,0,1,1,1
+Humana,97,90837,Behavioral Health,188.72,43,0,0,1,1,0
+Cigna,197,45378,Gastroenterology,3201.46,42,1,1,1,1,1
+Humana,151,29881,Orthopedics,5294.81,26,0,1,1,1,0
+Aetna,151,97110,Physical Therapy,109.7,38,1,1,1,1,1
+Humana,97,27447,Orthopedics,25717.81,2,0,0,1,1,0
+Cigna,16,45378,Gastroenterology,2300.92,19,1,1,1,1,1
+Medicare,252,70553,Radiology,2971.87,67,1,1,1,2,1
+UnitedHealthcare,97,90837,Behavioral Health,172.82,1,0,0,0,2,0
+Humana,50,64483,Pain Management,3666.95,24,1,0,1,1,1
+Cigna,97,64483,Pain Management,2583.61,11,1,0,1,1,1
+Medicaid,96,45378,Gastroenterology,2918.83,91,1,1,1,1,0
+BCBS,16,64483,Pain Management,2732.08,59,0,0,0,1,1
+Medicare,97,72148,Radiology,1438.81,25,1,0,1,1,1
+UnitedHealthcare,252,72148,Radiology,1224.57,26,1,0,1,1,1
+Medicare,109,27447,Orthopedics,29608.08,19,0,1,1,1,0
+UnitedHealthcare,4,29881,Orthopedics,6510.55,15,1,0,1,1,0
+Aetna,151,93306,Cardiology,1113.16,55,0,1,1,1,0
+Humana,16,90837,Behavioral Health,168.8,68,1,0,1,1,1
+BCBS,97,64483,Pain Management,3362.16,22,1,0,0,1,1
+Aetna,11,64483,Pain Management,2989.87,53,0,1,1,1,1
+Humana,96,27447,Orthopedics,29358.96,15,0,0,0,2,0
+Medicare,11,93306,Cardiology,796.84,4,1,1,0,1,1
+Medicaid,197,99214,Primary Care,280.23,23,0,0,0,1,0
+Medicaid,151,27447,Orthopedics,25896.31,61,1,0,1,1,0
+Humana,11,72148,Radiology,1733.16,125,1,0,1,1,1
+Cigna,252,72148,Radiology,1447.11,33,1,0,1,1,1
+Medicaid,97,29881,Orthopedics,5150.92,70,0,0,1,1,0
+Humana,11,70553,Radiology,3294.41,133,1,0,1,1,1
+Medicare,252,64483,Pain Management,2683.61,76,1,1,1,1,1
+UnitedHealthcare,18,99214,Primary Care,218.78,46,0,0,1,2,0
+Humana,252,70553,Radiology,2901.6,4,0,0,1,1,1
+Medicaid,16,29881,Orthopedics,5054.26,1,0,1,1,1,1
+Cigna,16,64483,Pain Management,2936.77,17,1,1,1,1,1
+Aetna,252,90837,Behavioral Health,204.85,48,0,0,1,2,1
+UnitedHealthcare,197,64483,Pain Management,2907.57,16,0,0,1,2,0
+Medicare,11,29881,Orthopedics,6362.23,19,1,1,1,1,1
+Humana,96,99214,Primary Care,269.42,31,0,1,1,1,1
+Medicaid,96,45378,Gastroenterology,2374.96,1,1,0,1,1,0
+Humana,4,45378,Gastroenterology,2808.04,3,1,0,1,1,1
+Humana,18,97110,Physical Therapy,134.68,25,1,1,1,1,0
+Medicare,18,99214,Primary Care,265.35,102,0,0,1,1,1
+Cigna,151,99214,Primary Care,283.78,67,0,1,1,2,0
+UnitedHealthcare,197,64483,Pain Management,2651.46,164,0,0,1,1,0
+BCBS,97,72148,Radiology,1544.45,13,0,1,1,2,0
+Medicare,252,93306,Cardiology,1043.4,7,0,0,1,2,0
+Medicare,50,27447,Orthopedics,33770.88,5,0,0,0,1,0
+Cigna,16,93306,Cardiology,943.62,55,1,0,1,1,1
+Humana,18,93306,Cardiology,844.5,180,0,0,1,1,1
+Medicaid,151,70553,Radiology,2505.27,50,0,0,1,1,1
+Humana,151,27447,Orthopedics,33875.02,14,1,0,1,2,0
+Medicaid,18,90837,Behavioral Health,189.17,17,1,0,1,1,0
+Cigna,97,29881,Orthopedics,6084.31,20,0,1,1,1,0
+Humana,96,29881,Orthopedics,5256.28,21,1,0,1,1,1
+Medicare,109,64483,Pain Management,3414.9,18,1,0,1,2,1
+BCBS,109,90837,Behavioral Health,210.92,64,0,0,1,1,1
+Humana,151,29881,Orthopedics,5349.86,98,1,0,1,2,1
+Cigna,96,70553,Radiology,2689.29,6,1,1,1,1,0
+Cigna,109,72148,Radiology,1639.9,46,1,1,0,1,1
+Aetna,16,64483,Pain Management,2838.79,36,0,0,1,1,0
+Cigna,4,27447,Orthopedics,30947.09,18,1,0,1,1,0
+Medicaid,18,93306,Cardiology,1020.69,40,1,0,1,1,0
+Medicaid,4,29881,Orthopedics,6570.5,71,1,0,1,1,1
+UnitedHealthcare,109,45378,Gastroenterology,2807.02,89,1,0,0,2,0
+Humana,16,99214,Primary Care,269.09,127,0,0,1,1,1
+Medicaid,109,97110,Physical Therapy,120.65,30,1,0,0,1,0
+Humana,4,72148,Radiology,1498.22,12,0,1,0,1,0
+Aetna,50,72148,Radiology,1701.87,34,1,0,1,2,1
+Aetna,18,72148,Radiology,1471.85,110,1,0,1,2,0
+Medicare,29,99214,Primary Care,216.36,24,0,1,1,1,1
+Aetna,252,93306,Cardiology,1096.0,73,0,0,0,1,1
+UnitedHealthcare,252,45378,Gastroenterology,3094.05,5,0,1,1,1,1
+Aetna,96,90837,Behavioral Health,191.18,17,1,1,1,1,0
+Medicare,109,45378,Gastroenterology,2686.84,46,1,0,1,1,0
+Medicare,4,70553,Radiology,3287.09,58,1,0,1,2,1
+BCBS,252,97110,Physical Therapy,121.24,85,1,0,1,1,0
+BCBS,96,93306,Cardiology,851.01,27,1,1,1,1,1
+Cigna,96,70553,Radiology,3420.67,3,1,0,1,1,0
+Cigna,16,45378,Gastroenterology,2542.12,7,1,0,1,2,0
+Aetna,16,90837,Behavioral Health,248.52,21,0,0,1,1,0
+Cigna,96,27447,Orthopedics,29790.81,41,0,0,1,1,0
+Humana,11,64483,Pain Management,3655.09,45,0,1,1,2,0
+Aetna,197,70553,Radiology,2372.66,85,1,0,1,1,0
+BCBS,97,93306,Cardiology,870.78,64,0,0,1,2,1
+BCBS,11,93306,Cardiology,878.82,114,0,0,1,1,1
+Cigna,18,93306,Cardiology,1154.41,1,1,0,1,1,1
+Aetna,96,97110,Physical Therapy,130.09,63,0,1,1,2,0
+Humana,197,45378,Gastroenterology,2951.53,1,0,0,1,2,0
+Cigna,16,93306,Cardiology,962.52,71,1,1,1,1,1
+BCBS,16,64483,Pain Management,3574.27,9,1,1,1,1,1
+UnitedHealthcare,4,70553,Radiology,2537.07,51,0,0,1,1,1
+Medicare,151,45378,Gastroenterology,2860.78,44,1,0,1,1,1
+UnitedHealthcare,18,27447,Orthopedics,36678.0,32,0,0,0,1,0
+Medicaid,16,72148,Radiology,1613.52,1,1,0,1,1,1
+BCBS,18,93306,Cardiology,1056.82,41,1,0,1,1,1
+Medicare,96,29881,Orthopedics,5319.59,1,1,1,0,1,1
+Humana,18,72148,Radiology,1630.89,4,0,1,0,2,1
+Cigna,97,70553,Radiology,2645.99,42,0,0,1,1,1
+BCBS,151,29881,Orthopedics,6269.92,57,1,0,1,1,1
+BCBS,151,90837,Behavioral Health,236.22,16,0,0,0,1,0
+Aetna,151,64483,Pain Management,2914.43,12,0,0,1,1,1
+Cigna,29,29881,Orthopedics,7122.67,32,0,0,1,1,0
+Humana,29,97110,Physical Therapy,101.28,11,1,0,1,1,0
+Medicare,18,45378,Gastroenterology,2574.4,78,1,0,1,1,0
+Aetna,97,45378,Gastroenterology,2370.0,18,1,1,1,2,1
+UnitedHealthcare,11,90837,Behavioral Health,188.71,32,1,0,1,1,1
+UnitedHealthcare,29,99214,Primary Care,282.82,16,0,0,1,2,0
+BCBS,18,93306,Cardiology,893.23,1,0,0,0,1,0
+Medicaid,109,99214,Primary Care,208.1,22,1,0,1,2,1
+Medicaid,16,72148,Radiology,1370.51,4,0,0,1,1,0
+BCBS,18,27447,Orthopedics,35075.16,4,0,1,1,2,0
+UnitedHealthcare,96,27447,Orthopedics,25596.02,60,0,0,1,1,0
+Aetna,11,45378,Gastroenterology,2523.06,12,0,0,0,1,1
+UnitedHealthcare,97,97110,Physical Therapy,116.82,6,1,0,1,1,1
+Aetna,29,45378,Gastroenterology,2440.76,87,1,1,1,2,1
+Cigna,4,70553,Radiology,2743.51,74,1,1,1,2,1
+Aetna,18,70553,Radiology,2657.04,33,0,0,1,1,0
+Humana,50,93306,Cardiology,1097.63,60,1,1,1,2,0
+Humana,252,45378,Gastroenterology,2968.69,25,0,0,0,2,0
+Medicaid,29,29881,Orthopedics,5025.95,51,0,0,1,1,0
+Cigna,109,29881,Orthopedics,6176.41,15,0,1,1,2,0
+Medicare,109,70553,Radiology,2467.22,56,0,0,1,2,0
+Medicare,18,93306,Cardiology,1005.31,4,1,0,1,1,0
+Aetna,97,64483,Pain Management,3269.95,12,0,0,1,1,1
+Cigna,109,72148,Radiology,1644.17,61,1,1,1,1,0
+UnitedHealthcare,18,64483,Pain Management,3225.7,106,0,0,1,2,0
+UnitedHealthcare,50,72148,Radiology,1285.64,29,1,0,1,1,1
+UnitedHealthcare,16,99214,Primary Care,250.73,26,1,1,1,2,0
+UnitedHealthcare,151,45378,Gastroenterology,2522.31,89,1,0,1,1,0
+UnitedHealthcare,16,93306,Cardiology,1021.39,38,0,1,0,1,1
+UnitedHealthcare,11,27447,Orthopedics,33086.43,37,0,1,1,2,1
+BCBS,11,99214,Primary Care,269.61,20,1,1,1,1,1
+Cigna,151,99214,Primary Care,200.08,2,1,1,1,1,1
+Humana,4,64483,Pain Management,3594.11,11,1,0,0,1,1
+Medicare,50,99214,Primary Care,209.05,51,1,0,1,2,1
+Humana,11,72148,Radiology,1598.35,84,1,0,1,1,0
+BCBS,11,72148,Radiology,1172.48,17,1,0,1,1,0
+Cigna,16,97110,Physical Therapy,111.13,3,1,0,1,2,1
+Humana,151,64483,Pain Management,2554.42,55,0,1,1,1,0
+Medicare,50,99214,Primary Care,210.58,1,0,0,1,1,1
+Cigna,11,93306,Cardiology,945.12,57,1,0,0,1,1
+Humana,11,72148,Radiology,1561.93,36,1,0,1,1,1
+BCBS,29,27447,Orthopedics,30048.77,6,1,0,1,2,0
+Cigna,252,70553,Radiology,2945.1,10,1,0,1,1,1
+UnitedHealthcare,109,27447,Orthopedics,38039.59,5,0,1,1,1,0
+Medicare,29,90837,Behavioral Health,202.54,10,1,0,1,1,0
+UnitedHealthcare,4,72148,Radiology,1168.9,180,0,0,1,2,1
+Medicaid,96,64483,Pain Management,3405.43,45,1,1,1,1,1
+Medicaid,252,72148,Radiology,1475.56,22,1,0,1,1,1
+Humana,97,97110,Physical Therapy,103.64,2,0,0,0,2,0
+Medicare,50,70553,Radiology,3336.33,173,1,0,0,1,0
+UnitedHealthcare,151,99214,Primary Care,251.71,19,1,0,1,1,1
+Medicare,16,29881,Orthopedics,5432.07,8,0,0,1,1,1
+Medicaid,50,45378,Gastroenterology,2600.33,27,0,0,0,2,0
+UnitedHealthcare,18,99214,Primary Care,236.89,4,0,1,1,1,0
+BCBS,252,27447,Orthopedics,37949.67,56,1,0,1,2,0
+UnitedHealthcare,109,29881,Orthopedics,6443.52,28,0,1,1,1,1
+Aetna,252,70553,Radiology,2893.73,85,1,0,1,2,1
+Medicare,18,72148,Radiology,1340.94,60,1,1,0,1,0
+Humana,4,70553,Radiology,2743.98,16,1,0,1,1,1
+BCBS,151,90837,Behavioral Health,172.57,80,0,0,1,1,0
+Medicare,4,27447,Orthopedics,31400.67,4,0,0,1,1,1
+Aetna,16,72148,Radiology,1587.07,20,0,0,1,1,1
+Cigna,151,70553,Radiology,2999.52,49,1,0,1,1,1
+Aetna,96,45378,Gastroenterology,2968.11,7,1,1,1,1,0
+UnitedHealthcare,252,45378,Gastroenterology,3075.16,40,1,0,1,1,1
+UnitedHealthcare,97,64483,Pain Management,3497.01,35,1,1,0,1,1
+Humana,252,29881,Orthopedics,5799.37,17,1,1,1,1,1
+Aetna,252,70553,Radiology,2341.28,34,1,0,1,1,0
+Aetna,4,70553,Radiology,2819.95,54,0,0,1,1,1
+Medicaid,18,27447,Orthopedics,25872.81,127,0,0,1,1,0
+Aetna,29,29881,Orthopedics,5062.95,19,1,0,1,1,0
+Medicare,151,70553,Radiology,2867.77,6,0,1,0,1,0
+Medicare,4,45378,Gastroenterology,2417.4,19,1,0,1,1,1
+Humana,16,97110,Physical Therapy,121.82,6,1,0,1,1,1
+Humana,197,72148,Radiology,1714.58,81,1,1,1,2,0
+Medicaid,109,90837,Behavioral Health,174.56,78,1,0,1,1,0
+BCBS,252,29881,Orthopedics,6726.24,33,0,0,0,1,0
+Medicaid,109,90837,Behavioral Health,213.99,114,1,1,1,2,0
+Aetna,18,99214,Primary Care,247.74,20,1,1,1,1,0
+BCBS,109,93306,Cardiology,1142.86,37,0,1,1,1,0
+Humana,96,93306,Cardiology,827.84,6,1,0,1,1,1
+UnitedHealthcare,97,29881,Orthopedics,6505.39,1,1,0,1,2,0
+Cigna,197,99214,Primary Care,260.16,5,1,1,0,1,0
+Aetna,151,93306,Cardiology,978.18,5,1,1,1,1,1
+UnitedHealthcare,29,29881,Orthopedics,6624.4,15,1,1,1,1,0
+Cigna,16,29881,Orthopedics,7310.05,144,1,0,1,1,1
+Aetna,18,97110,Physical Therapy,114.66,34,0,0,1,1,0
+UnitedHealthcare,18,90837,Behavioral Health,200.77,16,1,0,0,1,0
+Humana,197,64483,Pain Management,3665.52,53,1,1,0,1,0
+Cigna,96,93306,Cardiology,849.65,1,1,1,1,1,1
+Medicaid,197,45378,Gastroenterology,3227.95,55,1,1,1,1,0
+Aetna,4,99214,Primary Care,222.85,5,1,0,1,1,1
+Humana,29,93306,Cardiology,1126.61,15,0,0,1,2,1
+Humana,18,70553,Radiology,2568.01,70,1,0,0,2,0
+Cigna,18,64483,Pain Management,2568.2,7,0,0,1,1,0
+Cigna,109,29881,Orthopedics,5852.3,46,1,0,1,1,0
+BCBS,252,27447,Orthopedics,29289.09,30,0,0,1,1,1
+Humana,29,70553,Radiology,3419.65,21,1,0,1,2,0
+Humana,11,64483,Pain Management,2804.43,43,1,0,0,2,1
+Medicare,50,99214,Primary Care,217.67,37,0,0,1,2,0
+Aetna,151,72148,Radiology,1178.08,90,0,0,0,1,0
+Aetna,96,70553,Radiology,2351.02,30,1,0,0,1,0
+UnitedHealthcare,97,64483,Pain Management,2581.06,155,0,0,1,2,0
+Aetna,16,70553,Radiology,3187.15,71,1,0,1,1,1
+BCBS,109,93306,Cardiology,926.64,15,0,1,1,1,1
+UnitedHealthcare,16,97110,Physical Therapy,122.82,40,0,0,1,1,1
+UnitedHealthcare,252,93306,Cardiology,1040.59,39,0,0,1,2,1
+UnitedHealthcare,4,64483,Pain Management,3109.88,8,1,0,1,1,1
+Cigna,16,27447,Orthopedics,32742.43,15,1,1,1,1,1
+Aetna,16,99214,Primary Care,204.12,93,1,0,1,1,0
+Cigna,50,72148,Radiology,1628.14,147,1,1,1,1,1
+Medicaid,109,70553,Radiology,2449.33,6,0,0,1,1,1
+Aetna,18,99214,Primary Care,256.31,2,1,0,0,1,0
+UnitedHealthcare,197,64483,Pain Management,3269.14,28,0,0,1,2,1
+Medicare,50,27447,Orthopedics,29234.03,2,0,0,0,1,0
+Medicaid,97,93306,Cardiology,979.34,2,0,1,1,1,1
+BCBS,252,90837,Behavioral Health,192.9,19,0,0,1,2,1
+Aetna,29,29881,Orthopedics,6159.62,98,1,0,1,2,0
+Cigna,4,97110,Physical Therapy,122.55,71,0,1,1,1,1
+Cigna,50,64483,Pain Management,3367.3,20,1,1,1,1,1
+BCBS,96,27447,Orthopedics,30683.61,26,1,0,1,2,0
+Cigna,50,64483,Pain Management,3643.13,7,0,0,1,2,1
+BCBS,4,93306,Cardiology,986.46,30,1,1,1,1,1
+Medicare,18,93306,Cardiology,932.24,36,1,1,1,1,0
+UnitedHealthcare,109,45378,Gastroenterology,2507.37,63,0,0,1,1,1
+Humana,4,93306,Cardiology,855.93,88,0,0,1,1,0
+BCBS,11,29881,Orthopedics,6148.54,111,1,1,1,1,0
+Aetna,11,45378,Gastroenterology,3256.39,51,0,0,1,1,1
+Humana,109,90837,Behavioral Health,175.47,24,0,0,1,1,1
+BCBS,96,97110,Physical Therapy,107.67,93,0,0,1,1,0
+BCBS,252,70553,Radiology,3472.98,76,0,0,1,1,1
+Cigna,97,45378,Gastroenterology,3267.33,39,1,0,1,1,0
+BCBS,96,90837,Behavioral Health,237.93,11,0,0,1,1,1
+Humana,11,97110,Physical Therapy,103.9,2,0,0,1,1,0
+Humana,4,27447,Orthopedics,35842.92,3,1,1,0,1,1
+Cigna,197,90837,Behavioral Health,173.66,14,0,0,1,1,0
+BCBS,4,70553,Radiology,2950.83,21,1,1,1,1,1
+Cigna,4,27447,Orthopedics,32965.37,15,1,1,1,2,1
+Medicaid,18,97110,Physical Therapy,141.15,8,0,0,0,2,0
+Humana,252,70553,Radiology,2774.51,65,0,0,1,1,0
+BCBS,96,97110,Physical Therapy,101.54,70,0,1,1,1,1
+Humana,151,93306,Cardiology,1111.15,21,0,1,1,1,1
+Medicaid,109,64483,Pain Management,3492.49,7,0,0,1,1,1
+Aetna,50,99214,Primary Care,216.12,38,0,0,1,1,1
+Humana,197,97110,Physical Therapy,137.36,35,1,1,1,2,1
+Aetna,109,27447,Orthopedics,27042.27,25,1,0,0,2,0
+Aetna,16,97110,Physical Therapy,131.44,17,1,1,1,2,1
+Medicare,97,72148,Radiology,1463.45,135,1,1,1,1,1
+Humana,18,97110,Physical Therapy,113.89,17,1,1,1,2,0
+UnitedHealthcare,197,99214,Primary Care,251.43,29,0,1,1,1,1
+Humana,97,29881,Orthopedics,5416.81,31,1,0,1,1,1
+UnitedHealthcare,97,70553,Radiology,2697.51,3,0,0,1,1,0
+Aetna,50,93306,Cardiology,1083.5,2,0,0,1,1,0
+BCBS,16,64483,Pain Management,3387.07,180,1,0,1,2,0
+Medicare,18,99214,Primary Care,266.28,33,1,0,1,1,0
+Aetna,4,90837,Behavioral Health,226.48,4,1,0,1,1,1
+Aetna,18,90837,Behavioral Health,190.29,37,0,0,1,2,0
+Aetna,96,90837,Behavioral Health,240.06,15,0,1,1,1,0
+UnitedHealthcare,4,64483,Pain Management,2703.13,16,1,0,1,1,1
+Medicaid,4,99214,Primary Care,270.03,2,1,0,1,1,0
+Aetna,109,29881,Orthopedics,7403.8,26,0,0,1,2,0
+Humana,16,64483,Pain Management,3397.85,8,0,0,1,1,1
+Cigna,252,27447,Orthopedics,32319.96,109,0,1,1,2,1
+Cigna,151,72148,Radiology,1736.72,98,1,1,1,1,0
+BCBS,29,90837,Behavioral Health,172.3,132,0,0,1,2,0
+UnitedHealthcare,96,45378,Gastroenterology,2878.62,52,1,0,1,2,0
+BCBS,109,99214,Primary Care,251.13,30,1,0,1,1,0
+Cigna,97,29881,Orthopedics,5255.95,7,1,0,1,1,0
+UnitedHealthcare,96,70553,Radiology,3000.01,164,1,0,0,1,0
+UnitedHealthcare,97,93306,Cardiology,1107.64,25,1,0,1,1,0
+Humana,96,70553,Radiology,2539.67,15,1,1,0,1,0
+Humana,197,90837,Behavioral Health,214.18,15,1,0,1,2,1
+Medicaid,16,64483,Pain Management,2946.71,14,1,1,1,1,0
+BCBS,96,64483,Pain Management,2806.34,2,0,0,1,1,0
+Humana,97,93306,Cardiology,1115.36,17,1,1,0,2,1
+UnitedHealthcare,151,29881,Orthopedics,6795.33,14,0,1,1,1,0
+Cigna,96,29881,Orthopedics,5862.58,44,0,1,1,1,1
+UnitedHealthcare,50,93306,Cardiology,1149.08,68,0,0,1,1,0
+Medicaid,97,72148,Radiology,1543.12,80,0,1,1,1,1
+Medicaid,197,72148,Radiology,1236.58,47,0,1,1,2,1
+Cigna,96,64483,Pain Management,2862.56,32,0,0,1,1,0
+Humana,16,64483,Pain Management,3259.4,39,1,1,1,2,1
+Aetna,109,29881,Orthopedics,5572.89,86,1,0,1,1,0
+Aetna,18,64483,Pain Management,2874.61,27,0,1,1,2,0
+Aetna,18,93306,Cardiology,982.69,38,0,0,1,1,0
+Aetna,109,64483,Pain Management,2805.4,83,1,1,1,1,0
+Medicare,4,90837,Behavioral Health,168.26,24,1,0,1,1,1
+UnitedHealthcare,109,97110,Physical Therapy,134.98,7,1,0,1,1,0
+Medicaid,29,29881,Orthopedics,5328.1,1,0,1,1,1,0
+BCBS,18,90837,Behavioral Health,187.24,32,1,1,1,1,1
+Medicare,11,93306,Cardiology,1095.5,22,1,1,1,2,1
+Medicare,197,27447,Orthopedics,36303.68,10,0,0,1,2,0
+Medicare,11,99214,Primary Care,268.5,40,1,1,1,1,1
+BCBS,18,45378,Gastroenterology,2448.72,27,0,1,1,2,0
+Aetna,252,70553,Radiology,2581.15,29,1,0,0,1,0
+Medicaid,16,27447,Orthopedics,37850.34,3,1,0,1,1,0
+UnitedHealthcare,97,99214,Primary Care,284.43,80,1,1,1,1,1
+Medicare,151,45378,Gastroenterology,2889.46,4,0,0,1,1,1
+Medicare,11,29881,Orthopedics,6535.47,68,1,0,1,1,1
+Humana,96,93306,Cardiology,1150.74,67,1,0,1,1,0
+Medicaid,97,97110,Physical Therapy,99.7,7,1,0,1,1,0
+Humana,97,27447,Orthopedics,28862.63,12,1,0,1,2,0
+UnitedHealthcare,197,97110,Physical Therapy,120.92,1,0,1,1,1,1
+Humana,11,45378,Gastroenterology,3144.84,127,0,0,0,2,0
+Aetna,16,90837,Behavioral Health,218.62,171,1,0,1,1,0
+UnitedHealthcare,18,45378,Gastroenterology,2771.85,33,0,0,1,1,0
+Medicaid,11,90837,Behavioral Health,237.76,2,1,0,1,1,1
+Humana,18,90837,Behavioral Health,169.42,14,0,0,1,1,1
+Humana,97,99214,Primary Care,201.0,8,0,0,1,1,0
+UnitedHealthcare,109,70553,Radiology,3103.34,42,1,0,1,1,1
+UnitedHealthcare,16,99214,Primary Care,251.36,11,0,0,1,1,0
+BCBS,96,27447,Orthopedics,27802.18,10,0,0,1,2,0
+Cigna,97,90837,Behavioral Health,199.65,134,1,1,0,1,1
+BCBS,97,27447,Orthopedics,28741.94,3,0,0,1,1,0
+Aetna,151,29881,Orthopedics,7048.17,19,1,1,0,2,0
+Aetna,197,93306,Cardiology,830.27,169,1,1,1,2,0
+Humana,18,72148,Radiology,1204.46,32,0,0,1,1,0
+Aetna,18,27447,Orthopedics,31682.64,13,1,0,0,1,0
+Cigna,197,99214,Primary Care,230.01,47,0,1,1,1,0
+Cigna,252,72148,Radiology,1617.89,35,0,0,1,1,0
+Aetna,97,64483,Pain Management,2728.58,24,1,1,1,1,1
+Humana,11,97110,Physical Therapy,140.07,3,0,1,1,1,0
+Aetna,151,93306,Cardiology,1130.9,111,0,0,1,1,0
+UnitedHealthcare,50,93306,Cardiology,834.15,74,1,1,1,1,1
+BCBS,18,99214,Primary Care,242.95,3,0,1,1,1,0
+UnitedHealthcare,109,93306,Cardiology,941.68,7,1,1,1,1,1
+Aetna,97,45378,Gastroenterology,2851.83,29,0,0,0,1,1
+Cigna,109,72148,Radiology,1162.69,1,1,0,1,1,0
+UnitedHealthcare,96,97110,Physical Therapy,105.34,18,0,0,1,1,0
+Aetna,252,93306,Cardiology,1140.56,58,0,1,1,1,1
+Humana,50,64483,Pain Management,3268.2,80,1,0,1,1,1
+Cigna,151,45378,Gastroenterology,2858.86,24,1,0,1,2,0
+UnitedHealthcare,96,93306,Cardiology,811.44,43,1,0,1,1,0
+Aetna,109,97110,Physical Therapy,132.82,28,1,0,1,1,1
+Medicare,4,93306,Cardiology,1035.19,23,0,0,1,1,1
+Medicare,50,70553,Radiology,3283.77,5,1,0,1,1,1
+UnitedHealthcare,97,99214,Primary Care,238.55,44,1,0,1,1,0
+UnitedHealthcare,16,90837,Behavioral Health,247.16,58,1,1,1,1,1
+Medicare,109,93306,Cardiology,905.89,19,1,1,1,2,0
+Aetna,29,64483,Pain Management,3467.54,4,0,1,1,2,0
+UnitedHealthcare,197,27447,Orthopedics,34115.7,57,0,1,1,1,0
+Humana,109,90837,Behavioral Health,182.56,33,1,0,1,1,0
+Cigna,4,27447,Orthopedics,36396.72,1,1,0,1,2,0
+Humana,151,27447,Orthopedics,26766.16,62,1,0,1,1,0
+Aetna,151,29881,Orthopedics,5642.28,55,1,0,1,2,0
+UnitedHealthcare,50,27447,Orthopedics,30830.16,94,1,0,1,1,0
+BCBS,197,27447,Orthopedics,37222.87,42,1,0,1,1,0
+Medicaid,96,64483,Pain Management,2734.65,114,0,0,1,1,0
+UnitedHealthcare,109,27447,Orthopedics,34668.36,24,0,0,0,1,0
+Medicare,96,45378,Gastroenterology,2498.29,58,1,0,1,1,0
+Medicaid,11,45378,Gastroenterology,2399.73,68,1,0,1,2,1
+Cigna,50,72148,Radiology,1409.74,47,1,0,1,2,1
+Medicaid,96,27447,Orthopedics,28870.05,19,1,0,1,2,0
+Medicaid,11,99214,Primary Care,272.91,103,1,1,0,1,0
+Medicare,97,70553,Radiology,2707.24,13,1,0,0,1,0
+UnitedHealthcare,50,45378,Gastroenterology,2846.32,70,1,1,0,1,0
+Aetna,197,64483,Pain Management,3679.31,10,0,0,1,2,0
+Aetna,252,29881,Orthopedics,5670.71,25,1,0,0,1,1
+Aetna,252,72148,Radiology,1738.69,9,1,1,1,1,1
+UnitedHealthcare,252,64483,Pain Management,3459.46,11,1,1,1,1,0
+Medicare,50,29881,Orthopedics,6763.99,15,0,0,1,1,0
+Cigna,4,90837,Behavioral Health,231.06,61,1,0,1,2,1
+UnitedHealthcare,29,45378,Gastroenterology,2500.95,1,1,1,1,1,0
+Medicare,151,97110,Physical Therapy,127.21,15,1,0,1,1,0
+Aetna,50,45378,Gastroenterology,3285.04,10,1,1,1,1,1
+Medicaid,97,90837,Behavioral Health,179.88,61,0,0,1,1,0
+Medicare,16,45378,Gastroenterology,2854.35,2,0,0,1,1,0
+Medicaid,97,64483,Pain Management,3387.7,1,1,0,1,2,1
+BCBS,18,45378,Gastroenterology,2923.72,27,1,0,1,1,0
+UnitedHealthcare,109,72148,Radiology,1591.45,69,1,1,0,1,0
+Humana,18,90837,Behavioral Health,251.04,74,1,1,1,2,0
+Medicaid,11,90837,Behavioral Health,198.72,4,0,0,1,2,0
+Medicaid,109,72148,Radiology,1532.0,24,1,1,0,1,1
+Medicaid,252,27447,Orthopedics,35596.26,1,1,1,1,1,1
+Aetna,151,70553,Radiology,3170.44,2,1,1,1,2,1
+Humana,50,64483,Pain Management,3016.71,30,1,0,1,1,1
+Aetna,96,70553,Radiology,2557.34,7,1,0,1,2,0
+Medicaid,29,93306,Cardiology,1157.19,26,0,0,1,1,0
+UnitedHealthcare,197,72148,Radiology,1334.49,12,1,0,0,1,0
+UnitedHealthcare,18,90837,Behavioral Health,170.07,10,1,1,1,1,0
+Aetna,97,97110,Physical Therapy,95.82,123,1,0,1,2,1
+Medicaid,29,29881,Orthopedics,7217.97,85,1,0,1,2,0
+Medicare,4,27447,Orthopedics,31652.22,13,0,0,1,1,0
+Cigna,151,90837,Behavioral Health,204.65,39,1,0,1,2,1
+Humana,11,27447,Orthopedics,28513.93,31,0,1,1,1,1
+UnitedHealthcare,18,70553,Radiology,3261.56,37,1,0,1,2,0
+BCBS,50,72148,Radiology,1580.42,33,1,1,1,1,1
+UnitedHealthcare,50,90837,Behavioral Health,232.77,21,0,1,0,1,1
+BCBS,16,93306,Cardiology,1113.62,2,1,1,1,1,1
+Humana,252,99214,Primary Care,217.78,112,0,1,1,2,1
+Medicaid,4,97110,Physical Therapy,101.35,29,1,0,1,1,1
+Medicare,97,27447,Orthopedics,28692.34,12,1,0,1,1,0
+UnitedHealthcare,16,90837,Behavioral Health,247.11,92,0,1,1,2,1
+Humana,29,97110,Physical Therapy,120.87,180,0,1,1,1,0
+Aetna,50,45378,Gastroenterology,2615.85,103,1,0,1,1,0
+UnitedHealthcare,11,70553,Radiology,2826.12,11,0,1,1,1,1
+UnitedHealthcare,18,70553,Radiology,2697.98,84,1,0,1,1,1
+Humana,4,90837,Behavioral Health,177.02,18,1,1,1,1,1
+Humana,29,64483,Pain Management,3262.79,72,0,0,1,2,0
+BCBS,11,29881,Orthopedics,5874.68,7,0,0,1,2,0
+Medicare,11,93306,Cardiology,860.03,120,1,1,1,1,1
+UnitedHealthcare,11,45378,Gastroenterology,2867.29,9,1,0,1,1,0
+Cigna,97,64483,Pain Management,3068.07,7,1,1,1,2,0
+Medicaid,50,90837,Behavioral Health,197.7,18,1,1,1,1,1
+Humana,16,64483,Pain Management,2636.95,67,1,0,1,1,1
+Medicaid,29,45378,Gastroenterology,2879.71,1,1,1,1,1,1
+Humana,18,27447,Orthopedics,37023.62,8,1,0,1,1,0
+Aetna,197,29881,Orthopedics,5204.67,3,1,1,1,1,1
+Medicaid,96,64483,Pain Management,2939.53,59,0,1,1,1,1
+UnitedHealthcare,151,64483,Pain Management,2628.1,69,0,1,1,1,0
+Humana,151,72148,Radiology,1488.99,72,1,0,1,1,1
+UnitedHealthcare,96,97110,Physical Therapy,136.25,19,0,1,1,1,1
+Cigna,18,70553,Radiology,2642.95,1,1,0,1,1,0
+Cigna,151,99214,Primary Care,242.88,53,1,0,1,2,1
+Cigna,97,72148,Radiology,1179.93,33,0,1,1,1,1
+Medicaid,16,45378,Gastroenterology,2987.01,35,0,0,0,1,1
+Aetna,11,70553,Radiology,2792.24,16,0,0,1,1,1
+Humana,11,99214,Primary Care,268.44,38,0,0,1,1,0
+UnitedHealthcare,11,93306,Cardiology,954.03,4,1,0,0,1,1
+BCBS,96,99214,Primary Care,229.34,12,0,0,1,1,0
+Aetna,252,93306,Cardiology,997.97,79,1,0,1,1,1
+Aetna,11,72148,Radiology,1167.02,11,1,0,0,1,1
+Medicare,197,45378,Gastroenterology,2962.75,23,1,0,1,1,1
+Cigna,97,97110,Physical Therapy,117.52,2,0,0,1,2,1
+Medicare,97,97110,Physical Therapy,99.44,4,1,1,1,1,1
+Aetna,4,64483,Pain Management,3294.31,12,0,1,1,2,1
+Medicare,97,29881,Orthopedics,5119.72,19,0,1,1,2,0
+Humana,109,27447,Orthopedics,34521.85,8,0,0,1,1,0
+Humana,151,99214,Primary Care,216.25,36,1,1,1,1,1
+Cigna,109,27447,Orthopedics,27911.61,9,0,0,1,1,0
+Medicaid,252,90837,Behavioral Health,190.46,42,0,1,1,2,1
+Medicaid,18,70553,Radiology,2557.58,38,0,1,0,1,0
+Humana,151,97110,Physical Therapy,106.93,24,1,1,1,2,0
+Cigna,4,29881,Orthopedics,5853.25,2,1,0,1,1,0
+Humana,29,93306,Cardiology,940.73,45,1,0,1,2,0
+Aetna,18,70553,Radiology,2397.32,116,1,1,1,1,0
+Humana,197,29881,Orthopedics,6009.89,44,1,0,1,2,1
+Cigna,50,27447,Orthopedics,32151.81,18,0,0,1,1,0
+UnitedHealthcare,4,29881,Orthopedics,5655.39,99,1,0,1,1,1
+Cigna,97,93306,Cardiology,898.62,70,0,1,1,1,0
+Medicaid,16,29881,Orthopedics,6208.71,24,1,0,1,1,1
+BCBS,50,27447,Orthopedics,28180.77,162,1,1,1,1,0
+Humana,96,29881,Orthopedics,5060.33,7,1,0,1,1,0
+Medicare,50,99214,Primary Care,264.99,14,1,0,1,1,1
+UnitedHealthcare,151,90837,Behavioral Health,197.99,14,1,0,0,1,1
+Cigna,109,45378,Gastroenterology,2779.42,51,1,1,1,1,1
+Humana,29,99214,Primary Care,217.48,64,0,1,1,2,0
+UnitedHealthcare,252,64483,Pain Management,2885.54,7,1,0,1,1,0
+Cigna,109,64483,Pain Management,2493.89,16,1,0,1,1,1
+Medicare,197,97110,Physical Therapy,127.57,82,1,0,1,1,1
+Humana,50,99214,Primary Care,230.43,15,1,1,0,1,1
+Medicaid,151,93306,Cardiology,966.65,110,1,0,1,1,0
+Cigna,16,70553,Radiology,2745.98,5,1,0,1,1,1
+Humana,252,64483,Pain Management,3096.32,25,0,1,1,1,1
+Humana,11,27447,Orthopedics,25723.95,70,0,0,1,1,0
+UnitedHealthcare,16,27447,Orthopedics,35411.4,57,1,0,1,1,0
+Aetna,29,45378,Gastroenterology,3191.94,5,1,0,1,1,1
+Humana,4,97110,Physical Therapy,110.06,127,1,0,1,2,1
+Humana,151,97110,Physical Therapy,96.88,1,0,0,1,1,0
+Humana,97,99214,Primary Care,205.99,23,0,0,1,1,0
+Medicaid,4,72148,Radiology,1255.07,34,1,0,1,1,1
+UnitedHealthcare,16,97110,Physical Therapy,124.89,1,1,1,1,1,1
+Medicaid,4,64483,Pain Management,3299.85,54,0,0,1,1,1
+UnitedHealthcare,96,97110,Physical Therapy,118.48,5,1,1,1,2,0
+Aetna,197,72148,Radiology,1222.23,166,0,1,0,1,0
+Humana,11,27447,Orthopedics,34609.52,5,0,0,1,2,1
+Medicaid,11,70553,Radiology,3133.23,4,0,0,1,1,1
+Humana,109,27447,Orthopedics,31279.83,11,0,0,1,1,0
+Medicare,16,29881,Orthopedics,5357.45,40,1,0,0,1,1
+Aetna,197,29881,Orthopedics,7409.46,57,0,0,1,1,0
+Humana,96,97110,Physical Therapy,102.05,7,0,1,1,2,0
+Medicaid,252,70553,Radiology,2537.35,47,1,0,1,2,1
+Aetna,197,72148,Radiology,1391.89,9,1,0,1,2,1
+Humana,109,45378,Gastroenterology,2329.12,37,1,1,1,2,0
+Medicare,29,93306,Cardiology,859.78,6,0,1,1,2,0
+UnitedHealthcare,16,99214,Primary Care,230.36,88,0,0,0,1,1
+Humana,151,99214,Primary Care,213.06,18,1,0,1,1,1
+Cigna,29,99214,Primary Care,207.55,12,0,0,1,1,0
+Humana,11,90837,Behavioral Health,226.54,21,1,1,1,1,0
+Medicaid,4,27447,Orthopedics,31814.0,18,1,0,1,1,1
+Aetna,18,70553,Radiology,3109.54,11,1,0,1,1,0
+Medicaid,197,99214,Primary Care,231.76,4,0,1,1,1,0
+Humana,18,99214,Primary Care,267.56,93,1,0,1,1,0
+Cigna,197,27447,Orthopedics,30737.98,8,1,0,1,1,1
+Medicare,109,93306,Cardiology,1030.15,30,1,0,1,2,0
+Cigna,11,99214,Primary Care,281.69,64,1,1,1,2,1
+Aetna,252,93306,Cardiology,912.41,62,1,1,1,1,0
+Cigna,4,27447,Orthopedics,31259.5,4,1,0,1,1,0
+Medicaid,197,97110,Physical Therapy,128.22,77,1,0,0,2,1
+BCBS,11,64483,Pain Management,3387.36,6,1,0,1,1,1
+Medicare,96,99214,Primary Care,259.48,65,0,0,1,1,1
+Medicare,97,70553,Radiology,2673.65,58,1,1,1,1,1
+Cigna,151,64483,Pain Management,2812.84,8,1,1,1,1,1
+Aetna,11,45378,Gastroenterology,2959.22,68,1,0,1,1,0
+Medicaid,97,72148,Radiology,1319.26,4,1,0,1,2,0
+Medicaid,197,72148,Radiology,1580.47,4,1,1,1,2,1
+Aetna,151,72148,Radiology,1454.13,16,0,0,1,1,0
+Cigna,97,72148,Radiology,1387.94,35,1,1,0,1,0
+Medicaid,50,90837,Behavioral Health,208.0,48,1,0,1,1,1
+Medicare,29,70553,Radiology,3012.36,8,1,0,1,1,0
+UnitedHealthcare,29,70553,Radiology,2717.41,72,1,1,1,1,1
+BCBS,11,29881,Orthopedics,4974.87,3,1,1,1,2,1
+Medicaid,252,90837,Behavioral Health,191.55,25,0,0,1,1,1
+Aetna,97,45378,Gastroenterology,2596.6,1,0,1,0,1,1
+Cigna,197,64483,Pain Management,2634.33,31,0,1,0,1,1
+Humana,16,99214,Primary Care,247.88,25,0,1,1,1,1
+Humana,50,93306,Cardiology,827.64,28,1,0,1,1,1
+BCBS,11,29881,Orthopedics,5789.42,27,0,1,1,1,1
+Cigna,97,45378,Gastroenterology,2271.88,86,1,0,1,1,1
+Medicare,11,45378,Gastroenterology,2774.25,24,1,0,1,1,1
+Aetna,252,90837,Behavioral Health,237.12,11,1,0,1,1,1
+Humana,109,64483,Pain Management,2795.67,3,1,1,1,1,1
+Cigna,16,29881,Orthopedics,5852.51,37,1,0,1,2,1
+Humana,97,45378,Gastroenterology,2955.34,46,1,1,1,1,1
+Humana,252,29881,Orthopedics,5349.47,67,0,1,1,2,1
+UnitedHealthcare,97,99214,Primary Care,252.74,66,1,0,1,1,1
+Medicaid,4,29881,Orthopedics,6705.71,17,0,0,1,2,0
+BCBS,197,29881,Orthopedics,6520.22,16,1,0,1,2,1
+Humana,197,93306,Cardiology,1172.62,3,0,0,1,1,0
+BCBS,109,70553,Radiology,3162.83,2,1,0,1,1,0
+BCBS,4,72148,Radiology,1444.23,20,0,0,1,1,1
+Medicaid,18,64483,Pain Management,3247.41,9,1,0,1,1,0
+Medicaid,50,27447,Orthopedics,31204.93,8,1,0,1,1,1
+Medicaid,97,45378,Gastroenterology,3152.08,4,0,0,1,1,1
+Medicare,18,45378,Gastroenterology,2614.36,86,1,0,1,1,1
+Aetna,151,29881,Orthopedics,6508.85,5,0,0,1,1,0
+Cigna,11,99214,Primary Care,284.8,170,1,0,1,1,0
+Humana,96,27447,Orthopedics,26428.43,9,1,1,1,1,0
+Medicaid,97,45378,Gastroenterology,2791.6,46,1,0,0,1,1
+Cigna,151,97110,Physical Therapy,132.48,3,1,0,1,1,1
+Cigna,197,27447,Orthopedics,34073.22,58,0,0,1,1,0
+UnitedHealthcare,97,93306,Cardiology,1114.49,6,0,0,1,1,1
+Aetna,4,70553,Radiology,2358.92,27,0,0,1,1,1
+BCBS,252,27447,Orthopedics,33310.12,53,1,1,1,1,1
+Medicare,97,97110,Physical Therapy,102.13,40,0,0,1,1,1
+Medicare,11,72148,Radiology,1505.61,63,1,0,1,2,1
+Medicaid,109,90837,Behavioral Health,220.59,52,1,0,0,1,0
+Medicaid,29,70553,Radiology,3427.27,16,1,0,1,2,0
+Aetna,18,99214,Primary Care,198.69,69,1,0,1,1,1
+Humana,16,93306,Cardiology,795.2,73,1,0,1,1,1
+Medicaid,11,70553,Radiology,2895.02,8,1,0,0,2,1
+Humana,96,72148,Radiology,1543.71,4,1,1,1,1,1
+Humana,97,27447,Orthopedics,26870.27,37,0,0,1,1,0
+Aetna,151,72148,Radiology,1646.59,17,1,0,1,1,1
+Aetna,151,90837,Behavioral Health,225.83,11,0,0,1,1,1
+Medicare,252,29881,Orthopedics,5491.54,33,0,1,1,1,0
+BCBS,96,27447,Orthopedics,27541.2,7,1,0,1,1,1
+Cigna,29,29881,Orthopedics,7132.49,30,0,1,1,1,0
+Humana,50,72148,Radiology,1736.66,11,1,0,1,1,1
+Medicaid,11,99214,Primary Care,250.0,18,1,0,1,1,1
+Aetna,96,72148,Radiology,1412.72,5,0,0,1,1,1
+Humana,109,97110,Physical Therapy,122.57,73,1,1,1,1,0
+Humana,4,29881,Orthopedics,6676.43,4,1,0,1,1,1
+Medicaid,109,45378,Gastroenterology,2974.93,13,1,0,1,1,1
+Aetna,109,90837,Behavioral Health,212.51,88,1,0,1,1,0
+UnitedHealthcare,29,90837,Behavioral Health,206.9,41,0,0,1,1,0
+Aetna,29,93306,Cardiology,848.46,6,1,1,0,1,0
+Medicaid,96,97110,Physical Therapy,123.69,11,0,1,1,2,0
+Medicaid,50,97110,Physical Therapy,98.62,10,1,0,0,1,1
+Cigna,18,99214,Primary Care,244.9,141,1,0,1,1,0
+Cigna,151,70553,Radiology,3317.5,29,0,0,0,1,0
+BCBS,197,64483,Pain Management,3366.69,46,1,1,1,1,1
+BCBS,4,90837,Behavioral Health,195.9,39,0,1,1,2,1
+Cigna,151,27447,Orthopedics,37731.32,42,0,0,1,1,0
+Aetna,18,99214,Primary Care,264.69,1,0,0,1,1,0
+Humana,197,27447,Orthopedics,33402.0,50,0,0,1,1,0
+Medicare,109,29881,Orthopedics,6168.88,66,0,0,1,2,0
+BCBS,18,27447,Orthopedics,35107.5,1,0,0,1,2,0
+Medicaid,109,90837,Behavioral Health,234.35,66,1,1,1,2,1
+Aetna,11,45378,Gastroenterology,2244.79,21,0,1,1,2,1
+Medicare,11,97110,Physical Therapy,114.47,52,0,1,1,1,0
+BCBS,29,99214,Primary Care,279.45,30,1,0,1,1,0
+Humana,29,90837,Behavioral Health,235.69,22,1,0,0,2,0
+Humana,16,27447,Orthopedics,30708.04,6,0,0,0,2,0
+Medicare,96,72148,Radiology,1167.02,1,1,0,1,1,0
+UnitedHealthcare,18,90837,Behavioral Health,205.91,27,0,1,1,1,0
+Aetna,109,29881,Orthopedics,5450.3,25,0,0,1,2,0
+Medicaid,50,45378,Gastroenterology,3278.42,66,0,1,1,1,1
+Humana,29,72148,Radiology,1186.07,28,0,1,1,1,0
+Humana,252,45378,Gastroenterology,2851.21,75,0,1,1,2,0
+BCBS,16,72148,Radiology,1375.83,23,1,0,1,1,1
+Medicare,11,27447,Orthopedics,35116.67,26,1,0,1,2,1
+Medicare,252,90837,Behavioral Health,197.35,11,0,0,1,1,1
+UnitedHealthcare,109,72148,Radiology,1665.47,35,0,0,1,1,0
+Cigna,252,93306,Cardiology,1101.94,9,0,1,1,1,0
+UnitedHealthcare,29,45378,Gastroenterology,2608.94,101,1,0,1,2,0
+BCBS,16,29881,Orthopedics,6560.67,42,1,0,0,1,1
+BCBS,16,99214,Primary Care,259.72,50,0,0,0,1,0
+Humana,18,45378,Gastroenterology,2303.85,64,1,0,1,1,0
+Aetna,16,70553,Radiology,2352.22,37,0,0,1,2,1
+Aetna,4,45378,Gastroenterology,2517.82,16,0,0,1,1,1
+Humana,50,64483,Pain Management,2788.32,21,0,0,1,1,0
+Aetna,151,99214,Primary Care,261.27,38,0,0,1,1,1
+UnitedHealthcare,18,90837,Behavioral Health,195.16,1,1,1,1,1,0
+Medicaid,151,97110,Physical Therapy,129.32,12,1,0,1,2,1
+Aetna,109,27447,Orthopedics,37579.66,14,1,1,1,1,0
+Aetna,29,99214,Primary Care,199.99,26,1,0,1,1,0
+Medicare,16,93306,Cardiology,1074.64,40,0,1,0,1,0
+BCBS,50,99214,Primary Care,285.92,70,1,1,1,1,1
+UnitedHealthcare,96,27447,Orthopedics,29838.46,63,1,0,1,2,0
+Medicare,97,70553,Radiology,3090.63,24,0,1,1,1,1
+Medicaid,96,45378,Gastroenterology,2225.48,84,1,1,1,1,0
+Humana,197,90837,Behavioral Health,216.67,29,0,0,1,1,0
+Aetna,96,72148,Radiology,1475.35,154,0,0,1,2,0
+Aetna,16,99214,Primary Care,237.08,32,0,0,0,2,1
+Medicaid,50,93306,Cardiology,825.48,85,1,0,1,2,0
+Cigna,252,27447,Orthopedics,35683.42,7,1,0,0,2,0
+Aetna,11,99214,Primary Care,235.7,20,0,1,1,1,1
+UnitedHealthcare,252,45378,Gastroenterology,2658.26,26,0,0,1,1,1
+Humana,96,70553,Radiology,3270.38,26,1,0,1,1,0
+Medicaid,18,27447,Orthopedics,26380.16,47,1,1,1,1,0
+Medicaid,109,72148,Radiology,1622.07,39,1,0,1,1,0
+Cigna,109,72148,Radiology,1510.93,108,0,1,1,1,0
+Cigna,151,97110,Physical Therapy,135.77,80,1,0,1,1,0
+Aetna,252,93306,Cardiology,1145.6,100,0,0,1,1,1
+UnitedHealthcare,109,93306,Cardiology,866.22,123,1,0,1,1,1
+Humana,252,64483,Pain Management,3007.25,23,1,1,1,2,1
+Medicaid,151,97110,Physical Therapy,108.4,23,0,0,1,1,0
+Cigna,197,97110,Physical Therapy,114.72,28,1,0,1,1,1
+Medicaid,16,90837,Behavioral Health,174.41,44,0,1,1,2,1
+Humana,29,64483,Pain Management,2958.32,3,0,0,1,1,0
+Medicare,109,93306,Cardiology,844.9,39,0,1,1,1,1
+Medicaid,18,70553,Radiology,2800.2,125,1,0,1,1,0
+Cigna,50,29881,Orthopedics,5882.54,80,1,0,1,1,1
+Medicaid,97,70553,Radiology,2417.98,92,0,0,1,1,1
+Medicare,50,72148,Radiology,1471.79,19,0,0,1,1,1
+UnitedHealthcare,97,90837,Behavioral Health,193.29,6,1,1,1,1,0
+UnitedHealthcare,96,72148,Radiology,1164.39,102,0,0,1,1,1
+UnitedHealthcare,16,29881,Orthopedics,5645.21,22,0,0,0,1,0
+Cigna,151,29881,Orthopedics,5524.04,159,1,1,0,2,0
+Humana,197,27447,Orthopedics,32823.32,9,0,1,1,2,0
+BCBS,18,72148,Radiology,1163.03,57,1,0,0,2,0
+Humana,16,97110,Physical Therapy,140.13,147,0,0,1,1,1
+Cigna,151,93306,Cardiology,900.91,21,1,1,1,1,1
+UnitedHealthcare,96,45378,Gastroenterology,3058.64,21,0,0,1,2,0
+Medicaid,252,29881,Orthopedics,6151.79,74,0,0,0,1,0
+Medicare,29,93306,Cardiology,1029.86,75,1,0,1,1,0
+Aetna,197,90837,Behavioral Health,199.25,71,1,0,1,1,0
+BCBS,252,70553,Radiology,3357.93,16,0,0,1,2,1
+Medicare,97,99214,Primary Care,287.14,30,0,0,1,1,0
+Aetna,96,64483,Pain Management,3142.54,36,1,1,1,2,0
+Cigna,109,93306,Cardiology,1135.51,54,1,0,1,2,1
+BCBS,97,27447,Orthopedics,32184.23,43,1,0,1,1,0
+Medicaid,29,99214,Primary Care,231.06,93,1,1,1,1,1
+Humana,151,70553,Radiology,2872.59,130,1,1,1,1,1
+Aetna,4,90837,Behavioral Health,185.4,49,0,1,1,1,1
+UnitedHealthcare,11,27447,Orthopedics,36284.78,18,1,1,1,1,0
+Cigna,50,29881,Orthopedics,6119.14,26,0,0,1,1,0
+Cigna,18,90837,Behavioral Health,169.43,12,1,1,1,2,0
+Aetna,109,64483,Pain Management,3420.46,24,1,0,1,2,0
+Humana,97,64483,Pain Management,2786.52,44,1,0,0,2,1
+Humana,16,70553,Radiology,2680.25,50,1,1,1,2,1
+Humana,16,64483,Pain Management,3302.75,58,1,0,1,2,1
+Aetna,18,45378,Gastroenterology,2227.8,1,1,0,1,2,1
+Aetna,4,70553,Radiology,2790.51,48,1,0,1,2,0
+Aetna,4,70553,Radiology,3123.41,8,0,0,1,2,1
+Cigna,16,97110,Physical Therapy,140.61,78,1,1,0,1,1
+Medicaid,18,99214,Primary Care,280.19,17,1,0,1,1,0
+Aetna,50,99214,Primary Care,224.41,100,1,0,1,1,1
+Humana,197,99214,Primary Care,287.2,28,0,0,1,1,0
+UnitedHealthcare,11,97110,Physical Therapy,130.6,15,1,0,1,1,0
+Medicaid,252,99214,Primary Care,293.94,71,1,0,1,1,1
+UnitedHealthcare,18,29881,Orthopedics,6464.28,100,0,0,1,1,0
+Medicare,4,29881,Orthopedics,5593.13,20,1,1,0,2,1
+Aetna,11,90837,Behavioral Health,224.75,53,1,0,1,1,0
+Medicare,29,70553,Radiology,2992.83,28,0,1,1,1,1
+Humana,97,27447,Orthopedics,37256.04,34,1,0,0,2,0
+Aetna,16,90837,Behavioral Health,191.72,9,1,0,0,1,1
+Medicare,197,64483,Pain Management,3596.39,10,1,1,1,2,1
+Cigna,16,93306,Cardiology,862.96,86,0,1,0,1,0
+Humana,97,29881,Orthopedics,5379.16,17,0,0,1,2,1
+Aetna,18,64483,Pain Management,2985.29,86,0,0,1,2,1
+Medicare,97,93306,Cardiology,1137.38,27,1,0,1,1,1
+UnitedHealthcare,50,90837,Behavioral Health,202.12,9,0,0,1,2,0
+Cigna,50,99214,Primary Care,279.41,5,0,0,0,1,1
+Cigna,11,93306,Cardiology,1041.5,146,1,1,0,1,1
+Aetna,29,27447,Orthopedics,31728.84,39,0,0,0,1,0
+Medicaid,50,72148,Radiology,1625.81,8,0,0,1,1,0
+Cigna,18,72148,Radiology,1520.38,65,1,1,1,2,0
+Aetna,96,90837,Behavioral Health,249.97,137,0,0,1,1,0
+Aetna,97,99214,Primary Care,209.12,40,1,0,0,1,0
+Medicaid,109,99214,Primary Care,254.47,13,1,0,1,1,1
+Cigna,18,70553,Radiology,3177.0,50,0,0,1,2,0
+Medicare,96,93306,Cardiology,1009.55,98,0,0,1,1,0
+Cigna,197,72148,Radiology,1500.86,2,1,0,1,1,1
+Cigna,16,70553,Radiology,3183.4,25,1,0,1,1,1
+BCBS,96,27447,Orthopedics,31029.35,12,1,0,1,1,1
+Humana,97,72148,Radiology,1737.96,27,1,0,1,2,1
+BCBS,96,93306,Cardiology,1104.3,19,0,1,1,2,0
+Cigna,29,93306,Cardiology,841.04,132,1,1,1,2,0
+Cigna,16,70553,Radiology,2617.17,37,0,0,1,2,1
+Medicare,197,29881,Orthopedics,5894.72,117,1,0,0,1,0
+UnitedHealthcare,50,64483,Pain Management,3053.86,16,1,1,1,2,0
+BCBS,11,90837,Behavioral Health,179.1,31,0,1,1,1,1
+Humana,4,64483,Pain Management,2997.09,108,0,1,1,1,0
+Medicaid,11,93306,Cardiology,827.45,126,1,0,1,2,0
+BCBS,252,45378,Gastroenterology,2795.0,57,0,1,0,2,1
+Medicare,97,45378,Gastroenterology,2417.75,34,0,1,1,1,0
+BCBS,197,90837,Behavioral Health,224.49,6,1,0,1,2,1
+UnitedHealthcare,11,29881,Orthopedics,6058.13,15,1,1,0,1,0
+Aetna,29,29881,Orthopedics,6156.63,18,0,0,1,1,0
+BCBS,252,64483,Pain Management,3540.05,180,1,0,0,1,0
+Aetna,197,70553,Radiology,3351.68,24,0,0,1,1,0
+Medicaid,252,72148,Radiology,1353.47,3,1,1,1,1,1
+Medicaid,18,99214,Primary Care,205.09,86,0,0,1,1,0
+Aetna,50,72148,Radiology,1532.75,19,0,0,1,1,1
+Cigna,97,45378,Gastroenterology,3223.11,85,1,1,1,1,1
+BCBS,29,27447,Orthopedics,32915.15,24,1,0,1,1,0
+Aetna,96,99214,Primary Care,197.39,5,0,0,1,2,0
+Cigna,11,90837,Behavioral Health,223.34,180,0,0,0,2,1
+UnitedHealthcare,97,27447,Orthopedics,33922.81,27,0,0,1,1,0
+Medicaid,16,99214,Primary Care,216.46,12,0,0,1,1,1
+UnitedHealthcare,11,29881,Orthopedics,7269.41,15,0,0,1,1,0
+Medicare,11,97110,Physical Therapy,115.48,76,1,0,1,1,1
+Humana,96,27447,Orthopedics,31022.43,25,1,0,1,1,0
+UnitedHealthcare,11,99214,Primary Care,271.09,28,0,0,0,2,0
+UnitedHealthcare,151,90837,Behavioral Health,229.55,24,0,0,1,1,0
+UnitedHealthcare,50,97110,Physical Therapy,141.43,13,0,1,1,1,1
+Aetna,197,64483,Pain Management,2557.78,20,1,1,1,1,1
+Medicaid,11,97110,Physical Therapy,96.55,33,0,0,1,1,1
+Medicare,252,45378,Gastroenterology,2744.74,11,1,1,1,1,1
+BCBS,151,99214,Primary Care,284.71,3,0,0,0,1,0
+BCBS,18,93306,Cardiology,1015.39,34,1,0,1,1,1
+Cigna,18,97110,Physical Therapy,141.01,65,1,0,1,1,0
+Aetna,96,93306,Cardiology,1084.9,46,1,1,1,2,1
+Aetna,50,45378,Gastroenterology,2559.23,23,1,0,1,1,0
+Cigna,109,64483,Pain Management,3080.96,33,1,0,1,1,0
+Humana,11,90837,Behavioral Health,241.21,41,0,0,1,2,0
+Aetna,252,72148,Radiology,1302.95,56,1,0,1,2,1
+BCBS,16,27447,Orthopedics,36937.34,50,1,1,1,1,0
+Humana,197,29881,Orthopedics,5346.02,19,0,1,1,2,0
+UnitedHealthcare,109,72148,Radiology,1411.56,21,0,0,1,1,1
+Humana,96,93306,Cardiology,847.43,175,1,0,1,1,1
+Humana,50,45378,Gastroenterology,3059.29,62,0,0,1,1,0
+UnitedHealthcare,50,27447,Orthopedics,26295.59,8,1,0,0,1,0
+BCBS,29,72148,Radiology,1699.72,19,1,1,1,1,1
+Cigna,151,27447,Orthopedics,34847.2,151,1,0,1,2,0
+UnitedHealthcare,252,70553,Radiology,3422.46,61,1,0,1,1,1
+Medicare,4,99214,Primary Care,226.18,11,1,1,1,2,1
+BCBS,252,99214,Primary Care,217.56,1,1,0,1,1,1
+UnitedHealthcare,4,27447,Orthopedics,26867.51,33,1,0,1,2,0
+Aetna,151,93306,Cardiology,1089.42,15,1,0,1,2,1
+BCBS,109,72148,Radiology,1521.69,3,1,1,1,1,0
+Medicaid,4,99214,Primary Care,214.3,34,1,0,1,1,1
+Medicaid,97,90837,Behavioral Health,250.2,1,0,0,1,2,1
+BCBS,4,70553,Radiology,3142.22,21,0,1,1,1,0
+Aetna,197,45378,Gastroenterology,2323.97,8,1,0,1,2,0
+Humana,11,27447,Orthopedics,35853.47,96,1,0,1,1,0
+Aetna,29,45378,Gastroenterology,2646.01,37,1,1,1,2,0
+Aetna,50,90837,Behavioral Health,178.86,3,1,0,1,1,0
+Medicaid,151,99214,Primary Care,239.48,7,0,0,1,1,1
+Medicaid,18,99214,Primary Care,292.34,4,1,0,1,2,1
+BCBS,11,27447,Orthopedics,27197.48,3,1,0,1,2,1
+BCBS,197,72148,Radiology,1587.57,10,0,1,0,1,1
+Humana,29,93306,Cardiology,924.23,46,1,1,1,1,0
+Aetna,50,72148,Radiology,1620.72,33,0,0,1,1,1
+Aetna,252,90837,Behavioral Health,243.8,38,1,0,1,1,1
+Medicare,252,72148,Radiology,1655.11,3,1,0,1,1,1
+Humana,29,90837,Behavioral Health,195.19,16,0,0,1,1,0
+BCBS,18,64483,Pain Management,3555.23,18,0,1,1,2,0
+Cigna,252,93306,Cardiology,1006.16,25,1,0,1,1,1
+UnitedHealthcare,11,93306,Cardiology,1052.56,99,1,0,1,2,0
+Medicaid,197,29881,Orthopedics,5701.66,103,0,0,1,1,0
+BCBS,29,93306,Cardiology,1082.64,48,0,0,1,2,0
+UnitedHealthcare,97,97110,Physical Therapy,99.33,2,1,0,1,1,1
+Aetna,18,70553,Radiology,3286.77,50,0,0,1,1,0
+Humana,109,29881,Orthopedics,5217.36,20,1,0,1,1,0
+Medicaid,97,90837,Behavioral Health,211.32,18,1,0,1,1,1
+UnitedHealthcare,11,93306,Cardiology,861.12,1,0,0,1,1,0
+Cigna,29,93306,Cardiology,915.09,15,0,0,1,1,1
+BCBS,4,70553,Radiology,2461.68,53,0,1,0,1,1
+BCBS,18,27447,Orthopedics,27598.39,139,1,1,0,2,0
+Medicaid,96,29881,Orthopedics,5257.57,8,1,0,0,1,0
+Aetna,11,70553,Radiology,2772.66,9,1,0,1,1,0
+Humana,11,93306,Cardiology,1104.35,13,0,1,1,1,1
+Aetna,50,27447,Orthopedics,35483.88,40,1,0,1,1,0
+Medicare,197,45378,Gastroenterology,2634.16,1,0,0,1,1,1
+UnitedHealthcare,96,70553,Radiology,2869.18,84,0,0,1,1,0
+Cigna,109,72148,Radiology,1274.08,43,1,1,1,1,0
+Humana,96,27447,Orthopedics,32162.67,13,0,0,1,1,0

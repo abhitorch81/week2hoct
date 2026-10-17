@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Overturn — denial appeals that never leave your machine</title>
+<style>
+:root{
+  --bg:#0b0f14; --panel:#121820; --panel2:#18202a; --line:#243040; --text:#e8eef5; --mut:#8a99ab;
+  --acc:#2dd4a7; --acc2:#5eead4; --warn:#f5b84a; --bad:#f2677a; --blue:#6aa8ff; --violet:#a78bfa;
+  --r:14px;
+}
+@media (prefers-color-scheme: light){
+  :root{--bg:#f4f6f9;--panel:#fff;--panel2:#f0f3f7;--line:#dde3ea;--text:#0f1722;--mut:#5b6b7e;--acc:#0e9f78;--acc2:#0b7f60}
+}
+*{box-sizing:border-box} html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--text);font:14px/1.45 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+button{font:inherit;color:inherit;cursor:pointer}
+header{display:flex;align-items:center;gap:16px;padding:14px 22px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,var(--panel),transparent)}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;letter-spacing:-.2px}
+.logo i{width:30px;height:30px;border-radius:9px;background:conic-gradient(from 210deg,var(--acc),var(--blue),var(--violet),var(--acc));display:grid;place-items:center;color:#06210f;font-style:normal;font-weight:800}
+.tag{color:var(--mut);font-size:12.5px}
+.badges{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.badge{display:inline-flex;align-items:center;gap:7px;padding:5px 10px;border-radius:99px;border:1px solid var(--line);background:var(--panel);font-size:12px;color:var(--mut)}
+.badge b{color:var(--text);font-weight:600}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--mut)}
+.dot.ok{background:var(--acc);box-shadow:0 0 0 3px #2dd4a733}.dot.warn{background:var(--warn);box-shadow:0 0 0 3px #f5b84a33}
+.layout{display:grid;grid-template-columns:380px 1fr;gap:18px;padding:18px 22px 40px;max-width:1500px;margin:0 auto}
+@media(max-width:980px){.layout{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.card h3{margin:0 0 10px;font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--mut);font-weight:600;display:flex;align-items:center;gap:8px}
+.col{display:flex;flex-direction:column;gap:14px;min-width:0}
+.hero{display:flex;justify-content:space-between;gap:12px}
+.kpi{font-size:26px;font-weight:700;letter-spacing:-.5px}
+.kpi small{display:block;font-size:11.5px;font-weight:500;color:var(--mut);letter-spacing:0}
+.q{display:flex;flex-direction:column;gap:6px;max-height:330px;overflow:auto;margin:0 -6px;padding:0 6px}
+.qi{display:grid;grid-template-columns:1fr auto;gap:2px 8px;padding:9px 10px;border:1px solid transparent;border-radius:10px;background:var(--panel2);text-align:left;width:100%}
+.qi:hover{border-color:var(--line)} .qi.sel{border-color:var(--acc);background:#2dd4a711}
+.qi .t{font-weight:600;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qi .s{color:var(--mut);font-size:11.5px}
+.qi .ev{grid-row:1/3;grid-column:2;text-align:right;font-weight:700;color:var(--acc)}
+.qi .ev small{display:block;font-weight:500;font-size:10.5px;color:var(--mut)}
+.chip{display:inline-block;padding:1px 7px;border-radius:99px;font-size:10.5px;font-weight:600;margin-right:4px;border:1px solid var(--line)}
+.chip.appeal{color:var(--blue);border-color:#6aa8ff55}.chip.recode{color:var(--violet);border-color:#a78bfa55}.chip.writeoff{color:var(--mut)}
+.chip.urgent{color:var(--bad);border-color:#f2677a55}
+textarea,select{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px;font:12.5px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace}
+textarea{resize:vertical;min-height:170px}
+label.tg{display:flex;align-items:center;gap:8px;color:var(--text);font-size:13px;padding:4px 0}
+.row{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:8px 12px;font-weight:600}
+.btn:hover{border-color:var(--acc)}
+.btn.primary{background:linear-gradient(135deg,var(--acc),#22b8d6);color:#04231a;border:0;padding:11px 16px;width:100%;font-size:14px}
+.btn.primary:disabled{opacity:.6;cursor:progress}
+.steps{display:grid;grid-template-columns:repeat(8,1fr);gap:8px}
+@media(max-width:1200px){.steps{grid-template-columns:repeat(4,1fr)}}
+.st{padding:10px;border-radius:12px;background:var(--panel2);border:1px solid var(--line);position:relative;overflow:hidden;min-height:62px}
+.st .n{font-size:11px;color:var(--mut)} .st .l{font-weight:600;font-size:12.5px;margin-top:2px}
+.st .m{font-size:11px;color:var(--mut);margin-top:3px}
+.st.run{border-color:var(--blue)} .st.run::after{content:"";position:absolute;left:0;top:0;height:3px;width:40%;background:var(--blue);animation:sl 1s infinite ease-in-out}
+.st.done{border-color:#2dd4a755} .st.done .n{color:var(--acc)}
+.st.retry{border-color:var(--warn)} .st.err{border-color:var(--bad)} .st.rest{border-color:var(--violet)} .st.rest .n{color:var(--violet)}
+@keyframes sl{0%{left:-40%}100%{left:100%}}
+.banner{padding:10px 14px;border-radius:10px;font-size:13px;border:1px solid var(--warn);background:#f5b84a14;color:var(--text)}
+.banner.v{border-color:var(--violet);background:#a78bfa14}.banner.e{border-color:var(--bad);background:#f2677a14}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid3{display:grid;grid-template-columns:1.2fr 1fr;gap:14px}
+@media(max-width:1100px){.grid2,.grid3{grid-template-columns:1fr}}
+dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:5px 14px}dt{color:var(--mut)}dd{margin:0;font-weight:500;word-break:break-word}
+.opt{display:grid;grid-template-columns:150px 1fr 86px;align-items:center;gap:10px;padding:8px 10px;border-radius:10px;border:1px solid var(--line);margin-bottom:8px}
+.opt.rec{border-color:var(--acc);background:#2dd4a711}
+.opt .bar{height:8px;border-radius:8px;background:var(--panel2);overflow:hidden}
+.opt .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--acc2));transition:width .8s cubic-bezier(.2,.8,.2,1)}
+.opt .e{text-align:right;font-weight:700}.opt .e.neg{color:var(--bad)}
+.opt small{color:var(--mut);display:block;font-weight:400}
+.gauge{display:grid;place-items:center;position:relative;min-height:116px}
+.gauge .v{position:absolute;bottom:6px;text-align:center}.gauge .v b{font-size:34px;letter-spacing:-1px}.gauge .v small{display:block;color:var(--mut);font-size:11.5px}
+.lever{display:flex;justify-content:space-between;gap:10px;padding:8px 10px;background:var(--panel2);border-radius:10px;margin-top:6px}
+.lever b{color:var(--acc)}
+.win{padding:10px;border-radius:10px;background:var(--panel2);margin-top:8px;font-size:13px}
+.win small{color:var(--mut)}
+.ev-list label{display:flex;gap:9px;padding:6px 0;border-bottom:1px dashed var(--line)}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line)}
+.tab{background:none;border:0;padding:9px 14px;color:var(--mut);font-weight:600;border-bottom:2px solid transparent}
+.tab.on{color:var(--text);border-color:var(--acc)}
+.pane{display:none}.pane.on{display:flex;flex-direction:column;gap:14px;margin-top:14px}
+#letter{min-height:430px;font:13.5px/1.55 Georgia,"Times New Roman",serif;background:#fff;color:#111;border-radius:10px}
+.chk{display:flex;gap:9px;align-items:flex-start;padding:5px 0}
+.ic{width:18px;height:18px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:800;flex:none;margin-top:1px}
+.ic.y{background:#2dd4a733;color:var(--acc)}.ic.n{background:#f2677a33;color:var(--bad)}.ic.w{background:#f5b84a33;color:var(--warn)}
+.wfr{display:grid;grid-template-columns:150px 1fr 74px;gap:10px;align-items:center;margin:5px 0;font-size:12.5px}
+.wfr .track{position:relative;height:16px;background:var(--panel2);border-radius:5px}
+.wfr .seg{position:absolute;top:0;height:100%;border-radius:5px;background:linear-gradient(90deg,var(--blue),var(--acc2));min-width:3px}
+.wfr .seg.rest{background:var(--violet)}.wfr .seg.err{background:var(--bad)}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}@media(max-width:800px){.metrics{grid-template-columns:repeat(2,1fr)}}
+.metric{background:var(--panel2);padding:12px;border-radius:12px}.metric b{font-size:22px;display:block;letter-spacing:-.5px}.metric small{color:var(--mut)}
+.empty{display:grid;place-items:center;text-align:center;padding:70px 20px;color:var(--mut);border:1px dashed var(--line);border-radius:var(--r)}
+.empty h2{color:var(--text);margin:0 0 6px;font-size:20px}
+.priv{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px;max-width:760px}
+@media(max-width:800px){.priv{grid-template-columns:1fr}}
+.priv div{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:left}.priv b{color:var(--text);display:block;margin-bottom:3px}
+.hide{display:none!important}
+.note{font-size:11.5px;color:var(--mut);margin-top:8px}
+.fade{animation:fd .45s ease both}@keyframes fd{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><i>O</i><div>Overturn<div class="tag">denial appeals that never leave your machine</div></div></div>
+  <div class="badges" id="badges"></div>
+  <button class="btn" id="arenaBtn" title="Compare open-weight models on the same synthetic notices">Model arena</button>
+</header>
+<div id="arena" class="hide" style="position:fixed;inset:0;background:#000a;z-index:50;overflow:auto;padding:24px">
+  <div class="card" style="max-width:860px;margin:0 auto">
+    <div class="row" style="justify-content:space-between"><h3 style="margin:0">Model arena · which open-weight model writes the safest appeal?</h3><button class="btn" id="arenaX">Close</button></div>
+    <div class="banner e" style="margin:10px 0">Sends <b>synthetic</b> denial notices (no real patients) to Backboard's cloud to reach hosted open-weight models. Never run this on real PHI. Every call is counted as external. The local model is the baseline and stays on this machine.</div>
+    <div id="arenaSetup"><div class="note">loading models…</div></div>
+    <div class="row" style="margin:10px 0"><label class="note" style="margin:0">Notices per model <input id="arenaN" type="number" min="1" max="12" value="6" style="width:60px"></label>
+      <button class="btn primary" id="arenaGo" style="width:auto">Run arena</button><span class="note" id="arenaMsg" style="margin:0"></span></div>
+    <div id="arenaOut"></div>
+    <div class="note">Score = share of notices where the model's first draft passes the fact-checker with no corrective retry (claim id, CPT, denial code, denied amount, no invented codes or amounts). Small samples are noisy; treat as a smoke test, not a benchmark.</div>
+  </div>
+</div>
+
+<div class="layout">
+  <!-- LEFT -->
+  <div class="col">
+    <div class="card hero">
+      <div class="kpi" id="kEv">–<small>expected recovery in queue</small></div>
+      <div class="kpi" id="kDen" style="text-align:right">–<small>denied, awaiting action</small></div>
+    </div>
+    <div class="card">
+      <h3>Open denials — ranked by expected recovery</h3>
+      <div class="q" id="queue"><div class="note">loading…</div></div>
+      <div class="note">Synthetic demo data. Ranked by (overturn probability × amount) − cost to work it.</div>
+    </div>
+    <div class="card">
+      <h3>Denial notice</h3>
+      <textarea id="notice" placeholder="Paste an EOB / denial notice, drop a PDF, or pick a claim above…"></textarea>
+      <div class="row" style="margin:8px 0">
+        <label class="btn" style="cursor:pointer">Upload PDF/TXT<input id="file" type="file" accept=".pdf,.txt" hidden></label>
+        <span class="note" style="margin:0">parsed locally</span>
+      </div>
+      <label class="tg"><input type="checkbox" id="iNotes"> Clinical notes available to attach</label>
+      <label class="tg"><input type="checkbox" id="iAuth"> Prior authorization on file</label>
+      <label class="tg"><input type="checkbox" id="iNet" checked> In-network provider</label>
+      <div style="margin:10px 0 4px" class="tag">Resilience demo</div>
+      <select id="chaos">
+        <option value="off">Normal run</option>
+        <option value="flaky">Inject flaky tool failure (auto-retry)</option>
+        <option value="crash">Kill the worker mid-run (checkpoint resume)</option>
+      </select>
+      <div style="height:10px"></div>
+      <button class="btn primary" id="run">Build the appeal</button>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="col" id="main">
+    <div class="empty" id="empty">
+      <div>
+        <h2>Pick a denial. Get a decision and a letter in seconds.</h2>
+        <div>Overturn reads the notice, decodes the denial code, predicts whether an appeal will win, chooses the best move<br>(appeal, correct &amp; resubmit, or write off) and drafts a fact-checked letter, all on open models running locally.</div>
+        <div class="priv">
+          <div><b>Private by construction</b>Patient data is processed on-device. Every model call is counted and its destination recorded.</div>
+          <div><b>Open at every layer</b>Open-weight LLM via Ollama or llama.cpp, TabPFN for odds, pgvector for retrieval.</div>
+          <div><b>Guard-railed</b>Every draft is checked against the notice; hallucinated codes and amounts are rejected.</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="run-area" class="hide col">
+      <div id="banner"></div>
+      <div class="steps" id="steps"></div>
+      <div class="tabs">
+        <button class="tab on" data-t="ov">Decision</button>
+        <button class="tab" data-t="lt">Appeal letter</button>
+        <button class="tab" data-t="tr">Trace &amp; cost</button>
+      </div>
+      <div class="pane on" id="p-ov">
+        <div class="grid2">
+          <div class="card hide" id="cClaim"><h3>Claim</h3><dl id="claimDl"></dl></div>
+          <div class="card hide" id="cWhy"><h3>Why it was denied</h3><div id="why"></div></div>
+        </div>
+        <div class="grid3">
+          <div class="card hide" id="cTriage"><h3>Best move · expected value</h3><div id="triage"></div></div>
+          <div class="card hide" id="cOdds"><h3>Chance an appeal wins</h3><div class="gauge" id="gauge"></div><div id="levers"></div><div class="note" id="oddsNote"></div></div>
+        </div>
+        <div class="grid2">
+          <div class="card hide" id="cWins"><h3>Similar past wins <span id="storeKind" class="chip"></span></h3><div id="wins"></div></div>
+          <div class="card hide" id="cEvid"><h3>Evidence to attach</h3><div class="ev-list" id="evid"></div></div>
+        </div>
+      </div>
+      <div class="pane" id="p-lt">
+        <div class="grid3" style="grid-template-columns:1.6fr 1fr">
+          <div class="card"><h3>Draft — review before sending <span class="chip" id="engineChip"></span></h3>
+            <textarea id="letter" spellcheck="false"></textarea>
+            <div class="row" style="margin-top:10px"><button class="btn" id="copy">Copy</button><button class="btn" id="pdf">Download PDF</button><button class="btn" id="txt">Download .txt</button><button class="btn" id="saveWin" title="Only after this appeal actually won. Saves the argument paragraph (identifiers removed) to the knowledge base.">Mark as won · save argument</button><span class="note" id="winMsg" style="margin:0"></span></div>
+          </div>
+          <div class="card"><h3>Fact-check against the notice</h3><div id="verify"><div class="note">appears when drafting completes</div></div>
+            <div id="todo"></div></div>
+        </div>
+        <div class="card hide" id="rejected"><h3>Model draft that was rejected <span class="chip urgent" id="rejEngine"></span></h3>
+            <div class="grid2"><div><div class="tag">Why it failed</div><div id="rejFailed"></div></div><div><div class="tag">What the model wrote for the argument section (for comparison)</div><textarea id="rejText" readonly style="min-height:200px"></textarea></div></div></div>
+      </div>
+      <div class="pane" id="p-tr">
+        <div class="card"><h3>Agent trace <span class="chip" id="sentryChip"></span></h3><div class="metrics" id="metrics"></div><div style="height:12px"></div><div id="wf"></div>
+          <div class="note">Spans are recorded locally and mirrored to Sentry performance tracing when SENTRY_DSN is set (metadata only, no letter text or PHI).</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const money = n => n == null ? '–' : '$' + Number(n).toLocaleString(undefined, {maximumFractionDigits: 0});
+const money2 = n => n == null ? '–' : '$' + Number(n).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+let health = null, selected = null, running = false;
+
+async function loadHealth() {
+  health = await (await fetch('/api/health')).json();
+  const l = health.llm, p = health.predictor;
+  const llmB = l.mode === 'offline'
+    ? `<span class="badge"><span class="dot warn"></span>Model <b>none detected</b> · template engine</span>`
+    : `<span class="badge"><span class="dot ok"></span>Model <b>${esc(l.model)}</b> · ${l.mode}${l.local ? ' · local' : ' · REMOTE'}</span>`;
+  $('#badges').innerHTML = llmB +
+    `<span class="badge"><span class="dot ok"></span>Odds <b>${esc(p.provider)}</b>${p.auc ? ' · AUC ' + p.auc.toFixed(2) : ''}</span>` +
+    `<span class="badge" title="${esc(health.store_detail || '')}"><span class="dot ok"></span>Retrieval <b>${esc(health.store)}</b> · ${health.store_docs} wins</span>` +
+    `<span class="badge"><span class="dot ${health.sentry ? 'ok' : 'warn'}"></span>Tracing <b>${health.sentry ? 'Sentry + local' : 'local'}</b></span>` +
+    `<span class="badge"><span class="dot ok"></span>Runner <b>${esc(health.runner)}</b></span>` +
+    `<span class="badge"><span class="dot ${health.egress.external_calls ? 'warn' : 'ok'}"></span>External model calls <b>${health.egress.external_calls}</b></span>`;
+}
+
+async function loadQueue() {
+  const q = await (await fetch('/api/queue')).json();
+  $('#kEv').innerHTML = money(q.total_ev) + '<small>expected recovery in queue</small>';
+  $('#kDen').innerHTML = money(q.total_denied) + '<small>denied, awaiting action</small>';
+  $('#queue').innerHTML = q.items.map(i => `
+    <button class="qi" data-id="${i.id}">
+      <div class="t">${esc(i.id)} · ${esc(i.payer)} · CO-${esc(i.carc)}</div>
+      <div class="ev">${money(i.ev)}<small>expected</small></div>
+      <div class="s"><span class="chip ${i.best}">${{appeal:'Appeal',recode:'Resubmit',writeoff:'Write off'}[i.best]}</span>${i.days_left < 30 ? `<span class="chip urgent">${i.days_left < 0 ? 'expired' : i.days_left + 'd left'}</span>` : ''}${money(i.denied)} · ${Math.round(i.p * 100)}% win</div>
+    </button>`).join('');
+  $$('.qi').forEach(b => b.onclick = () => pick(b.dataset.id));
+}
+
+async function pick(id) {
+  if (running) return;
+  selected = id;
+  $$('.qi').forEach(b => b.classList.toggle('sel', b.dataset.id === id));
+  const s = await (await fetch('/api/sample/' + id)).json();
+  $('#notice').value = s.text;
+  $('#iNotes').checked = !!s.inputs.has_clinical_notes; $('#iAuth').checked = !!s.inputs.prior_auth_on_file; $('#iNet').checked = !!s.inputs.in_network;
+  run();
+}
+
+$('#file').onchange = async e => {
+  const f = e.target.files[0]; if (!f) return;
+  const fd = new FormData(); fd.append('file', f);
+  const r = await (await fetch('/api/upload', {method: 'POST', body: fd})).json();
+  $('#notice').value = r.text || ('Could not read file: ' + r.error);
+};
+
+/* ---------- rendering ---------- */
+function stepper(steps) {
+  $('#steps').innerHTML = steps.map((s, i) => `<div class="st" id="st-${s.id}"><div class="n">${i + 1}</div><div class="l">${esc(s.label)}</div><div class="m">waiting</div></div>`).join('');
+}
+function stSet(id, cls, msg) {
+  const el = $('#st-' + id); if (!el) return;
+  el.className = 'st ' + cls; el.querySelector('.m').textContent = msg;
+}
+function gauge(p) {
+  const R = 78, C = Math.PI * R, off = C * (1 - p);
+  const col = p > .6 ? 'var(--acc)' : p > .35 ? 'var(--warn)' : 'var(--bad)';
+  $('#gauge').innerHTML = `<svg width="200" height="116" viewBox="0 0 200 116"><path d="M22 100 A78 78 0 0 1 178 100" fill="none" stroke="var(--panel2)" stroke-width="14" stroke-linecap="round"/>
+   <path id="garc" d="M22 100 A78 78 0 0 1 178 100" fill="none" stroke="${col}" stroke-width="14" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C}" style="transition:stroke-dashoffset 1s cubic-bezier(.2,.8,.2,1)"/></svg>
+   <div class="v"><b>${Math.round(p * 100)}%</b><small>overturn probability</small></div>`;
+  requestAnimationFrame(() => requestAnimationFrame(() => $('#garc').style.strokeDashoffset = off));
+}
+function show(id) { const el = $('#' + id); el.classList.remove('hide'); el.classList.add('fade'); }
+
+const R = {
+  extract(d) {
+    const f = d.facts;
+    $('#claimDl').innerHTML = [['Claim', f.claim_id], ['Payer', f.payer], ['Patient', f.patient], ['Service', `CPT ${f.cpt} · ${f.cpt_desc || ''}`],
+      ['Diagnosis', `${f.icd10 || '–'} ${f.icd10_desc || ''}`], ['Billed / denied', `${money2(f.billed)} / ${money2(f.denied)}`],
+      ['Denial date', f.denial_date], ['Appeal deadline', `${f.deadline} (${f.days_left >= 0 ? f.days_left + ' days left' : 'expired'})`]]
+      .map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('') +
+      (d.llm_filled && d.llm_filled.length ? `<dt>Model filled</dt><dd>${esc(d.llm_filled.join(', '))}</dd>` : '');
+    show('cClaim');
+  },
+  classify(d) {
+    $('#why').innerHTML = `<div style="font-size:16px;font-weight:700;margin-bottom:6px">CO-${esc(d.code)} · ${esc(d.title)}</div>
+      <div>${esc(d.meaning)}</div><div class="note" style="font-size:12.5px">Tip: ${esc(d.tips)}</div>`;
+    $('#evid').innerHTML = d.evidence.map(e => `<label><input type="checkbox"> <span>${esc(e)}</span></label>`).join('');
+    show('cWhy'); show('cEvid');
+  },
+  predict(d) {
+    gauge(d.p);
+    $('#levers').innerHTML = d.levers.length ? '<div class="tag" style="margin-top:6px">What would move the odds</div>' + d.levers.map(l => `<div class="lever"><span>${esc(l.label)}</span><b>+${(l.lift * 100).toFixed(1)} pts</b></div>`).join('') : '';
+    $('#oddsNote').textContent = `Model: ${d.provider} trained on ${d.history_rows.toLocaleString()} synthetic claims (${d.similar_history} for this payer + code)` + (d.auc ? `; held-out AUC ${d.auc.toFixed(2)}.` : '.');
+    show('cOdds');
+  },
+  retrieve(d) {
+    $('#storeKind').textContent = d.store;
+    $('#wins').innerHTML = d.wins.map(w => `<div class="win"><small>${esc(w.payer)} · CO-${esc(w.carc)} · RRF ${(w.score).toFixed(3)}${w.keyword_rank ? ' · kw #' + w.keyword_rank : ''}${w.vector_rank ? ' · vec #' + w.vector_rank : ''}</small><div>${esc(w.text)}</div></div>`).join('');
+    show('cWins');
+  },
+  triage(d) {
+    const max = Math.max(...d.options.map(o => Math.abs(o.ev)), 1);
+    $('#triage').innerHTML = `<div style="font-size:15px;margin-bottom:10px">${esc(d.why)}</div>` + d.options.map(o => `
+      <div class="opt ${o.id === d.recommended ? 'rec' : ''}"><div><b>${esc(o.label)}</b>${o.id === d.recommended ? ' <span class="chip appeal">recommended</span>' : ''}<small>${o.applicable === false ? 'not applicable' : Math.round(o.p * 100) + '% · cost ' + money(o.cost)}</small></div>
+      <div class="bar"><i style="width:0" data-w="${Math.max(0, o.ev) / max * 100}"></i></div>
+      <div class="e ${o.ev < 0 ? 'neg' : ''}">${o.ev < 0 ? '−' : ''}${money(Math.abs(o.ev))}<small>net EV</small></div></div>`).join('') +
+      `<div class="note">${esc(d.assumption)} Cost assumptions are editable (env vars).</div>`;
+    show('cTriage');
+    requestAnimationFrame(() => requestAnimationFrame(() => $$('#triage .bar i').forEach(i => i.style.width = i.dataset.w + '%')));
+  },
+  verify(d) {
+    $('#verify').innerHTML = d.checks.map(c => `<div class="chk"><span class="ic ${c.ok ? 'y' : (c.critical ? 'n' : 'w')}">${c.ok ? '✓' : '!'}</span><div>${esc(c.name)}<div class="note" style="margin:0">${esc(c.detail)}</div></div></div>`).join('') +
+      (d.replaced_draft ? '<div class="banner e" style="margin-top:8px">The model’s draft failed the fact-check and was replaced by the deterministic letter.</div>' : '');
+    renderRejected(d.rejected);
+    $('#todo').innerHTML = d.todo.length ? `<div class="tag" style="margin-top:12px">Complete before sending</div>` + d.todo.map(t => `<span class="chip appeal" style="margin-top:6px">${esc(t)}</span>`).join('') : '';
+  },
+};
+
+function renderRejected(rj) {
+  const el = $('#rejected');
+  if (!rj) { el.classList.add('hide'); return; }
+  el.classList.remove('hide');
+  $('#rejFailed').innerHTML = rj.failed.map(c => `<div class="chk"><span class="ic n">!</span><div>${esc(c.name)}<div class="note" style="margin:0">${esc(c.detail)}</div></div></div>`).join('');
+  $('#rejText').value = rj.text;
+  $('#rejEngine').textContent = rj.engine;
+}
+
+let lastResult = null;
+function renderFinal(r) {
+  lastResult = r;
+  $('#letter').value = r.letter.text;
+  $('#engineChip').textContent = r.letter.engine + (r.letter.fallback_reason ? ' · ' + r.letter.fallback_reason : '') + (r.letter.attempts > 1 ? ' · needed a corrective retry' : '');
+  $('#sentryChip').textContent = r.trace.sentry ? 'mirrored to Sentry' : 'local only';
+  const e = r.engine;
+  $('#metrics').innerHTML = [
+    [Math.round(r.trace.total_ms) + ' ms', 'end-to-end'], [e.tokens.toLocaleString(), 'LLM tokens'],
+    [e.external_calls + ' / ' + e.calls, 'external / total model calls'], ['$0.00', `local cost (≈ $${e.equiv_api_cost.toFixed(4)} at an illustrative $5/M-token closed API)`]]
+    .map(([b, s]) => `<div class="metric"><b>${esc(b)}</b><small>${esc(s)}</small></div>`).join('');
+  const T = r.trace.total_ms || 1;
+  $('#wf').innerHTML = r.trace.spans.filter(s => s.name !== 'appeal_workflow').map(s => `
+    <div class="wfr"><div>${esc(s.name)}${s.attrs.attempt > 1 ? ' <span class="chip urgent">retry ' + s.attrs.attempt + '</span>' : ''}${s.attrs.restored ? ' <span class="chip">restored</span>' : ''}</div>
+    <div class="track"><div class="seg ${s.status === 'error' ? 'err' : s.attrs.restored ? 'rest' : ''}" style="left:${s.start_ms / T * 100}%;width:${Math.max(0.4, (s.dur_ms || 0) / T * 100)}%"></div></div>
+    <div style="text-align:right;color:var(--mut)">${(s.dur_ms || 0).toFixed(1)} ms</div></div>`).join('');
+  loadHealth();
+}
+
+/* ---------- run / stream ---------- */
+async function stream(body, onEvent) {
+  const res = await fetch('/api/analyze', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)});
+  if (!res.ok) throw new Error((await res.json()).error || res.statusText);
+  const rd = res.body.getReader(), dec = new TextDecoder(); let buf = '';
+  for (;;) {
+    const {done, value} = await rd.read(); if (done) break;
+    buf += dec.decode(value, {stream: true});
+    let i; while ((i = buf.indexOf('\n')) >= 0) { const line = buf.slice(0, i).trim(); buf = buf.slice(i + 1); if (line) onEvent(JSON.parse(line)); }
+  }
+}
+
+async function run() {
+  if (running) return;
+  const text = $('#notice').value.trim(); if (!text) return;
+  running = true; $('#run').disabled = true; $('#run').textContent = 'Working…';
+  $('#empty').classList.add('hide'); $('#run-area').classList.remove('hide');
+  ['cClaim', 'cWhy', 'cTriage', 'cOdds', 'cWins', 'cEvid'].forEach(i => { $('#' + i).classList.add('hide'); });
+  $('#verify').innerHTML = '<div class="note">appears when drafting completes</div>'; $('#todo').innerHTML = ''; $('#letter').value = ''; $('#rejected').classList.add('hide');
+  $('#banner').innerHTML = '';
+  const chaos = $('#chaos').value, run_id = Math.random().toString(36).slice(2, 12);
+  const body = {text, run_id, chaos, inputs: {has_clinical_notes: $('#iNotes').checked, prior_auth_on_file: $('#iAuth').checked, in_network: $('#iNet').checked}};
+  let crashed = false, flaked = false;
+  const handler = ev => {
+    if (ev.type === 'start') { if (!ev.resumed) stepper(ev.steps); if (ev.ui_url) $('#banner').innerHTML = `<div class="banner v">Running as a Temporal workflow <b>${esc(ev.run_id)}</b> · <a href="${esc(ev.ui_url)}" target="_blank" style="color:inherit">open in Temporal UI</a></div>`; }
+    else if (ev.type === 'note') { $('#banner').innerHTML = `<div class="banner">${esc(ev.message)}</div>`; }
+    else if (ev.type === 'step_start') stSet(ev.step, ev.attempt > 1 ? 'retry' : 'run', ev.attempt > 1 ? 'retry #' + ev.attempt + '…' : 'running…');
+    else if (ev.type === 'retry') { flaked = true; stSet(ev.step, 'retry', 'failed — retrying'); $('#banner').innerHTML = `<div class="banner">⚠ <b>${esc(ev.step)}</b> failed: ${esc(ev.error)}. Retrying in ${ev.wait_s}s with backoff…</div>`; }
+    else if (ev.type === 'step_done') {
+      stSet(ev.step, ev.restored ? 'rest' : 'done', ev.restored ? 'restored from checkpoint' : ev.ms + ' ms');
+      if (R[ev.step] && ev.data && Object.keys(ev.data).length) R[ev.step](ev.data);
+      if (flaked && ev.step === 'retrieve') { flaked = false; $('#banner').innerHTML = '<div class="banner v">✓ Recovered: the step succeeded on retry. Nothing was lost.</div>'; }
+    }
+    else if (ev.type === 'crash') { crashed = true; $('#banner').innerHTML = `<div class="banner e">💥 Worker killed after <b>${esc(ev.after)}</b>. Restarting and resuming from checkpoint…</div>`; }
+    else if (ev.type === 'error') { stSet(ev.step, 'err', 'failed'); $('#banner').innerHTML = `<div class="banner e">${esc(ev.message)}</div>`; }
+    else if (ev.type === 'final') { renderFinal(ev.result); }
+  };
+  try {
+    await stream(body, handler);
+    if (crashed) {
+      await new Promise(r => setTimeout(r, 1500));
+      await stream({...body, chaos: 'off'}, ev => { handler(ev); if (ev.type === 'start') $('#banner').innerHTML = '<div class="banner v">↻ Resumed run <b>' + esc(run_id) + '</b>: finished steps are restored, not recomputed.</div>'; });
+    }
+  } catch (e) { $('#banner').innerHTML = `<div class="banner e">${esc(e.message)}</div>`; }
+  running = false; $('#run').disabled = false; $('#run').textContent = 'Build the appeal';
+}
+
+$('#run').onclick = run;
+$$('.tab').forEach(t => t.onclick = () => { $$('.tab').forEach(x => x.classList.toggle('on', x === t)); $$('.pane').forEach(p => p.classList.toggle('on', p.id === 'p-' + t.dataset.t)); });
+$('#saveWin').onclick = async () => {
+  if (!lastResult || !lastResult.letter.argument) return;
+  const r = await fetch('/api/wins', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text: lastResult.letter.argument, carc: lastResult.facts.carc, payer: lastResult.facts.payer})});
+  const j = await r.json();
+  $('#winMsg').textContent = r.ok ? `Saved to the ${j.store} knowledge base (${j.docs} wins). Future appeals can retrieve it.` : (j.error || 'failed');
+  loadHealth();
+};
+$('#copy').onclick = () => navigator.clipboard.writeText($('#letter').value);
+$('#txt').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([$('#letter').value], {type: 'text/plain'})); a.download = 'appeal-letter.txt'; a.click(); };
+$('#pdf').onclick = async () => {
+  const r = await fetch('/api/pdf', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text: $('#letter').value})});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(await r.blob()); a.download = 'appeal-letter.pdf'; a.click();
+};
+// ---- Model arena
+const arenaState = {models: []};
+async function openArena() {
+  $('#arena').classList.remove('hide');
+  const j = await (await fetch('/api/backboard/models')).json();
+  arenaState.models = j.models || [];
+  const rows = arenaState.models.map((m, i) => `<label style="display:inline-block;margin:3px 10px 3px 0"><input type="checkbox" data-i="${i}"> ${esc(m.name)} <span class="note" style="display:inline;margin:0">${esc(m.provider)}</span></label>`).join('');
+  $('#arenaSetup').innerHTML = `<label><input type="checkbox" id="arenaLocal" checked> Local model (baseline)</label><div style="margin-top:8px">` +
+    (j.configured ? (rows || '<div class="note">No open-weight models found.</div>') : '') + `</div>` +
+    (j.error ? `<div class="banner e" style="margin-top:8px">${esc(j.error)}</div>` : '');
+}
+async function runArena() {
+  const models = [...document.querySelectorAll('#arenaSetup input[data-i]:checked')].map(c => arenaState.models[+c.dataset.i]);
+  const out = $('#arenaOut'); out.innerHTML = ''; $('#arenaGo').disabled = true;
+  const r = await fetch('/api/arena', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({models, cases: +$('#arenaN').value, local: $('#arenaLocal').checked})});
+  if (!r.ok) { $('#arenaMsg').textContent = (await r.json()).error || 'failed'; $('#arenaGo').disabled = false; return; }
+  const rd = r.body.getReader(), dec = new TextDecoder(); let buf = '';
+  const draw = (ev) => {
+    if (ev.type === 'progress') $('#arenaMsg').textContent = `${ev.label}: ${ev.done}/${ev.of}`;
+    if (ev.type === 'error') $('#arenaMsg').textContent = ev.error;
+    if (ev.type === 'result' || ev.type === 'done') {
+      const list = ev.type === 'done' ? ev.ranking : null;
+      if (list) out.innerHTML = '';
+      (list || [ev]).forEach(s => { if (!list) return; out.insertAdjacentHTML('beforeend',
+        `<div class="opt ${s === list[0] ? 'rec' : ''}" style="margin:6px 0"><b>${esc(s.label)}</b> ${s.local ? '<span class="chip">local</span>' : '<span class="chip urgent">external</span>'}
+         <div class="bar"><i style="width:${Math.round(s.pass_rate * 100)}%"></i></div>
+         <div class="note" style="margin:4px 0 0">${s.pass}/${s.cases} first drafts pass (${Math.round(s.pass_rate * 100)}%) · avg ${s.avg_secs ?? '–'}s · ~${s.avg_tokens} tokens${s.top_failures.length ? ' · top failures: ' + s.top_failures.map(f => esc(f[0]) + ' ×' + f[1]).join(', ') : ''}${s.errors ? ' · <b>' + s.errors + ' errors</b>: ' + esc(s.error_sample) : ''}</div></div>`); });
+      if (ev.type === 'done') { $('#arenaMsg').textContent = `done · ${ev.egress.external_calls} external calls this session`; $('#arenaGo').disabled = false; loadHealth(); }
+    }
+  };
+  while (true) { const {done, value} = await rd.read(); if (done) break; buf += dec.decode(value, {stream: true}); const lines = buf.split('\n'); buf = lines.pop();
+    for (const l of lines) if (l.trim()) draw(JSON.parse(l)); }
+  $('#arenaGo').disabled = false;
+}
+$('#arenaBtn').onclick = openArena; $('#arenaX').onclick = () => $('#arena').classList.add('hide'); $('#arenaGo').onclick = runArena;
+loadHealth(); loadQueue();
+</script>
+</body>
+</html>

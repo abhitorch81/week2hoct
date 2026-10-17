@@ -1,0 +1,29 @@
+# Fully local stack: open model + Postgres/pgvector + Temporal + the app.
+# docker compose up -d && docker compose exec ollama ollama pull qwen2.5:7b-instruct
+services:
+  ollama:
+    image: ollama/ollama
+    ports: ["11434:11434"]
+    volumes: [ollama:/root/.ollama]
+  db:
+    image: pgvector/pgvector:pg17          # or your Tiger Data service URL in DATABASE_URL
+    environment: {POSTGRES_PASSWORD: postgres, POSTGRES_DB: overturn}
+    ports: ["5432:5432"]
+  temporal:
+    image: temporalio/temporal:latest
+    command: ["server", "start-dev", "--ip", "0.0.0.0"]
+    ports: ["7233:7233", "8233:8233"]
+  worker:
+    build: .
+    command: ["python", "-m", "overturn.temporal_workflow", "worker"]
+    environment: &env
+      OLLAMA_URL: http://ollama:11434
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/overturn
+      TEMPORAL_ADDRESS: temporal:7233
+    depends_on: [temporal, ollama, db]
+  app:
+    build: .
+    ports: ["8000:8000"]
+    environment: *env
+    depends_on: [worker]
+volumes: {ollama: {}}

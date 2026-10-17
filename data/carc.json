@@ -1,0 +1,110 @@
+{
+  "50": {
+    "title": "Not medically necessary",
+    "meaning": "The payer decided the service does not meet its medical-necessity criteria for this diagnosis, setting or frequency.",
+    "action": "appeal",
+    "recode_success": 0.0,
+    "argument": "The services billed under {cpt} were medically necessary for this patient's documented condition ({icd10}). The treating clinician's contemporaneous notes establish the diagnosis, the failure or contraindication of less intensive alternatives, and the clinical rationale for the level of care provided. We ask that the determination be reviewed against the plan's own medical-necessity criteria and generally accepted standards of medical practice, and that the reviewing clinician be a peer in the same or similar specialty.",
+    "evidence": ["Clinical notes for the date of service showing diagnosis, symptoms and exam findings", "Documentation of prior/conservative treatment tried and outcome", "Letter of medical necessity signed by the treating clinician", "Cited clinical guideline or payer policy the service satisfies", "Relevant test, imaging or lab results"],
+    "tips": "Ask for the specific criteria the payer applied and request a same-specialty peer reviewer."
+  },
+  "16": {
+    "title": "Claim lacks information / submission error",
+    "meaning": "The claim was missing or had invalid data needed for adjudication (often paired with a RARC naming the missing item).",
+    "action": "recode",
+    "recode_success": 0.82,
+    "argument": "The denial under code 16 cites missing or incomplete information. The requested information is enclosed with this submission and the claim is otherwise complete and timely. We ask that the claim be reprocessed on the basis of the corrected and supplemented record and paid according to the contracted rate.",
+    "evidence": ["Corrected claim (frequency code 7) or the missing data element named in the RARC", "Copy of original claim and remittance advice", "Any referenced attachment (op report, notes, invoice)"],
+    "tips": "Read the RARC (N-/M- code): it usually names exactly what is missing. This is usually a resubmission, not an appeal."
+  },
+  "4": {
+    "title": "Procedure code inconsistent with modifier / modifier missing",
+    "meaning": "The procedure code is not consistent with the modifier used, or a required modifier is missing.",
+    "action": "recode",
+    "recode_success": 0.85,
+    "argument": "The denial under code 4 relates to the modifier reported with {cpt}. The documentation supports the modifier as corrected, and a corrected claim is enclosed. We ask that the claim be reprocessed accordingly.",
+    "evidence": ["Corrected claim with the right modifier", "Documentation supporting the modifier (e.g., separate and identifiable E/M, bilateral, distinct site)", "Original remittance advice"],
+    "tips": "Check modifier 25/59/X-modifiers and laterality against the note before resubmitting."
+  },
+  "11": {
+    "title": "Diagnosis inconsistent with procedure",
+    "meaning": "The diagnosis reported does not support the procedure billed.",
+    "action": "recode",
+    "recode_success": 0.78,
+    "argument": "The denial under code 11 states that the diagnosis does not support {cpt}. The record documents {icd10} and related conditions that support the service, and the diagnosis pointers on the claim should be corrected. A corrected claim and the supporting note are enclosed for reprocessing.",
+    "evidence": ["Clinical note showing the supporting diagnosis", "Corrected claim with proper diagnosis pointers/ICD-10 specificity", "Payer's coverage policy listing covered diagnoses"],
+    "tips": "Compare the diagnosis against the payer's covered-diagnosis list before choosing to recode or appeal."
+  },
+  "97": {
+    "title": "Bundled / included in another service",
+    "meaning": "The payer considers this service part of another procedure paid on the same day (NCCI-type edit).",
+    "action": "appeal",
+    "recode_success": 0.35,
+    "argument": "{cpt} was a separate and distinct service from the primary procedure: it was performed at a different site and/or addressed a different problem, and the documentation supports that distinction. Where appropriate the corresponding distinct-service modifier applies. We ask that the bundling edit be overridden and the service reimbursed separately.",
+    "evidence": ["Operative/procedure note showing separate site, session or indication", "Modifier justification (e.g., 59, an X-modifier, 25 or 57)", "Relevant NCCI/payer bundling policy excerpt", "Remittance advice for the primary procedure"],
+    "tips": "If the documentation does not support separate work, do not appeal: correct the claim or write off."
+  },
+  "29": {
+    "title": "Timely filing limit expired",
+    "meaning": "The claim was received after the payer's filing deadline.",
+    "action": "proof",
+    "recode_success": 0.0,
+    "argument": "This claim was filed within the contractual filing limit. Enclosed is proof of timely filing, including the clearinghouse acceptance report and payer acknowledgment dated within the limit. We ask that the denial be reversed and the claim processed for payment.",
+    "evidence": ["Clearinghouse acceptance/277CA report with date inside the filing limit", "Payer acknowledgment or portal screenshot", "Prior rejection/denial showing earlier submission", "Contract page stating the filing limit"],
+    "tips": "Only worth pursuing with dated proof of an earlier submission; otherwise this is usually a write-off."
+  },
+  "197": {
+    "title": "Precertification / authorization absent",
+    "meaning": "Required prior authorization or precertification was not obtained or not on file.",
+    "action": "appeal",
+    "recode_success": 0.0,
+    "argument": "Authorization for {cpt} was {auth_status}. The service was clinically urgent and/or authorization was obtained or requested before the service and is enclosed. We ask that the claim be reconsidered and that a retrospective authorization review be performed if required.",
+    "evidence": ["Authorization number and date, or proof of request", "Documentation of urgency/emergent circumstances if applicable", "Clinical notes supporting necessity", "Payer communications about authorization"],
+    "tips": "Request retro-authorization in the same letter; many payers allow it for urgent services."
+  },
+  "18": {
+    "title": "Duplicate claim/service",
+    "meaning": "The payer believes this is a duplicate of a previously processed claim.",
+    "action": "writeoff",
+    "recode_success": 0.1,
+    "argument": "This claim is not a duplicate: it represents a separate encounter/service on {dos}. Enclosed is documentation distinguishing it from the earlier claim. We ask that the denial be reversed.",
+    "evidence": ["Original claim and remittance showing the earlier payment", "Documentation of the separate encounter", "Differentiating modifier or time stamp"],
+    "tips": "First check whether the original claim was actually paid; usually no further action needed."
+  },
+  "96": {
+    "title": "Non-covered charge",
+    "meaning": "The plan states the service or item is not a covered benefit.",
+    "action": "appeal",
+    "recode_success": 0.1,
+    "argument": "We request review of the non-covered determination for {cpt}. The service is a covered benefit under the member's plan when performed for {icd10}, and the exclusion cited does not apply on these facts. We ask for the specific plan provision relied upon.",
+    "evidence": ["Summary plan description / benefit language", "Clinical notes showing the exclusion does not apply", "Written request for the exact plan provision relied upon"],
+    "tips": "Ask for the plan language; exclusions are narrowly construed in many reviews."
+  },
+  "151": {
+    "title": "Payment adjusted: frequency/number of services not supported",
+    "meaning": "The payer says the number or frequency of services exceeds what documentation supports.",
+    "action": "appeal",
+    "recode_success": 0.2,
+    "argument": "The frequency of {cpt} was supported by the patient's documented clinical status, which warranted services beyond the routine schedule. The record shows the specific changes in condition justifying each visit or unit, and we ask that the frequency limit be waived accordingly.",
+    "evidence": ["Notes showing change in status justifying each visit/unit", "Treatment plan with orders and goals", "Payer frequency policy"],
+    "tips": "Tie each unit to a documented clinical change."
+  },
+  "252": {
+    "title": "Additional documentation required",
+    "meaning": "The payer needs an attachment (records, report, invoice) before it can finish processing.",
+    "action": "recode",
+    "recode_success": 0.8,
+    "argument": "In response to the request under code 252, the requested documentation is enclosed in full. We ask that the claim be reprocessed on the basis of the complete record.",
+    "evidence": ["The specific records requested", "Cover sheet with claim number and attachment control number", "Proof of submission date"],
+    "tips": "Respond inside the request window; attach with the payer's control number."
+  },
+  "109": {
+    "title": "Claim not covered by this payer/contractor",
+    "meaning": "The claim was sent to the wrong payer or the payer says another carrier is responsible.",
+    "action": "recode",
+    "recode_success": 0.6,
+    "argument": "Coverage was verified for the date of service and the member was active under this plan. We request reconsideration; if the payer is not responsible we request the correct coordination-of-benefits information.",
+    "evidence": ["Eligibility verification for the date of service", "Copy of the insurance card", "COB information from both payers"],
+    "tips": "Re-verify eligibility and COB first; often this is a billing-to-the-right-payer fix."
+  }
+}

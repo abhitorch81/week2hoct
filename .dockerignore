@@ -1,0 +1,6 @@
+.checkpoints
+__pycache__
+*.pyc
+docs/*.png
+mastra-agent/node_modules
+.git

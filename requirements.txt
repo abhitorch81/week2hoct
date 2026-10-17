@@ -1,0 +1,13 @@
+starlette>=0.40
+uvicorn>=0.30
+python-multipart
+numpy
+pandas
+scikit-learn
+pypdf
+reportlab
+# optional integrations (the app runs without them)
+# sentry-sdk          # Sentry agent tracing (set SENTRY_DSN)
+# temporalio          # durable workflows (set TEMPORAL_ADDRESS)
+# psycopg[binary]     # pgvector / Tiger Data (set DATABASE_URL)
+# tabpfn-client       # hosted TabPFN (set PRIORLABS_API_KEY), or: pip install tabpfn  for local
