@@ -3,7 +3,6 @@
 #   overturn : the web UI + API (Docker). Runs the pipeline, serves the front end.
 #   ollama   : a PRIVATE service running the open-weight model. Only the web service can reach it,
 #              so patient data never crosses the public internet. Needs a plan with enough RAM for the model.
-#   overturn-worker : a background worker that runs the appeal workflow on Temporal Cloud.
 #
 # Free-tier note: free web services sleep when idle and cannot have disks; the model service needs a paid plan.
 services:
@@ -20,7 +19,7 @@ services:
           name: ollama
           property: hostport
       - key: OVERTURN_MODEL
-        value: qwen2.5:7b-instruct
+        value: qwen2.5:3b-instruct
       - key: DATABASE_URL             # optional: Tiger Cloud connection string -> BM25 + DiskANN hybrid search
         sync: false
       - key: SENTRY_DSN               # optional
@@ -35,7 +34,7 @@ services:
         sync: false
       - key: TEMPORAL_API_KEY
         sync: false
-      - key: TEMPORAL_UI              # Temporal Cloud UI URL for your namespace
+      - key: TEMPORAL_UI              # Temporal Cloud UI URL for your namespace (shown as the 'open in Temporal UI' link)
         sync: false
 
   - type: pserv
@@ -43,15 +42,16 @@ services:
     runtime: docker
     dockerfilePath: ./deploy/ollama/Dockerfile
     dockerContext: ./deploy/ollama
-    plan: pro                          # 7B model needs roughly 8 GB RAM; check Render's current plans and sizes before applying
+    plan: pro                          # 3B model fits in about 4 GB RAM; the 7B needs more than the Pro instance provides
     disk:
       name: ollama-models
       mountPath: /root/.ollama
       sizeGB: 20
     envVars:
       - key: OVERTURN_MODEL
-        value: qwen2.5:7b-instruct
+        value: qwen2.5:3b-instruct
 
+  # Background worker: runs the appeal workflow (drafting happens here, so the web request does not have to wait).
   - type: worker
     name: overturn-worker
     runtime: docker
@@ -73,4 +73,4 @@ services:
           name: ollama
           property: hostport
       - key: OVERTURN_MODEL
-        value: qwen2.5:7b-instruct
+        value: qwen2.5:3b-instruct

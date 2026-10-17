@@ -3,6 +3,6 @@
 ollama serve &
 pid=$!
 until ollama list >/dev/null 2>&1; do sleep 1; done
-MODEL="${OVERTURN_MODEL:-qwen2.5:7b-instruct}"
+MODEL="${OVERTURN_MODEL:-qwen2.5:3b-instruct}"
 ollama list | grep -q "${MODEL%%:*}" || ollama pull "$MODEL"
 wait $pid
