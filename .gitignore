@@ -9,3 +9,4 @@ __pycache__/
 *.db-shm
 .claude/
 .codex/
+mastra-agent/.mastra/output/
